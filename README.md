@@ -24,4 +24,4 @@ The HRL science documentation website contains information about:
 
 ### Technical Details
 
-This website is built using Quarto, a scientific and technical publishing system built on Pandoc. The website is rendered using GitHub Pages. We welcome suggestions for how this documentation website can be improved. Visit our [contributing guidelines](CONTRIBUTING.md) for more information on improving the HRL documentation website, and please note that contributors are expected to follow our [code of conduct](CODE_OF_CONDUCT.md).
+This website is built using Quarto, a scientific and technical publishing system built on Pandoc. The website is rendered using GitHub Pages. We welcome suggestions for how this documentation website can be improved. Visit our [contributing guidelines](.github/CONTRIBUTING.md) for more information on improving the HRL documentation website, and please note that contributors are expected to follow our [code of conduct](.github/CODE_OF_CONDUCT.md).
