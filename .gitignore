@@ -1,0 +1,19 @@
+# Quarto cache and internal build dirs
+/.quarto/
+
+# R history and session data
+.Rhistory
+.RData
+.Ruserdata
+
+# macOS Finder junk
+.DS_Store
+
+# Backup files
+*~
+
+# Per-file render artifacts
+*_files/
+
+# Logs
+*.log
