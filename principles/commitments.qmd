@@ -1,23 +1,87 @@
 ---
-title: "Program Commitments"
+title: "HRL Science Program Commitments"
 ---
 
-## Purpose
-- Summarize HRL Science Committee Charter commitments that anchor this documentation hub.
-- Provide a reference map to detailed lifecycle, standards, and quickstart guidance.
+The [HRL Science Committee Charter](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Support-Healthy-Rivers-and-Landscape/VASciProgramDraftCharter.pdf), particularly Appendix D, describes the commitments that guide data collection, publication, and analysis activities under the HRL Science Program. This page summarizes those commitments so that HRL Program partners understand the expectations that underpin the rest of this documentation hub. Use it as a quick refresher before diving into detailed guidance on the data lifecycle, standards, or common activities.
 
-## Charter commitments to detail
-- **Standards for data collection** – agreed protocols, thorough documentation, and comparable methods across HRL parties.
-- **Standards for data management** – machine-readable formats, QA/QC evidence, provenance, and CARE-aligned handling of sensitive/Tribal data.
-- **Standards for data access** – publication in open repositories and services with machine-readable metadata and programmatic access.
-- **Standards for integration and analysis** – structured, reproducible workflows with transparent diagnostics and publishable derived products.
+## Core Charter Commitments
 
-## Program-wide priorities
-- **Efficiency and responsiveness** – modular, documented workflows that support annual/triennial reporting and rapid onboarding.
-- **Scalable, future-proof infrastructure** – cloud-native, open, standards-based systems that evolve with tools and data volume.
-- **Program-wide learning** – shared templates, training curricula, and professional development for HRL parties.
+The HRL Science Committee charter expresses principles that support open, reproducible, ethical science. The principles are operationalized through common practices across the full data lifecycle.
 
-## How to use this page
-- Link each commitment to relevant lifecycle and standards pages where detailed procedures live.
-- Capture governance updates when the Science Committee revises commitments or adds new requirements.
-- Offer pointers to decision logs or change histories for transparency.
+### Data Collection
+
+- HRL parties collect data using **approved protocols** documented in system-level science plans.
+- Data Producers capture **complete metadata** at the point of collection, including metadata describing who collected the data, when and where the data were collected, equipment settings, and calibration routines.
+- **Field quality assurance and quality control activities** (e.g., duplicates, blanks, environmental notes, and calibration logs) are recorded and carried forward into publication packages.
+- **Sensitive or Tribal sovereignty-linked observations** are identified early and handled under agreements co-developed with Tribes and partner entities.
+
+More information:
+
+:::{.btn-container}
+<a class="btn btn-outline-primary" role="button" href="../lifecycle/collection.qmd">HRL Data Lifecycle – Collection</a>
+<a class="btn btn-outline-primary" role="button" href="../about/governance-roles.qmd">Governance and Roles</a>
+:::
+
+### Data Management
+
+- Datasets are stored in **machine-readable, non-proprietary formats** and structured according to [**tidy data principles**](https://r4ds.had.co.nz/tidy-data.html) where practical.
+- **Quality control steps** are scripted, version-controlled, and documented through validation logs.
+- **Provenance is preserved** from raw inputs through static data publication, ingestion, and synthesis; every workflow records source DOIs, code versions, and processing parameters.
+- **CARE-aligned data handling requirements** are embedded in metadata, storage locations, and access controls.
+
+More information:
+
+:::{.btn-container}
+<a class="btn btn-outline-primary" role="button" href="../lifecycle/static-publication.qmd">Data Lifecycle – Static Publication</a>
+<a class="btn btn-outline-primary" role="button" href="../standards/metadata.qmd">Standards – Metadata</a>
+:::
+
+### Data Access
+
+- Static HRL **datasets receive DOIs** (e.g., via EDI) and **are discoverable** through the HRL data catalog, search, and APIs.
+- **Metadata packages** provide plain-language summaries, schema information, keywords, and access notes.
+- **Programmatic access routes** (bulk download, APIs, SDKs) are maintained so analysts and partners can use the data without manual, one-off transfers.
+
+More information:
+
+:::{.btn-container}
+<a class="btn btn-outline-primary" role="button" href="../lifecycle/storage-serving.qmd">Data Lifecycle – Storage and Serving</a>
+<a class="btn btn-outline-primary" role="button" href="../reference/resources.qmd">Reference – Resources</a>
+:::
+
+### Integration and Analysis
+
+- All analyses are implemented through **structured R or Python workflows** managed in HRL **GitHub repositories** that follow the [Style and Development Guide](../standards/style-dev-guide.qmd).
+- **Continuous integration** tests verify that code runs, schemas match expectations, and outputs reproduce.
+- Derived synthesis datasets, indicators, and models are **versioned, documented, and returned to the Central Data Team** for curation and publication.
+- Analytical workflows include **diagnostics, uncertainty statements, and clear linkage to input datasets** so results can be validated and reused.
+
+More information:
+
+:::{.btn-container}
+<a class="btn btn-outline-primary" role="button" href="../lifecycle/ingestion-standardization.qmd">Data Lifecycle – Ingestion and Standardization</a>
+<a class="btn btn-outline-primary" role="button" href="../lifecycle/analysis-synthesis.qmd">Data Lifecycle – Analysis and Synthesis</a>
+<a class="btn btn-outline-primary" role="button" href="../lifecycle/reporting-communication.qmd">Data Lifecycle – Reporting and Communication</a>
+:::
+
+## Program-Wide Priorities
+
+HRL data governance and management emphasizes three cross-cutting priorities that help HRL meet its commitments.
+
+### Efficiency and Responsiveness
+
+- **Modular pipelines and reusable templates** reduce duplication and support repeatable annual and triennial reporting.
+- **Thorough documentation and coding standards** enable rapid onboarding of new collaborators and contractors and coherence of data and code products across the entire program.
+- **Feedback loops** between Data Producers, the Central Data Team, and Synthesis Teams surface issues quickly, allow the data and analysis enterprise to evolve to meet program needs, and inform adaptive management decisions.
+
+### Scalable, Future-proof Infrastructure
+
+- **Cloud-native, open, and standards-based technologies** allow HRL to ingest increasing data volumes and adopt new tools as needed.
+- **Storage, compute, and orchestration platforms** are selected for durability and portability over the eight-year program horizon.
+- **Large or complex datasets** (e.g., imagery, LiDAR, and modeling outputs) are handled with architectures that support efficient storage, retrieval, and processing.
+
+### Program-Wide Learning
+
+- Shared templates, training curricula, office hours, and documentation keep **practices aligned across agencies.**
+- **Lessons from synthesis and reporting cycles** feed updates into protocols, standards, and governance decisions.
+- **Knowledge is captured** in repositories, catalogs, and documentation sites so it persists beyond individual personnel changes.
