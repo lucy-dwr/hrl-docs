@@ -40,7 +40,7 @@ $info:               $dwr-blue;
 
 /* Neutrals */
 $body-color:         $dwr-charcoal;
-$headings-color:     $dwr-green;      // <--- changed from $dwr-blue-dark
+$headings-color:     $dwr-green; 
 $body-bg:            #ffffff;
 $border-color:       $dwr-light-grey;
 
@@ -61,6 +61,7 @@ $btn-primary-hover-bg:  $primary-dark;
 $navbar-bg:               $dwr-blue-dark;
 $navbar-dark-color:       #fff;
 $navbar-dark-hover-color: $dwr-gold;
+
 
 /*-- scss:rules --*/
 
@@ -113,4 +114,32 @@ footer.footer .nav-footer a,
 footer.footer .nav-footer a:hover,
 .nav-footer a:hover {
   color: $dwr-green;
+}
+
+
+/* ============================================
+   Button Overrides for Outline Primary Buttons
+   ============================================ */
+
+/* Default state: light grey fill, navy text */
+.btn-outline-primary {
+  background-color: $dwr-light-grey !important;
+  color: $dwr-navy !important;
+  border-color: $dwr-light-grey !important;
+}
+
+/* Hover: dark blue background, white text */
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active {
+  background-color: $primary-dark !important;
+  border-color: $primary-dark !important;
+  color: #ffffff !important;
+}
+
+/* Ensure button group/stack spacing displays correctly */
+.btn-container .btn {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
 }
