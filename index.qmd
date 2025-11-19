@@ -1,7 +1,71 @@
 ---
-title: "hrl-docs"
+title: "Welcome to the HRL Documentation Hub"
 ---
 
-This is a Quarto website.
+The [Healthy Rivers and Landscapes program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page) (HRL) is an eight-year interagency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems in the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fish populations and is proposed as part of the implementation program for the State Water Resources Control Board’s Bay-Delta Water Quality Control Plan.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+HRL implementation and adaptive management are guided by a comprehensive [Science Program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page/Science) that investigates how coordinated restoration and environmental flows influence ecological processes and native aquatic species from Sacramento tributary systems to the Bay-Delta estuary. The program is governed by an HRL [Science Committee](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Support-Healthy-Rivers-and-Landscape/VASciProgramDraftCharter.pdf) composed of representatives from HRL signatory entities and technical experts.
+
+This website serves as the central hub for documentation, standards, and learning materials that support the data engineering and data science components of the HRL Science Program.
+
+------------------------------------------------------------------------
+
+## Purpose of This Site
+
+This documentation website provides:
+
+-   **Data governance and data management standards**\
+-   **Core program-wide commitments** related to reproducible science, FAIR and CARE principles, metadata, and versioning\
+-   **High-level, conceptual workflows** for data publication, ingestion, storage, and synthesis\
+-   **Guidance and onboarding materials** for data producers, analysts, and synthesis teams\
+-   **Links to templates, examples, tools, and other HRL resources** for synthesis science, communication, and adaptive management
+
+This site focuses on high-level program governance, structures, and workflows. Technical implementations, reproducible templates, and workflow code live in companion HRL GitHub repositories and are linked throughout this documentation hub.
+
+------------------------------------------------------------------------
+
+## HRL’s Data System: Overview
+
+To support transparent, reproducible science across diverse agencies and projects, HRL follows a structured, program-specific **data lifecycle**:
+
+1.  **Collection** – Standardized data collection protocols, field metadata collection, and quality assurance
+2.  **Static Publication** – Cleaned, versioned, citable datasets published in trusted repositories, in alignment with FAIR and CARE principles
+3.  **Ingestion and Standardization** – Integration into HRL’s curated, interoperable data system
+4.  **Storage and Serving** – Durable, analysis-ready datasets and catalogs with well-documented and user-friendly access mechanisms
+5.  **Analysis and Synthesis** – Reproducible workflows, synthesis products, and reporting cycles
+6.  **Reporting and Communication** – Interactive dashboards, reports, and decision support tools for science commmunication and adaptive management
+
+These phases are supported by **defined roles**:
+
+-   **Data Producers** – Collect, document, and publish datasets
+-   **Central Data Team** – Standardize, steward, and serve program data, plus provide technical leadership in application development
+-   **Synthesis Teams** – Analyze curated data and generate synthesis outputs to investigate Science Program hypotheses
+-   **HRL Science Committee** – Oversee, prioritize, and guide the Science Program
+
+This site explains what each phase entails and how participants contribute.
+
+------------------------------------------------------------------------
+
+## Getting Started
+
+If you are new to the HRL Science Program, particularly the data engineering and data science enterprise, start with:
+
+-   **About HRL** – Program overview, governance structure, and roles
+-   **Program Commitments** – FAIR, CARE, metadata, reproducibility standards
+-   **Data Governance** – How data move through HRL’s lifecycle
+-   **Quickstarts** – Step-by-step guides to common tasks (e.g., publishing static datasets and metadata on EDI)
+
+As HRL evolves, keystone science documents such as the HRL Science Plan will also be made available as interactive web documents.
+
+------------------------------------------------------------------------
+
+## Learn More
+
+Use the navigation sidebar to explore all sections of the documentation.
+
+For information about HRL more broadly, visit:
+
+-   [HRL program website](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page)\
+-   [HRL science website](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page/Science)
+
+For questions or suggestions regarding this documentation, please contact Lucy Andrews at [lucy.andrews@water.ca.gov](mailto:lucy.andrews@water.ca.gov).
