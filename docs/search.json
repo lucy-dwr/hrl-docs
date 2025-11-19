@@ -982,61 +982,37 @@
   {
     "objectID": "principles/commitments.html",
     "href": "principles/commitments.html",
-    "title": "Program Commitments",
+    "title": "HRL Science Program Commitments",
     "section": "",
-    "text": "Summarize HRL Science Committee Charter commitments that anchor this documentation hub.\nProvide a reference map to detailed lifecycle, standards, and quickstart guidance.",
+    "text": "The HRL Science Committee Charter, particularly Appendix D, describes the commitments that guide data collection, publication, and analysis activities under the HRL Science Program. This page summarizes those commitments so that HRL Program partners understand the expectations that underpin the rest of this documentation hub. Use it as a quick refresher before diving into detailed guidance on the data lifecycle, standards, or common activities.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Program Commitments"
+      "HRL Science Program Commitments"
     ]
   },
   {
-    "objectID": "principles/commitments.html#purpose",
-    "href": "principles/commitments.html#purpose",
-    "title": "Program Commitments",
-    "section": "",
-    "text": "Summarize HRL Science Committee Charter commitments that anchor this documentation hub.\nProvide a reference map to detailed lifecycle, standards, and quickstart guidance.",
+    "objectID": "principles/commitments.html#core-charter-commitments",
+    "href": "principles/commitments.html#core-charter-commitments",
+    "title": "HRL Science Program Commitments",
+    "section": "Core Charter Commitments",
+    "text": "Core Charter Commitments\nThe HRL Science Committee charter expresses principles that support open, reproducible, ethical science. The principles are operationalized through common practices across the full data lifecycle.\n\nData Collection\n\nHRL parties collect data using approved protocols documented in system-level science plans.\nData Producers capture complete metadata at the point of collection, including metadata describing who collected the data, when and where the data were collected, equipment settings, and calibration routines.\nField quality assurance and quality control activities (e.g., duplicates, blanks, environmental notes, and calibration logs) are recorded and carried forward into publication packages.\nSensitive or Tribal sovereignty-linked observations are identified early and handled under agreements co-developed with Tribes and partner entities.\n\nMore information:\n\nHRL Data Lifecycle – Collection Governance and Roles\n\n\n\nData Management\n\nDatasets are stored in machine-readable, non-proprietary formats and structured according to tidy data principles where practical.\nQuality control steps are scripted, version-controlled, and documented through validation logs.\nProvenance is preserved from raw inputs through static data publication, ingestion, and synthesis; every workflow records source DOIs, code versions, and processing parameters.\nCARE-aligned data handling requirements are embedded in metadata, storage locations, and access controls.\n\nMore information:\n\nData Lifecycle – Static Publication Standards – Metadata\n\n\n\nData Access\n\nStatic HRL datasets receive DOIs (e.g., via EDI) and are discoverable through the HRL data catalog, search, and APIs.\nMetadata packages provide plain-language summaries, schema information, keywords, and access notes.\nProgrammatic access routes (bulk download, APIs, SDKs) are maintained so analysts and partners can use the data without manual, one-off transfers.\n\nMore information:\n\nData Lifecycle – Storage and Serving Reference – Resources\n\n\n\nIntegration and Analysis\n\nAll analyses are implemented through structured R or Python workflows managed in HRL GitHub repositories that follow the Style and Development Guide.\nContinuous integration tests verify that code runs, schemas match expectations, and outputs reproduce.\nDerived synthesis datasets, indicators, and models are versioned, documented, and returned to the Central Data Team for curation and publication.\nAnalytical workflows include diagnostics, uncertainty statements, and clear linkage to input datasets so results can be validated and reused.\n\nMore information:\n\nData Lifecycle – Ingestion and Standardization Data Lifecycle – Analysis and Synthesis Data Lifecycle – Reporting and Communication",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Program Commitments"
-    ]
-  },
-  {
-    "objectID": "principles/commitments.html#charter-commitments-to-detail",
-    "href": "principles/commitments.html#charter-commitments-to-detail",
-    "title": "Program Commitments",
-    "section": "Charter commitments to detail",
-    "text": "Charter commitments to detail\n\nStandards for data collection – agreed protocols, thorough documentation, and comparable methods across HRL parties.\nStandards for data management – machine-readable formats, QA/QC evidence, provenance, and CARE-aligned handling of sensitive/Tribal data.\nStandards for data access – publication in open repositories and services with machine-readable metadata and programmatic access.\nStandards for integration and analysis – structured, reproducible workflows with transparent diagnostics and publishable derived products.",
-    "crumbs": [
-      "Home",
-      "Program Foundations",
-      "Program Commitments"
+      "HRL Science Program Commitments"
     ]
   },
   {
     "objectID": "principles/commitments.html#program-wide-priorities",
     "href": "principles/commitments.html#program-wide-priorities",
-    "title": "Program Commitments",
-    "section": "Program-wide priorities",
-    "text": "Program-wide priorities\n\nEfficiency and responsiveness – modular, documented workflows that support annual/triennial reporting and rapid onboarding.\nScalable, future-proof infrastructure – cloud-native, open, standards-based systems that evolve with tools and data volume.\nProgram-wide learning – shared templates, training curricula, and professional development for HRL parties.",
+    "title": "HRL Science Program Commitments",
+    "section": "Program-Wide Priorities",
+    "text": "Program-Wide Priorities\nHRL data governance and management emphasizes three cross-cutting priorities that help HRL meet its commitments.\n\nEfficiency and Responsiveness\n\nModular pipelines and reusable templates reduce duplication and support repeatable annual and triennial reporting.\nThorough documentation and coding standards enable rapid onboarding of new collaborators and contractors and coherence of data and code products across the entire program.\nFeedback loops between Data Producers, the Central Data Team, and Synthesis Teams surface issues quickly, allow the data and analysis enterprise to evolve to meet program needs, and inform adaptive management decisions.\n\n\n\nScalable, Future-proof Infrastructure\n\nCloud-native, open, and standards-based technologies allow HRL to ingest increasing data volumes and adopt new tools as needed.\nStorage, compute, and orchestration platforms are selected for durability and portability over the eight-year program horizon.\nLarge or complex datasets (e.g., imagery, LiDAR, and modeling outputs) are handled with architectures that support efficient storage, retrieval, and processing.\n\n\n\nProgram-Wide Learning\n\nShared templates, training curricula, office hours, and documentation keep practices aligned across agencies.\nLessons from synthesis and reporting cycles feed updates into protocols, standards, and governance decisions.\nKnowledge is captured in repositories, catalogs, and documentation sites so it persists beyond individual personnel changes.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Program Commitments"
-    ]
-  },
-  {
-    "objectID": "principles/commitments.html#how-to-use-this-page",
-    "href": "principles/commitments.html#how-to-use-this-page",
-    "title": "Program Commitments",
-    "section": "How to use this page",
-    "text": "How to use this page\n\nLink each commitment to relevant lifecycle and standards pages where detailed procedures live.\nCapture governance updates when the Science Committee revises commitments or adds new requirements.\nOffer pointers to decision logs or change histories for transparency.",
-    "crumbs": [
-      "Home",
-      "Program Foundations",
-      "Program Commitments"
+      "HRL Science Program Commitments"
     ]
   },
   {
