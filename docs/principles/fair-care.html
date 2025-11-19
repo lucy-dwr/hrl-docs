@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../principles/reproducibility.html" rel="next">
-<link href="../principles/commitments.html" rel="prev">
+<link href="../principles/charter.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -163,19 +163,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../about/overview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">HRL Program Overview</span></a>
+ <span class="menu-text">Program Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../about/governance-roles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Governance and Roles</span></a>
+ <span class="menu-text">Data Governance and Roles</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../principles/commitments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">HRL Science Program Commitments</span></a>
+  <a href="../principles/charter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Science Charter Commitments</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -360,10 +360,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#fair-focus-areas" id="toc-fair-focus-areas" class="nav-link" data-scroll-target="#fair-focus-areas">FAIR focus areas</a></li>
-  <li><a href="#care-considerations" id="toc-care-considerations" class="nav-link" data-scroll-target="#care-considerations">CARE considerations</a></li>
-  <li><a href="#implementation-checklist" id="toc-implementation-checklist" class="nav-link" data-scroll-target="#implementation-checklist">Implementation checklist</a></li>
+  <li><a href="#fair-and-care-at-a-glance" id="toc-fair-and-care-at-a-glance" class="nav-link active" data-scroll-target="#fair-and-care-at-a-glance">FAIR and CARE at a glance</a>
+  <ul class="collapse">
+  <li><a href="#fair" id="toc-fair" class="nav-link" data-scroll-target="#fair">FAIR</a></li>
+  <li><a href="#care" id="toc-care" class="nav-link" data-scroll-target="#care">CARE</a></li>
+  </ul></li>
+  <li><a href="#importance-of-fair-and-care" id="toc-importance-of-fair-and-care" class="nav-link" data-scroll-target="#importance-of-fair-and-care">Importance of FAIR and CARE</a></li>
+  <li><a href="#implementation-references" id="toc-implementation-references" class="nav-link" data-scroll-target="#implementation-references">Implementation References</a></li>
+  <li><a href="#supporting-resources" id="toc-supporting-resources" class="nav-link" data-scroll-target="#supporting-resources">Supporting resources</a></li>
   </ul>
 </nav>
     </div>
@@ -389,36 +393,538 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<p>HRL’s Science Program commits to creating data assets that are open, reusable, and respectful of Tribal sovereignty and community priorities. The FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) frameworks serve as the shared language for those commitments. This page translates the frameworks into practical expectations that Data Producers, the Central Data Team, and Synthesis Teams can apply across every phase of the HRL Data Lifecycle.</p>
+<style>
+.fair-care-table {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.fair-care-table col.principle-col {
+  width: 15%;
+}
+.fair-care-table col.definition-col {
+  width: 35%;
+}
+.fair-care-table col.expectation-col {
+  width: 50%;
+}
+.implementation-table col.stage-col {
+  width: 16%;
+}
+.implementation-table col.fair-col,
+.implementation-table col.care-col,
+.implementation-table col.artifacts-col {
+  width: 28%;
+}
+.fair-care-table thead th {
+  background-color: #4c4c4c;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.fair-care-table tbody tr:hover td,
+.fair-care-table tbody tr:hover th,
+.fair-care-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+.fair-care-table td ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+</style>
+<section id="fair-and-care-at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="fair-and-care-at-a-glance">FAIR and CARE at a glance</h2>
+<section id="fair" class="level3">
+<h3 class="anchored" data-anchor-id="fair">FAIR</h3>
+<p>The <a href="https://www.go-fair.org/fair-principles/">FAIR Guiding Principles</a> for scientific data management and stewardship were <a href="https://www.nature.com/articles/sdata201618">published in 2016</a> to improve the ability of both humans and machines to find, access, interoperate, and reuse scientific data.</p>
+<table class="table fair-care-table">
+<colgroup>
+<col class="principle-col">
+<col class="definition-col">
+<col class="expectation-col">
+</colgroup>
+<thead>
+<tr>
+<th>
+Principle
+</th>
+<th>
+Definition
+</th>
+<th>
+HRL Expectation
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">
+Findable
+</th>
+<td>
+Data and metadata carry persistent identifiers and can be discovered through catalogs and search.
+</td>
+<td>
 <ul>
-<li>Translate HRL commitments to FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective benefit, Authority to control, Responsibility, Ethics) into actionable expectations.</li>
-<li>Show how these principles guide decisions from collection through reporting.</li>
+<li>
+Register DOIs and expose them through the HRL data catalog and common repositories.
+</li>
+<li>
+Provide structured inventories and keyword-rich, semantically-meaningful metadata (e.g., spatial/temporal coverage, parameters) so catalogs, APIs, and portals harvest records automatically.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">
+Accessible
+</th>
+<td>
+Users can retrieve data via standard protocols with transparent documentation and notice of any limits.
+</td>
+<td>
+<ul>
+<li>
+Host datasets on repositories with stable API endpoints and open download options that serve users with varied levels of technical sophistication.
+</li>
+<li>
+Where relevant, document authentication steps and contact points and maintain access notes, embargoes with renewal dates, and Tribal review requirements.
+</li>
+<li>
+Update metadata when access pathways or restrictions change so downstream users and catalogs stay accurate.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">
+Interoperable
+</th>
+<td>
+Data use shared languages, vocabularies, and formats to integrate with other systems.
+</td>
+<td>
+<ul>
+<li>
+Publish tidy data using HRL-approved schemas, controlled vocabularies, and consistent spatial references.
+</li>
+<li>
+Distribute data dictionaries, JSON schemas, and frictionless packages so ingestion workflows can validate inputs.
+</li>
+<li>
+Encode units, qualifiers, and missing-value conventions in machine-readable formats aligned with HRL standards to avoid ambiguity.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">
+Reusable
+</th>
+<td>
+Data include clear provenance, licensing, and quality statements so others can reuse them responsibly.
+</td>
+<td>
+<ul>
+<li>
+Bundle QA/QC logs, provenance code, and uncertainty and use notes with each data publication package and synthesis release.
+</li>
+<li>
+Specify licenses and citation instructions so downstream users understand reuse terms.
+</li>
+<li>
+Record provenance (raw inputs, code versions, DOIs) and a contact for questions or clarifications.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="care" class="level3">
+<h3 class="anchored" data-anchor-id="care">CARE</h3>
+<p>The <a href="https://www.gida-global.org/care">CARE Principles for Indigenous Data Governance</a> were <a href="https://datascience.codata.org/articles/dsj-2020-043">published in 2020</a> to ensure that scientific data practices respect Indigenous sovereignty and promote equitable benefits for Indigenous Peoples and local communities. The CARE Principles are motivated by the recognition that data about Indigenous Peoples and collected by them are frequently suppressed, stolen, misused, and mishandled by in ways that perpetuate harm and extractive relationships.</p>
+<table class="table fair-care-table">
+<colgroup>
+<col class="principle-col">
+<col class="definition-col">
+<col class="expectation-col">
+</colgroup>
+<thead>
+<tr>
+<th>
+Principle
+</th>
+<th>
+Definition
+</th>
+<th>
+HRL Expectation
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">
+Collective Benefit
+</th>
+<td>
+Data activities should generate measurable value for Indigenous Peoples and affected communities.
+</td>
+<td>
+<ul>
+<li>
+Co-design monitoring objectives and document expected Tribal and community outcomes in metadata and other research materials.
+</li>
+<li>
+Describe feedback loops (e.g., shared interpretation, co-developed indicators) before distributing data.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">
+Authority to Control
+</th>
+<td>
+Indigenous Peoples retain rights to govern the creation, stewardship, dissemination, and use of data about them and/or collected by them.
+</td>
+<td>
+<ul>
+<li>
+Capture formal data sharing and management agreements and archive them with publication packages.
+</li>
+<li>
+Apply sovereignty flags at collection and downstream processing steps so that storage, catalog, and reporting workflows enforce access controls.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">
+Responsibility
+</th>
+<td>
+Data stewards must uphold obligations for security, transparency, and capacity building.
+</td>
+<td>
+<ul>
+<li>
+Assign contacts for stewardship, data sharing and management agreement renewal, and incident response.
+</li>
+<li>
+Log training requirements and provide channels for Tribes and communities to audit usage or request updates.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">
+Ethics
+</th>
+<td>
+Data practices must minimize harm and respect cultural protocols and context.
+</td>
+<td>
+<ul>
+<li>
+Require Tribal or community review checkpoints before publication or synthesis, in alignment with data sharing and management agreements.
+</li>
+<li>
+Adopt respectful language in metadata, dashboards, and reports and archive approvals with the dataset record.
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="importance-of-fair-and-care" class="level2">
+<h2 class="anchored" data-anchor-id="importance-of-fair-and-care">Importance of FAIR and CARE</h2>
+<ul>
+<li><strong>FAIR ensures scientific utility.</strong> Metadata rigor, persistent identifiers, and open formats allow HRL data to be discovered, cited, and reused across agencies and the broader research community.</li>
+<li><strong>CARE ensures ethical science and reciprocity.</strong> Sensitive observations, Indigenous Knowledge, and Tribal and community agreements are honored in metadata, management, access controls, and communications so that benefits and decision-making authority remain with source communities in order to redress harmful histories and counteract extractive tendencies that persist in public agencies and Western science.</li>
+<li><strong>Both frameworks travel together.</strong> Collection protocols, static publication packages, ingestion pipelines, and synthesis reports must document how FAIR and CARE requirements were met and where exceptions were negotiated.</li>
 </ul>
 </section>
-<section id="fair-focus-areas" class="level2">
-<h2 class="anchored" data-anchor-id="fair-focus-areas">FAIR focus areas</h2>
+<section id="implementation-references" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-references">Implementation References</h2>
+<p>Use this table as a quick crosswalk for what FAIR and CARE look like at each point in the HRL data lifecycle and which artifacts demonstrate that the requirements were addressed.</p>
+<table class="table fair-care-table implementation-table">
+<colgroup>
+<col class="stage-col">
+<col class="fair-col">
+<col class="care-col">
+<col class="artifacts-col">
+</colgroup>
+<thead>
+<tr>
+<th>
+Lifecycle stage
+</th>
+<th>
+FAIR Emphasis
+</th>
+<th>
+CARE Emphasis
+</th>
+<th>
+Key Artifacts
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">
+Collection
+</th>
+<td>
 <ul>
-<li><strong>Findable</strong> – DOIs, catalog registration, persistent identifiers, and keyword-rich metadata.</li>
-<li><strong>Accessible</strong> – Open repositories (EDI, APIs) plus transparent documentation of any access restrictions.</li>
-<li><strong>Interoperable</strong> – Shared schemas, controlled vocabularies, tidy data structures, and spatial reference standards.</li>
-<li><strong>Reusable</strong> – Provenance, licensing, QA statements, and citation instructions for downstream analyses.</li>
+<li>
+Field metadata
+</li>
+<li>
+Instrument calibration logs
+</li>
+<li>
+Quality assurance
+</li>
 </ul>
-</section>
-<section id="care-considerations" class="level2">
-<h2 class="anchored" data-anchor-id="care-considerations">CARE considerations</h2>
+</td>
+<td>
 <ul>
-<li>Formal agreements with Tribes detailing permitted uses, review processes, and benefit-sharing.</li>
-<li>Flagging sensitive/sovereignty-linked data at collection, publication, and ingestion.</li>
-<li>Respectful attribution and communication practices in synthesis and reporting outputs.</li>
+<li>
+Consent terms
+</li>
+<li>
+Sensitivity flags
+</li>
+<li>
+Contact points
+</li>
 </ul>
-</section>
-<section id="implementation-checklist" class="level2">
-<h2 class="anchored" data-anchor-id="implementation-checklist">Implementation checklist</h2>
+</td>
+<td>
 <ul>
-<li>Responsibilities for Data Producers vs.&nbsp;Central Data Team (e.g., metadata authorship, access controls, catalog notes).</li>
-<li>Templates for capturing CARE requirements and linking them to dataset metadata.</li>
-<li>Evidence to archive (agreements, approvals, restriction notes) so compliance can be audited.</li>
+<li>
+Protocols
+</li>
+<li>
+Field forms
+</li>
+<li>
+Agreements
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">
+Static Publication
+</th>
+<td>
+<ul>
+<li>
+DOI registration
+</li>
+<li>
+Tidy data packages
+</li>
+<li>
+Complete metadata
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+Embargo tracking
+</li>
+<li>
+Access notes
+</li>
+<li>
+Benefit statements
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+Metadata XML/EML/JSON
+</li>
+<li>
+CARE publication checklist
+</li>
+<li>
+License text
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">
+Ingestion and Standardization
+</th>
+<td>
+<ul>
+<li>
+Schema validation tests
+</li>
+<li>
+Controlled vocabularies
+</li>
+<li>
+Provenance scripts
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+Propagation of restriction flags
+</li>
+<li>
+Audit logs for access requests
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+Validation pipelines
+</li>
+<li>
+Configuration files
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">
+Storage and Serving
+</th>
+<td>
+<ul>
+<li>
+Access/API documentation
+</li>
+<li>
+Data dictionaries
+</li>
+<li>
+Monitoring of uptime/download metrics
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+Role-based access controls
+</li>
+<li>
+User agreements
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+Catalog entries
+</li>
+<li>
+Access logs
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">
+Analysis and Synthesis
+</th>
+<td>
+<ul>
+<li>
+Workflow documentation
+</li>
+<li>
+Reproducible notebooks
+</li>
+<li>
+Citation of inputs
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+Required attribution of Tribal contributions
+</li>
+<li>
+Review gates before release
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+Scientific reports
+</li>
+<li>
+Release notes
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th scope="row">
+Reporting and Communication
+</th>
+<td>
+<ul>
+<li>
+Public-friendly metadata
+</li>
+<li>
+Links from reporting products to data products
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+Co-developed messaging
+</li>
+<li>
+Acknowledgement statements
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+Fact sheets
+</li>
+<li>
+Presentation decks
+</li>
+<li>
+Visualization tools
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="supporting-resources" class="level2">
+<h2 class="anchored" data-anchor-id="supporting-resources">Supporting resources</h2>
+<ul>
+<li><a href="../principles/charter.html">Science Charter Commitments</a> – overarching governance statements that FAIR/CARE workflows implement.</li>
+<li><a href="../about/governance-roles.html">Governance and Roles</a> – descriptions of Data Producers, Central Data Team, and synthesis leads.</li>
+<li><a href="../standards/metadata.html">Metadata Standards</a> – templates and vocabularies for recording FAIR and CARE metadata fields.</li>
 </ul>
 
 
@@ -826,8 +1332,8 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../principles/commitments.html" class="pagination-link" aria-label="HRL Science Program Commitments">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">HRL Science Program Commitments</span>
+      <a href="../principles/charter.html" class="pagination-link" aria-label="Science Charter Commitments">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Science Charter Commitments</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

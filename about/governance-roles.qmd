@@ -1,5 +1,5 @@
 ---
-title: "Governance and Roles"
+title: "Data Governance and Roles"
 ---
 
 The HRL Science Program relies on a distributed, multi-agency governance structure designed to support transparent, reproducible, and high-quality science  across the Sacramento River watershed and Bay-Delta estuary over the program’s eight-year duration. This structure defines who does what in data collection, publication, and analysis; how data move through the program; and how decisions are made at each stage of the HRL data lifecycle.

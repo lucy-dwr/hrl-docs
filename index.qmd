@@ -25,7 +25,7 @@ This site focuses on high-level program governance, structures, and workflows. T
 If you are new to the HRL Science Program, particularly the data engineering and data science enterprise, start with:
 
 -   [HRL Program Overview](about/overview.qmd) – HRL Program overview, governance structure, and roles
--   [Program Commitments](principles/commitments.qmd) – HRL program commitments to open, ethical, and reproducible science
+-   [Program Commitments](principles/charter.qmd) – HRL program commitments to open, ethical, and reproducible science
 -   [Data Governance](lifecycle/overview.qmd) – How data move through HRL’s lifecycle to produce open scientific insights
 -   [Quickstarts](quickstart/quickstart-catalog.qmd) – Step-by-step guides to common tasks (e.g., publishing static datasets and metadata on EDI, getting help with HRL data science)
 
