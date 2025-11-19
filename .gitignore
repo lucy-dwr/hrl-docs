@@ -15,5 +15,10 @@
 # Per-file render artifacts
 *_files/
 
+# renv local library caches
+/renv/library/
+/renv/staging/
+/.renv-lib/
+
 # Logs
 *.log

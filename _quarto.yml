@@ -10,6 +10,9 @@ project:
     - standards/**/*.qmd
     - reference/**/*.qmd
 
+execute:
+  freeze: auto
+
 website:
   title: "HRL Docs"
   bread-crumbs: false

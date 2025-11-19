@@ -1,97 +1,5 @@
 [
   {
-    "objectID": "about/overview.html",
-    "href": "about/overview.html",
-    "title": "HRL Program Overview",
-    "section": "",
-    "text": "The Healthy Rivers and Landscapes (HRL) program is an eight-year, multi-agency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems across the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fishes by coordinating habitat restoration and flow actions at a watershed scale.\nHRL is proposed as part of the implementation program for the State Water Resources Control Board’s Bay-Delta Water Quality Control Plan and reflects a broad partnership among state, federal, and local entities.",
-    "crumbs": [
-      "Home",
-      "Program Foundations",
-      "HRL Program Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#hrl-science-program",
-    "href": "about/overview.html#hrl-science-program",
-    "title": "HRL Program Overview",
-    "section": "HRL Science Program",
-    "text": "HRL Science Program\nThe HRL Science Program provides the scientific foundation for implementing and evaluating HRL. It investigates how restoration actions and environmental flows influence ecosystem processes, habitat conditions, and biological responses across diverse riverine and estuarine environments.\nThe Science Program is structured around 55 hypotheses that span tributary habitats, the mainstem Sacramento River, bypass floodplains, and tidal wetlands. To investigate the hypotheses, the HRL Science Committee has written science plans that describe data collection, modeling, monitoring, and synthesis activities over the life of the program.\nScientific evaluation occurs through:\n\nAnnual reporting on data collection and early insights\nTriennial synthesis reports that integrate results across projects and geographic scales every three years\nEcological Outcomes and Analysis report at the end of the program that assesses the cumulative effectiveness of HRL actions",
-    "crumbs": [
-      "Home",
-      "Program Foundations",
-      "HRL Program Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#program-structure-and-collaboration",
-    "href": "about/overview.html#program-structure-and-collaboration",
-    "title": "HRL Program Overview",
-    "section": "Program Structure and Collaboration",
-    "text": "Program Structure and Collaboration\nHRL science and implementation are organized through an interagency governance structure. Key program roles include:\n\nData Producers – Collect and publish datasets and metadata following shared protocols\nCentral Data Team – Maintain program-level data systems, standards, and tools for analysis, modeling, visualization, and communication\nSynthesis Teams – Analyze curated data to evaluate hypotheses and generate synthesis products\nHRL Science Committee – Provide scientific oversight, prioritization, and guidance\n\nThese groups work together to support scientific research and adaptive management and ensure that HRL decisions are informed by rigorous, transparent, and reproducible science.",
-    "crumbs": [
-      "Home",
-      "Program Foundations",
-      "HRL Program Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#a-whole-watershed-approach",
-    "href": "about/overview.html#a-whole-watershed-approach",
-    "title": "HRL Program Overview",
-    "section": "A Whole-Watershed Approach",
-    "text": "A Whole-Watershed Approach\nA core feature of HRL is its emphasis on integrated, system-wide science. The program links actions and outcomes across rivers, floodplains, and estuarine habitats, enabling coordinated research on:\n\nHabitat restoration effectiveness at multiple spatial scales\nEnvironmental flow benefits in individual tributaries and integrated across the whole watershed\nSpecies responses across life stages\nWatershed-scale ecological patterns\n\nBy uniting restoration, flow management, and interdisciplinary science, HRL seeks to develop knowledge that improves adaptive management for ecosystem resilience and supports long-term stewardship of California’s rivers and landscapes.",
-    "crumbs": [
-      "Home",
-      "Program Foundations",
-      "HRL Program Overview"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the HRL Documentation Hub",
-    "section": "",
-    "text": "The Healthy Rivers and Landscapes program (HRL) is an eight-year interagency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems in the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fish populations and is proposed as part of the implementation program for the State Water Resources Control Board’s Bay-Delta Water Quality Control Plan.\nHRL implementation and adaptive management are guided by a comprehensive Science Program that investigates how coordinated restoration and environmental flows influence ecological processes and native aquatic species from Sacramento tributary systems to the Bay-Delta estuary. The program is governed by an HRL Science Committee composed of representatives from HRL signatory entities and technical experts.\nThis website serves as the central hub for documentation, standards, and learning materials that support the data engineering and data science components of the HRL Science Program.",
-    "crumbs": [
-      "Home",
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#purpose-of-this-site",
-    "href": "index.html#purpose-of-this-site",
-    "title": "Welcome to the HRL Documentation Hub",
-    "section": "Purpose of This Site",
-    "text": "Purpose of This Site\nThis documentation website provides:\n\nData governance and data management standards\n\nCore program-wide commitments related to reproducible science, FAIR and CARE principles, metadata, and versioning\nHigh-level, conceptual workflows for data publication, ingestion, storage, and synthesis\nGuidance and onboarding materials for data producers, analysts, and synthesis teams\nLinks to templates, examples, tools, and other HRL resources for synthesis science, communication, and adaptive management\n\nThis site focuses on high-level program governance, structures, and workflows. Technical implementations, reproducible templates, and workflow code live in companion HRL GitHub repositories and are linked throughout this documentation hub.",
-    "crumbs": [
-      "Home",
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#getting-started",
-    "href": "index.html#getting-started",
-    "title": "Welcome to the HRL Documentation Hub",
-    "section": "Getting Started",
-    "text": "Getting Started\nIf you are new to the HRL Science Program, particularly the data engineering and data science enterprise, start with:\n\nAbout HRL – Program overview, governance structure, and roles\nProgram Commitments – FAIR, CARE, metadata, reproducibility standards\nData Governance – How data move through HRL’s lifecycle to produce open scientific insights\nQuickstarts – Step-by-step guides to common tasks (e.g., publishing static datasets and metadata on EDI)\n\nAs HRL evolves, keystone science documents such as the HRL Science Plan will also be made available as interactive web documents.",
-    "crumbs": [
-      "Home",
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#learn-more",
-    "href": "index.html#learn-more",
-    "title": "Welcome to the HRL Documentation Hub",
-    "section": "Learn More",
-    "text": "Learn More\nUse the navigation sidebar to explore documentation on this site.\nFor information about HRL more broadly, visit:\n\nHRL program website\nHRL science website\n\nFor questions or suggestions regarding this documentation, please contact Lucy Andrews at lucy.andrews@water.ca.gov.",
-    "crumbs": [
-      "Home",
-      "Welcome"
-    ]
-  },
-  {
     "objectID": "about/governance-roles.html",
     "href": "about/governance-roles.html",
     "title": "Governance and Roles",
@@ -173,6 +81,98 @@
       "Home",
       "Program Foundations",
       "Governance and Roles"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the HRL Documentation Hub",
+    "section": "",
+    "text": "The Healthy Rivers and Landscapes program (HRL) is an eight-year interagency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems in the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fish populations and is proposed as part of the implementation program for the State Water Resources Control Board’s Bay-Delta Water Quality Control Plan.\nHRL implementation and adaptive management are guided by a comprehensive Science Program that investigates how coordinated restoration and environmental flows influence ecological processes and native aquatic species from Sacramento tributary systems to the Bay-Delta estuary. The program is governed by an HRL Science Committee composed of representatives from HRL signatory entities and technical experts.\nThis website serves as the central hub for documentation, standards, and learning materials that support the data engineering and data science components of the HRL Science Program.",
+    "crumbs": [
+      "Home",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#purpose-of-this-site",
+    "href": "index.html#purpose-of-this-site",
+    "title": "Welcome to the HRL Documentation Hub",
+    "section": "Purpose of This Site",
+    "text": "Purpose of This Site\nThis documentation website provides:\n\nData governance and data management standards\n\nCore program-wide commitments related to reproducible science, FAIR and CARE principles, metadata, and versioning\nHigh-level, conceptual workflows for data publication, ingestion, storage, and synthesis\nGuidance and onboarding materials for data producers, analysts, and synthesis teams\nLinks to templates, examples, tools, and other HRL resources for synthesis science, communication, and adaptive management\n\nThis site focuses on high-level program governance, structures, and workflows. Technical implementations, reproducible templates, and workflow code live in companion HRL GitHub repositories and are linked throughout this documentation hub.",
+    "crumbs": [
+      "Home",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "Welcome to the HRL Documentation Hub",
+    "section": "Getting Started",
+    "text": "Getting Started\nIf you are new to the HRL Science Program, particularly the data engineering and data science enterprise, start with:\n\nAbout HRL – Program overview, governance structure, and roles\nProgram Commitments – FAIR, CARE, metadata, reproducibility standards\nData Governance – How data move through HRL’s lifecycle to produce open scientific insights\nQuickstarts – Step-by-step guides to common tasks (e.g., publishing static datasets and metadata on EDI)\n\nAs HRL evolves, keystone science documents such as the HRL Science Plan will also be made available as interactive web documents.",
+    "crumbs": [
+      "Home",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#learn-more",
+    "href": "index.html#learn-more",
+    "title": "Welcome to the HRL Documentation Hub",
+    "section": "Learn More",
+    "text": "Learn More\nUse the navigation sidebar to explore documentation on this site.\nFor information about HRL more broadly, visit:\n\nHRL program website\nHRL science website\n\nFor questions or suggestions regarding this documentation, please contact Lucy Andrews at lucy.andrews@water.ca.gov.",
+    "crumbs": [
+      "Home",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "about/overview.html",
+    "href": "about/overview.html",
+    "title": "HRL Program Overview",
+    "section": "",
+    "text": "The Healthy Rivers and Landscapes (HRL) program is an eight-year, multi-agency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems across the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fishes by coordinating habitat restoration and flow actions at a watershed scale.\nHRL is proposed as part of the implementation program for the State Water Resources Control Board’s Bay-Delta Water Quality Control Plan and reflects a broad partnership among state, federal, and local entities.",
+    "crumbs": [
+      "Home",
+      "Program Foundations",
+      "HRL Program Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#hrl-science-program",
+    "href": "about/overview.html#hrl-science-program",
+    "title": "HRL Program Overview",
+    "section": "HRL Science Program",
+    "text": "HRL Science Program\nThe HRL Science Program provides the scientific foundation for implementing and evaluating HRL. It investigates how restoration actions and environmental flows influence ecosystem processes, habitat conditions, and biological responses across diverse riverine and estuarine environments.\nThe Science Program is structured around 55 hypotheses that span tributary habitats, the mainstem Sacramento River, bypass floodplains, and tidal wetlands. To investigate the hypotheses, the HRL Science Committee has written science plans that describe data collection, modeling, monitoring, and synthesis activities over the life of the program.\nScientific evaluation occurs through:\n\nAnnual reporting on data collection and early insights\nTriennial synthesis reports that integrate results across projects and geographic scales every three years\nEcological Outcomes and Analysis report at the end of the program that assesses the cumulative effectiveness of HRL actions",
+    "crumbs": [
+      "Home",
+      "Program Foundations",
+      "HRL Program Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#program-structure-and-collaboration",
+    "href": "about/overview.html#program-structure-and-collaboration",
+    "title": "HRL Program Overview",
+    "section": "Program Structure and Collaboration",
+    "text": "Program Structure and Collaboration\nHRL science and implementation are organized through an interagency governance structure. Key program roles include:\n\nData Producers – Collect and publish datasets and metadata following shared protocols\nCentral Data Team – Maintain program-level data systems, standards, and tools for analysis, modeling, visualization, and communication\nSynthesis Teams – Analyze curated data to evaluate hypotheses and generate synthesis products\nHRL Science Committee – Provide scientific oversight, prioritization, and guidance\n\nThese groups work together to support scientific research and adaptive management and ensure that HRL decisions are informed by rigorous, transparent, and reproducible science.",
+    "crumbs": [
+      "Home",
+      "Program Foundations",
+      "HRL Program Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#a-whole-watershed-approach",
+    "href": "about/overview.html#a-whole-watershed-approach",
+    "title": "HRL Program Overview",
+    "section": "A Whole-Watershed Approach",
+    "text": "A Whole-Watershed Approach\nA core feature of HRL is its emphasis on integrated, system-wide science. The program links actions and outcomes across rivers, floodplains, and estuarine habitats, enabling coordinated research on:\n\nHabitat restoration effectiveness at multiple spatial scales\nEnvironmental flow benefits in individual tributaries and integrated across the whole watershed\nSpecies responses across life stages\nWatershed-scale ecological patterns\n\nBy uniting restoration, flow management, and interdisciplinary science, HRL seeks to develop knowledge that improves adaptive management for ecosystem resilience and supports long-term stewardship of California’s rivers and landscapes.",
+    "crumbs": [
+      "Home",
+      "Program Foundations",
+      "HRL Program Overview"
     ]
   },
   {
