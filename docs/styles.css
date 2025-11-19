@@ -67,3 +67,8 @@ main ul + h3,
 main ol + h3 {
   margin-top: 2.5rem;
 }
+
+/* Tighten spacing when a heading is immediately followed by a sub-section heading */
+main section[class^="level"] > :is(h1, h2, h3, h4, h5) + section[class^="level"] > :is(h2, h3, h4, h5, h6) {
+  margin-top: 1.5rem !important;
+}
