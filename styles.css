@@ -16,14 +16,14 @@ main .h1 {
 main h2,
 main .h2 {
   /* Top margin set more specifically below */
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.15rem;
 }
 
 /* Third-level headings */
 main h3,
 main .h3 {
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 /* Ensure generous spacing before any H2 */
@@ -51,11 +51,25 @@ main p {
 /* Lists
    ------------------------------- */
 
-/* Give lists a bit more air without messing with list-item spacing */
+/* Add breathing room before and after lists */
 main ul,
 main ol {
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Optional: more space between paragraphs and following lists */
+main p + ul,
+main p + ol {
+  margin-top: 1rem;
+}
+
+/* Optional: more space between headings and the list that follows */
+main h2 + ul,
+main h2 + ol,
+main h3 + ul,
+main h3 + ol {
+  margin-top: 1.25rem;
 }
 
 /* Contextual spacing rules
@@ -69,6 +83,49 @@ main ol + h3 {
 }
 
 /* Tighten spacing when a heading is immediately followed by a sub-section heading */
-main section[class^="level"] > :is(h1, h2, h3, h4, h5) + section[class^="level"] > :is(h2, h3, h4, h5, h6) {
+main section[class^="level"]
+  > :is(h1, h2, h3, h4, h5)
+  + section[class^="level"]
+  > :is(h2, h3, h4, h5, h6) {
   margin-top: 1.5rem !important;
+}
+
+/* =========================================================
+   Specific Overrides
+   ========================================================= */
+
+/* Increase vertical spacing between bullets (works even with Bootstrap/Quarto overrides) */
+main ul li,
+main ol li {
+  margin-bottom: 0.5rem !important;
+  line-height: 1.5 !important;
+}
+
+/* If list items contain <p>, ensure they also have spacing */
+main ul li p,
+main ol li p {
+  margin-bottom: 0.5rem !important;
+  line-height: 1.5 !important;
+}
+
+/* =========================================================
+   Callouts
+   ========================================================= */
+
+/* Add a bit more vertical padding in the tip callout header banner */
+.callout.callout-tip > .callout-header {
+  padding-top: 0.7rem;
+  padding-bottom: 0.4rem;
+}
+
+/* Remove extra gap under the last bullet in callouts
+   (keep only the callout's own padding at the bottom) */
+.callout .callout-body ul,
+.callout .callout-body ol {
+  margin-bottom: 0;
+}
+
+.callout .callout-body ul li:last-child,
+.callout .callout-body ol li:last-child {
+  margin-bottom: 0 !important;
 }
