@@ -1,21 +1,80 @@
 project:
   type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - about/**/*.qmd
+    - principles/**/*.qmd
+    - lifecycle/**/*.qmd
+    - quickstart/**/*.qmd
+    - standards/**/*.qmd
+    - reference/**/*.qmd
 
 website:
-  title: "hrl-docs"
+  title: "HRL Docs"
+  bread-crumbs: false
+
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "About HRL"
+        menu:
+          - text: "Program Overview"
+            href: about/overview.qmd
+          - text: "Governance & Roles"
+            href: about/governance-roles.qmd
+      - text: "Docs"
+        href: lifecycle/overview.qmd
+
+  sidebar:
+    style: docked
+    search: true
+    collapse-level: 1
+    contents:
+      - text: "Welcome"
+        contents:
+          - index.qmd
+
+      - section: "Program Foundations"
+        contents:
+          - about/overview.qmd
+          - about/governance-roles.qmd
+          - principles/commitments.qmd
+          - principles/fair-care.qmd
+          - principles/reproducibility.qmd
+
+      - section: "HRL Data Lifecycle"
+        contents:
+          - lifecycle/overview.qmd
+          - lifecycle/collection.qmd
+          - lifecycle/static-publication.qmd
+          - lifecycle/ingestion-standardization.qmd
+          - lifecycle/storage-serving.qmd
+          - lifecycle/analysis-synthesis.qmd
+
+      - section: "Quickstart Guides"
+        contents:
+          - quickstart/publish-to-edi.qmd
+          - quickstart/ingestion.qmd
+          - quickstart/analysis.qmd
+          - quickstart/getting-help.qmd
+
+      - section: "Standards & Templates"
+        contents:
+          - standards/style-dev-guide.qmd
+          - standards/metadata.qmd
+          - standards/schemas-vocabs.qmd
+          - standards/templates.qmd
+
+      - section: "Reference"
+        contents:
+          - reference/glossary.qmd
+          - reference/architecture.qmd
+          - reference/resources.qmd
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: sandstone
     css: styles.css
     toc: true
-
-
-
