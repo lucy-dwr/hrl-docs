@@ -2,98 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lucy-dwr.github.io/hrl-docs/reference/resources.html</loc>
-    <lastmod>2025-11-19T04:48:21.390Z</lastmod>
+    <lastmod>2025-11-19T05:31:53.173Z</lastmod>
   </url>
   <url>
     <loc>https://lucy-dwr.github.io/hrl-docs/reference/architecture.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
+    <lastmod>2025-11-19T05:31:53.173Z</lastmod>
   </url>
   <url>
     <loc>https://lucy-dwr.github.io/hrl-docs/standards/style-dev-guide.html</loc>
-    <lastmod>2025-11-19T04:48:21.390Z</lastmod>
+    <lastmod>2025-11-19T05:31:53.173Z</lastmod>
   </url>
   <url>
     <loc>https://lucy-dwr.github.io/hrl-docs/standards/metadata.html</loc>
-    <lastmod>2025-11-19T04:48:21.390Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/quickstart/ingestion.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/quickstart/analysis.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/static-publication.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/overview.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/collection.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/principles/reproducibility.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/principles/commitments.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/about/governance-roles.html</loc>
-    <lastmod>2025-11-19T04:48:21.378Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/index.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/about/overview.html</loc>
-    <lastmod>2025-11-19T04:48:21.378Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/principles/fair-care.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/analysis-synthesis.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/ingestion-standardization.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/reporting-communication.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/storage-serving.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://lucy-dwr.github.io/hrl-docs/quickstart/getting-help.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
+    <lastmod>2025-11-19T05:31:53.173Z</lastmod>
   </url>
   <url>
     <loc>https://lucy-dwr.github.io/hrl-docs/quickstart/publish-to-edi.html</loc>
-    <lastmod>2025-11-19T04:48:21.389Z</lastmod>
+    <lastmod>2025-11-19T05:31:53.173Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/quickstart/getting-help.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/storage-serving.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/reporting-communication.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/ingestion-standardization.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/analysis-synthesis.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/principles/fair-care.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/about/overview.html</loc>
+    <lastmod>2025-11-19T05:31:53.165Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/index.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/about/governance-roles.html</loc>
+    <lastmod>2025-11-19T05:31:53.165Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/principles/commitments.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/principles/reproducibility.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/collection.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/overview.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/lifecycle/static-publication.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/quickstart/analysis.html</loc>
+    <lastmod>2025-11-19T05:31:53.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/quickstart/ingestion.html</loc>
+    <lastmod>2025-11-19T05:31:53.173Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lucy-dwr.github.io/hrl-docs/quickstart/quickstart-catalog.html</loc>
+    <lastmod>2025-11-19T05:31:53.173Z</lastmod>
   </url>
   <url>
     <loc>https://lucy-dwr.github.io/hrl-docs/standards/schemas-vocabs.html</loc>
-    <lastmod>2025-11-19T04:48:21.390Z</lastmod>
+    <lastmod>2025-11-19T05:31:53.173Z</lastmod>
   </url>
   <url>
     <loc>https://lucy-dwr.github.io/hrl-docs/standards/templates.html</loc>
-    <lastmod>2025-11-19T04:48:21.390Z</lastmod>
+    <lastmod>2025-11-19T05:31:53.173Z</lastmod>
   </url>
   <url>
     <loc>https://lucy-dwr.github.io/hrl-docs/reference/glossary.html</loc>
-    <lastmod>2025-11-19T04:48:21.390Z</lastmod>
+    <lastmod>2025-11-19T05:31:53.173Z</lastmod>
   </url>
 </urlset>
