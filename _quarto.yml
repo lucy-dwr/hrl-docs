@@ -59,6 +59,7 @@ website:
 
       - section: "Quickstart Guides"
         contents:
+          - quickstart/quickstart-catalog.qmd
           - quickstart/publish-to-edi.qmd
           - quickstart/ingestion.qmd
           - quickstart/analysis.qmd

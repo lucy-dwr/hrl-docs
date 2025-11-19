@@ -1,0 +1,25 @@
+---
+title: "Publish a Static Dataset to EDI"
+---
+
+## Goal
+- Provide a repeatable recipe for preparing, documenting, and releasing HRL datasets through the GitHub + EDI workflow.
+
+## Before you start
+- Confirm approved protocols, quality-controlled data, and HRL GitHub repository scaffolding are in place.
+- Gather metadata inputs (contacts, methods, spatial/temporal coverage, keywords, Tribal agreements).
+
+## Step-by-step outline
+- Scaffold a repository from the HRL publication template, configure dependencies, and set up CI.
+- Script data cleaning, QA, and validation; capture logs and evidence in the repo.
+- Author EML metadata, data dictionaries, README, and provenance notes.
+- Run automated checks, perform peer review, and tag a release candidate.
+- Submit the package to EDI, address curator feedback, and mint a DOI.
+- Announce the release to the Central Data Team with schema highlights and contact info.
+
+## Deliverables
+- DOI-linked dataset in open formats plus metadata artifacts, QA logs, and changelog entries.
+- Communication template for ingestion and catalog updates.
+
+## Support
+- Point to metadata leads, Central Data Team contacts, and office hours for troubleshooting publication steps.

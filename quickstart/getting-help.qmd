@@ -1,0 +1,23 @@
+---
+title: "Getting Help"
+---
+
+## When to reach out
+- During onboarding, when interpreting standards, troubleshooting pipelines, or handling sensitive/Tribal data questions.
+- Any time timelines or reporting commitments are at risk because of data or tooling blockers.
+
+## Primary support channels
+- Central Data Team for data engineering, ingestion, catalog, and infrastructure topics.
+- Metadata/FAIR-CARE leads for publication, documentation, and access control questions.
+- HRL Science Committee liaisons or governance representatives for prioritization and policy issues.
+
+## What to prepare
+- Concise problem statement, relevant repository links, dataset DOIs/versions, and log files/screenshots.
+- Summary of actions already taken and decision deadlines to inform triage.
+
+## Feedback and learning loops
+- Document resolved issues in GitHub or knowledge bases so others can reference them.
+- Capture suggestions for improving templates, standards, or training and route them to the Central Data Team.
+
+## Escalation
+- Criteria for elevating issues to HRL program leadership or the Science Committee when standards changes or additional resources are required.

@@ -1,17 +1,25 @@
 ---
-title: "Reporting & Communication"
+title: "Reporting and Communication"
 ---
 
-# Reporting & Communication
-
-This page will capture how HRL teams share results, produce artifacts, and close feedback loops across the data lifecycle.
-
 ## Purpose
+- Explain how HRL communicates findings through annual activity reports, triennial synthesis products, and the final Ecological Outcomes and Analysis report.
+- Connect lifecycle outputs to adaptive management decisions and public accountability.
 
-- Outline reporting expectations for each lifecycle phase
-- Document communication pathways between science teams, governance, and partners
-- Provide templates and tools for regular updates
+## Reporting cadence
+- Annual reports summarizing data collection progress, QA status, and early findings.
+- Triennial synthesis reports that integrate results across hypotheses, tributaries, and habitats.
+- Final program-scale outcomes assessment that informs continuation, modification, or termination decisions.
 
-## Coming Soon
+## Content planning
+- Sections on ecological findings, uncertainties, decision-support tools, and resource needs.
+- Integration of graphics/dashboards supported by storage-serving systems and analysis outputs.
+- Treatment of sensitive/Tribal information consistent with CARE-aligned agreements.
 
-Detailed content is still in development. Check back later for finalized guidance on HRL reporting and communication practices.
+## Workflow and approvals
+- Roles for Synthesis Teams (analytical narratives), Central Data Team (figures, data services), and the HRL Science Committee (review/prioritization).
+- Timelines for locking datasets, drafting chapters, review cycles, and public release.
+
+## Dissemination and feedback
+- Channels for sharing with agencies, Tribes, and the public (website updates, briefings, data catalog highlights).
+- Mechanisms for collecting feedback that feeds back into protocols, standards, and future lifecycle iterations.

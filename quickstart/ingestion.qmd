@@ -1,0 +1,25 @@
+---
+title: "Ingest Data into the HRL Platform"
+---
+
+## Goal
+- Capture workflows for harvesting published datasets (HRL and external) and standardizing them for program use.
+
+## Preconditions
+- HRL GitHub and infrastructure access, along with credentials for source repositories/APIs.
+- Metadata about source datasets (DOI, version, schema expectations, sensitivity flags).
+
+## Workflow outline
+- Retrieve the static dataset or synthesis output using the DOI/API and stage files securely.
+- Record provenance (source release, commit hashes) in ingestion configs.
+- Align schemas to HRL standards (columns, units, vocabularies, CRS) and apply data dictionaries.
+- Run automated validation suites, log issues, and resolve discrepancies with data producers.
+- Publish the harmonized dataset plus machine-readable schema to the storage/serving environment.
+
+## Deliverables
+- Versioned curated dataset, validation reports, ingestion notes, and catalog-ready metadata.
+- Flags for sensitive data routed to storage/serving and reporting teams.
+
+## Collaboration and escalation
+- Guidance for coordinating with Data Producers/Synthesis Teams when questions arise.
+- Criteria for involving HRL Science Committee or governance leads when standards need updates.

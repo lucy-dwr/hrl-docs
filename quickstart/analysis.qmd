@@ -1,0 +1,25 @@
+---
+title: "Launch an HRL Analysis"
+---
+
+## Goal
+- Guide synthesis teams through setting up a reproducible repository that consumes curated HRL datasets.
+
+## Before you start
+- Confirm hypothesis scope, decision context, and approvals for using sensitive data.
+- Review the Style & Development Guide, reproducibility commitments, and applicable science plans.
+
+## Workflow outline
+- Create a GitHub repository from the HRL analysis template with Quarto scaffolding and CI.
+- Acquire datasets through the HRL catalog/SDKs; log input DOIs, versions, and access constraints.
+- Develop models/analyses in R or Python with parameterized scripts, diagnostics, and metadata-rich outputs.
+- Generate synthesis products (datasets, indicators, figures) and Quarto reports for stakeholders.
+- Package outputs for reintegration (metadata, release tags) and notify the Central Data Team and reporting leads.
+
+## Deliverables
+- Reproducible codebase, published synthesis dataset/model, documentation for reporting and catalog updates.
+- Recommendations or decision-support materials for adaptive management discussions.
+
+## Support and review
+- Peer review expectations, Central Data Team consults, and access to compute resources or specialized tooling.
+- Link to Getting Help guidance for troubleshooting analytical workflows.

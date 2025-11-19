@@ -1,0 +1,25 @@
+---
+title: "Metadata Standards"
+---
+
+## Purpose
+- Ensure every HRL dataset is accompanied by complete, machine-readable metadata aligned with FAIR and CARE commitments.
+
+## Metadata package components
+- Plain-language summaries, contacts, temporal/spatial coverage, methods, QA/QC descriptions, and licensing.
+- Data dictionaries describing variables, units, types, allowed values, and file relationships.
+
+## Standards to cite
+- Ecological Metadata Language (EML) for EDI submissions, plus JSON/CSV metadata for curated datasets and catalog entries.
+- Alignment with HRL schema/vocabulary registries and provenance expectations.
+
+## Authoring workflow
+- Capture metadata at collection, refine during static publication, verify during ingestion/storage, and keep catalog entries synchronized.
+- Tools/templates (Quarto forms, scripts) for building metadata packages efficiently.
+
+## Validation and stewardship
+- Automated linting/validation, metadata review gates, and linkage to QA/QC evidence.
+- Procedures for updating metadata when datasets change versions, including changelog references.
+
+## Sensitive data considerations
+- Document CARE-aligned restrictions, access notes, and embargo policies directly in metadata records.

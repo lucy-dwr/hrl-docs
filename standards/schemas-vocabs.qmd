@@ -1,0 +1,22 @@
+---
+title: "Schemas & Controlled Vocabularies"
+---
+
+## Purpose
+- Define how HRL maintains consistent data structures and categorical values across ingestion, storage, and analysis.
+
+## Schema artifacts
+- Machine-readable schema files (JSON/YAML) per dataset family plus associated data dictionaries.
+- Guidance on tidy data orientation, units, coordinate systems, and missing-value codes.
+
+## Vocabulary management
+- Standard lists for species, locations, habitat types, gear, QA codes, and other enums.
+- Processes for requesting new terms, reviewing changes, and versioning vocabularies.
+
+## Quality and validation
+- Automated checks that enforce schema/vocabulary compliance at ingestion and analysis stages.
+- Error reporting workflows and remediation tracking.
+
+## Governance
+- Ownership by the Central Data Team with review cadence involving the HRL Science Committee.
+- Publication of updates through the data catalog, templates, and quickstarts.

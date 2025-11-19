@@ -2,17 +2,17 @@
 title: "Welcome to the HRL Documentation Hub"
 ---
 
-The [Healthy Rivers and Landscapes program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page) (HRL) is an eight-year interagency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems in the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fish populations and is proposed as part of the implementation program for the State Water Resources Control Board’s Bay-Delta Water Quality Control Plan.
+The [Healthy Rivers and Landscapes program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page) (HRL) is an eight-year interagency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems in the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fish populations and is proposed as part of the program of implementation for the State Water Resources Control Board’s Bay-Delta Water Quality Control Plan.
 
-HRL implementation and adaptive management are guided by a comprehensive [Science Program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page/Science) that investigates how coordinated restoration and environmental flows influence ecological processes and native aquatic species from Sacramento tributary systems to the Bay-Delta estuary. The program is governed by an HRL [Science Committee](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Support-Healthy-Rivers-and-Landscape/VASciProgramDraftCharter.pdf) composed of representatives from HRL signatory entities and technical experts.
+HRL implementation and adaptive management are guided by a comprehensive [Science Program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page/Science) that investigates how coordinated restoration and environmental flows influence ecological processes and native aquatic species from Sacramento tributary systems to the Bay-Delta estuary. The program is governed by a [Science Committee](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Support-Healthy-Rivers-and-Landscape/VASciProgramDraftCharter.pdf) composed of representatives from HRL signatory entities and technical experts.
 
-This website serves as the central hub for documentation, standards, and learning materials that support the data engineering and data science components of the HRL Science Program.
+**This website serves as the central hub for documentation, standards, and learning materials that support the data engineering and data science components of the HRL Science Program.**
 
 ## Purpose of This Site
 
 This documentation website provides:
 
--   **Data governance and data management standards**\
+-   **Data governance and data management standards**
 -   **Core program-wide commitments** related to reproducible science, FAIR and CARE principles, metadata, and versioning
 -   **High-level, conceptual workflows** for data publication, ingestion, storage, and synthesis
 -   **Guidance and onboarding materials** for data producers, analysts, and synthesis teams
@@ -24,10 +24,10 @@ This site focuses on high-level program governance, structures, and workflows. T
 
 If you are new to the HRL Science Program, particularly the data engineering and data science enterprise, start with:
 
--   **About HRL** – Program overview, governance structure, and roles
--   **Program Commitments** – FAIR, CARE, metadata, reproducibility standards
--   **Data Governance** – How data move through HRL’s lifecycle to produce open scientific insights
--   **Quickstarts** – Step-by-step guides to common tasks (e.g., publishing static datasets and metadata on EDI)
+-   [HRL Program Overview](about/overview.qmd) – HRL Program overview, governance structure, and roles
+-   [Program Commitments](principles/commitments.qmd) – HRL program commitments to open, ethical, and reproducible science
+-   [Data Governance](lifecycle/overview.qmd) – How data move through HRL’s lifecycle to produce open scientific insights
+-   [Quickstarts](quickstart/quickstart-catalog.qmd) – Step-by-step guides to common tasks (e.g., publishing static datasets and metadata on EDI, getting help with HRL data science)
 
 As HRL evolves, keystone science documents such as the HRL Science Plan will also be made available as interactive web documents.
 

@@ -1,0 +1,26 @@
+---
+title: "HRL Style & Development Guide"
+---
+
+## Purpose
+- Provide uniform coding, repository, and documentation practices for HRL data publication, ingestion, and analysis projects.
+
+## Repository scaffolding
+- Required folder layout (data-raw, data, scripts, metadata), configuration files, and dependency management (renv, virtual environments).
+- Mandatory files such as README, LICENSE, CONTRIBUTING, CODEOWNERS, and NEWS/changelog.
+
+## Coding standards
+- Naming conventions, linting/formatting rules, and expectations for logging and error handling.
+- R and Python guidance (use of `package::function()`, base pipe, modularized scripts, parameterization).
+
+## Testing and CI/CD
+- Required automated checks (unit tests, schema validation, reproducibility tests) for each repository type.
+- Recommended GitHub Actions/workflow snippets and badges for demonstrating compliance.
+
+## Versioning and release management
+- Semantic versioning rules, tagging strategy, changelog conventions, and linkage to dataset DOIs.
+- Procedures for coordinating releases with EDI submissions or catalog updates.
+
+## Collaboration practices
+- Branching workflows, pull-request reviews, issue templates, and documentation of governance decisions.
+- Expectations for code review participation by Central Data Team or synthesis leads.

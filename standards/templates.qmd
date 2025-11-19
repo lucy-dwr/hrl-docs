@@ -1,0 +1,22 @@
+---
+title: "Templates"
+---
+
+## Purpose
+- Provide reusable scaffolds that help teams comply with HRL standards quickly and consistently.
+
+## Template types
+- Quarto templates for reports, SOPs, and governance documents.
+- GitHub repository templates for data publication, ingestion, and analysis projects.
+- Metadata/data dictionary templates, issue/PR templates, onboarding checklists, and communication briefs.
+
+## How to use the templates
+- Instructions for copying templates, updating placeholders, and linking to relevant standards pages.
+- Checklist for replacing sample text, configuring CI, and documenting customizations.
+
+## Maintenance and feedback
+- Central Data Team process for versioning templates, publishing release notes, and retiring deprecated assets.
+- Channels for requesting new templates or suggesting improvements.
+
+## Alignment with commitments
+- Cross-reference to Style & Development Guide, metadata standards, and FAIR/CARE principles to reinforce consistency.

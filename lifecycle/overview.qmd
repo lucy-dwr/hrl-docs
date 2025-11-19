@@ -1,0 +1,25 @@
+---
+title: "HRL Data Lifecycle Overview"
+---
+
+## Purpose of this page
+- Introduce the HRL-specific lifecycle described in the Data Governance and Management Plan and how it supports transparent, reproducible science.
+- Show how responsibilities shift among Data Producers, the Central Data Team, Synthesis Teams, and the HRL Science Committee.
+
+## Lifecycle phases at a glance
+- [Collection](collection.qmd) – Document approved protocols, metadata capture, and field QA/QC practices.
+- [Static Publication](static-publication.qmd) – Publish cleaned datasets with metadata packages and DOIs through the HRL GitHub + EDI workflow.
+- [Ingestion & Standardization](ingestion-standardization.qmd) – Harmonize static releases, align schemas/vocabularies, and capture provenance.
+- [Storage & Serving](storage-serving.qmd) – Keep curated datasets durable, discoverable, and accessible via catalogs, APIs, and SDKs.
+- [Analysis & Synthesis](analysis-synthesis.qmd) – Run reproducible analyses, create indicators, and return derived products for curation.
+- [Reporting & Communication](reporting-communication.qmd) – Translate findings into annual and triennial products that guide adaptive management.
+
+## Governance touchpoints to highlight
+- Describe Science Committee checkpoints (science plan approval, prioritization, resourcing) tied to each phase.
+- Clarify accountability for Data Producers, Central Data Team engineers, and Synthesis Teams.
+- Note how sensitive/Tribal data agreements constrain movement through the lifecycle.
+
+## How to use this section
+- Provide narrative context for newcomers and link to quickstarts, standards, and reference diagrams.
+- Summarize where SOPs, templates, and decision logs live for each lifecycle phase.
+- Capture updates as HRL policies evolve over the eight-year program.

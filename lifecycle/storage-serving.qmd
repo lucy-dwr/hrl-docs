@@ -1,0 +1,25 @@
+---
+title: "Storage and Serving"
+---
+
+## Objectives
+- Maintain curated datasets securely while keeping them discoverable for synthesis teams and the public.
+- Document durability, backup, and segregation strategies for diverse data types.
+
+## Architecture topics
+- Preferred storage formats (Parquet, GeoParquet, CSV, GeoPackage, GeoTIFF) and redundancy requirements.
+- Backup/restore patterns, lifecycle policies, and management of large/object datasets.
+- Segregation of sensitive or embargoed data with appropriate authentication and authorization controls.
+
+## Access and discovery
+- HRL data catalog expectations (search facets, spatial/temporal filters, metadata sync).
+- Programmatic access paths (APIs, SQL/query services, SDKs/helper functions) and bulk download options.
+- Surfacing version history, changelog notices, and deprecation warnings.
+
+## Metadata and documentation
+- Keeping machine-readable metadata, READMEs, and DOIs synchronized with repository releases.
+- Linking catalog entries back to provenance captured during ingestion and publication.
+
+## Monitoring and notifications
+- Availability/performance monitoring, logging, and alerting.
+- Communication plans when curated datasets update or access methods change.

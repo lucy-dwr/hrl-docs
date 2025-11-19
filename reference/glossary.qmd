@@ -1,0 +1,21 @@
+---
+title: "Glossary"
+---
+
+## Purpose
+- Provide concise definitions so HRL partners use consistent terminology across agencies and workstreams.
+
+## Terms to define
+- **Data Producers** – Organizations responsible for collecting and publishing source data under approved protocols.
+- **Central Data Team** – Interagency engineers/scientists who run ingestion, storage, serving, and shared tooling.
+- **Synthesis Teams** – Analysts generating models, indicators, and reports from curated datasets.
+- **Static Publication** – GitHub + EDI workflow for releasing citable datasets with metadata and DOIs.
+- **Ingestion and Standardization** – Pipelines that harmonize datasets, enforce schemas, and track provenance.
+- **Storage and Serving** – Infrastructure and catalogs that keep curated datasets durable and accessible.
+- **Analysis and Synthesis** – Reproducible modeling/analysis projects that produce derived products.
+- **Reporting and Communication** – Annual, triennial, and final reports derived from lifecycle outputs.
+- Additional vocabulary (FAIR, CARE, DOI, EML, data catalog, semantic versioning, etc.) with cross-links to standards pages.
+
+## Maintenance
+- Note owners for approving new terms or edits and the cadence for reviewing glossary updates.
+- Describe how glossary entries will be cross-linked throughout the site and in quickstarts.

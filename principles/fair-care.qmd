@@ -1,0 +1,23 @@
+---
+title: "FAIR and CARE Principles"
+---
+
+## Purpose
+- Translate HRL commitments to FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective benefit, Authority to control, Responsibility, Ethics) into actionable expectations.
+- Show how these principles guide decisions from collection through reporting.
+
+## FAIR focus areas
+- **Findable** – DOIs, catalog registration, persistent identifiers, and keyword-rich metadata.
+- **Accessible** – Open repositories (EDI, APIs) plus transparent documentation of any access restrictions.
+- **Interoperable** – Shared schemas, controlled vocabularies, tidy data structures, and spatial reference standards.
+- **Reusable** – Provenance, licensing, QA statements, and citation instructions for downstream analyses.
+
+## CARE considerations
+- Formal agreements with Tribes detailing permitted uses, review processes, and benefit-sharing.
+- Flagging sensitive/sovereignty-linked data at collection, publication, and ingestion.
+- Respectful attribution and communication practices in synthesis and reporting outputs.
+
+## Implementation checklist
+- Responsibilities for Data Producers vs. Central Data Team (e.g., metadata authorship, access controls, catalog notes).
+- Templates for capturing CARE requirements and linking them to dataset metadata.
+- Evidence to archive (agreements, approvals, restriction notes) so compliance can be audited.

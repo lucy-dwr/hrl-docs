@@ -1,0 +1,26 @@
+---
+title: "Ingestion and Standardization"
+---
+
+## Purpose
+- Explain how the Central Data Team harvests HRL and external datasets and converts them into interoperable program assets.
+- Show how ingestion supports timely analysis, catalog updates, and downstream reporting.
+
+## Pipeline requirements
+- Version-controlled R/Python pipelines with containers, automation, and CI/CD checks.
+- Provenance capture (source DOI, source version, commit hashes, processing parameters).
+- Ability to ingest static publication releases and synthesis products.
+
+## Harmonization standards
+- Schema alignment (column names, units, data types) and tidy data expectations.
+- Controlled vocabularies for species, habitats, locations, and QA codes.
+- Missing-value conventions and spatial reference requirements.
+
+## Quality management
+- Automated schema validation, cross-dataset consistency checks, and program-level gates (row counts, uniqueness, bounding boxes).
+- Error logging stored with datasets plus remediation workflow.
+
+## Infrastructure and access
+- Cloud-native deployment guidance, container registries, and scheduling/orchestration patterns.
+- Flagging and routing sensitive datasets for special handling during storage and serving.
+- Deliverables for downstream teams (harmonized dataset, machine-readable schema, QA reports).

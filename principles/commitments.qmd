@@ -1,0 +1,23 @@
+---
+title: "Program Commitments"
+---
+
+## Purpose
+- Summarize HRL Science Committee Charter commitments that anchor this documentation hub.
+- Provide a reference map to detailed lifecycle, standards, and quickstart guidance.
+
+## Charter commitments to detail
+- **Standards for data collection** – agreed protocols, thorough documentation, and comparable methods across HRL parties.
+- **Standards for data management** – machine-readable formats, QA/QC evidence, provenance, and CARE-aligned handling of sensitive/Tribal data.
+- **Standards for data access** – publication in open repositories and services with machine-readable metadata and programmatic access.
+- **Standards for integration and analysis** – structured, reproducible workflows with transparent diagnostics and publishable derived products.
+
+## Program-wide priorities
+- **Efficiency and responsiveness** – modular, documented workflows that support annual/triennial reporting and rapid onboarding.
+- **Scalable, future-proof infrastructure** – cloud-native, open, standards-based systems that evolve with tools and data volume.
+- **Program-wide learning** – shared templates, training curricula, and professional development for HRL parties.
+
+## How to use this page
+- Link each commitment to relevant lifecycle and standards pages where detailed procedures live.
+- Capture governance updates when the Science Committee revises commitments or adds new requirements.
+- Offer pointers to decision logs or change histories for transparency.

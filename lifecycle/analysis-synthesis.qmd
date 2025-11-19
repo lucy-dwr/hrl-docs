@@ -1,0 +1,24 @@
+---
+title: "Analysis and Synthesis"
+---
+
+## Purpose
+- Describe how synthesis teams transform curated datasets into indicators, models, and reports that address HRL hypotheses.
+- Emphasize reproducibility, documentation, and reintegration of derived products.
+
+## Workflow expectations
+- Repository conventions per the Style & Development Guide (Quarto scaffolding, dependency management, folder structure).
+- Use of scripted R/Python workflows, parameterized notebooks, and automation for reruns.
+- Integration of curated datasets via the HRL catalog, APIs, or SDKs.
+
+## Documentation requirements
+- READMEs with scope/methods, metadata for derived datasets, and references to input DOIs/versions.
+- Tracking of assumptions, modeling decisions, and analytical diagnostics.
+
+## Quality assurance
+- Continuous integration for linting, tests, and reproducibility checks; peer/code review expectations.
+- Storage of validation artifacts (model fit summaries, residual analyses, etc.).
+
+## Outputs and reintegration
+- Derived datasets, models, indicators, and decision-support tools returned to the Central Data Team.
+- Semantic versioning and DOI assignment for synthesis products plus release communications to reporting teams.

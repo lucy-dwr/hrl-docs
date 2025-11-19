@@ -1,0 +1,21 @@
+---
+title: "Quickstart Catalog"
+---
+
+## How to use this catalog
+- Identify your role/task, skim prerequisite commitments, then jump to the relevant quickstart.
+- Encourage new staff to read the Program Overview, Governance & Roles, and Commitments pages first.
+
+## Available quickstarts
+- [Publish a Static Dataset to EDI](publish-to-edi.qmd) – Clean, document, and release HRL datasets with DOIs.
+- [Ingest Data into the HRL Platform](ingestion.qmd) – Harmonize publications for analysis-ready access.
+- [Launch an HRL Analysis](analysis.qmd) – Set up reproducible synthesis repositories and outputs.
+- [Getting Help](getting-help.qmd) – Navigate support channels and governance touchpoints.
+
+## Suggested prerequisites
+- HRL GitHub organization access, onboarding modules, and familiarity with the Style & Development Guide.
+- Copy of the HRL Data Governance and Management Plan plus relevant science plan materials.
+
+## Additional onboarding resources
+- Training decks, recorded demos, and office hour schedules hosted by the Central Data Team.
+- Links to metadata standards, schema registries, and template repositories referenced throughout the site.

@@ -1,0 +1,23 @@
+---
+title: "Static Publication"
+---
+
+## Purpose
+- Describe how HRL releases cleaned, versioned datasets through GitHub repositories and EDI.
+- Reinforce that static datasets must be reproducible, citable, and accompanied by complete metadata.
+
+## Workflow components
+- Repository setup aligned with the HRL Style & Development Guide (structure, naming, README, licensing).
+- Data cleaning and QA scripts, automation, and continuous integration checks prior to release.
+- Metadata authoring (EML, data dictionaries, plain-language summaries, provenance statements).
+- Submission steps for EDI, DOI minting, and coordination with curators.
+
+## Publication package checklist
+- Required files in open formats plus metadata XML/JSON, README, QA logs, and changelog/NEWS entries.
+- Documentation of Tribal agreements or special access notes when applicable.
+- Sign-off process (project team review, approval routing, notification to the Central Data Team).
+
+## Outputs and handoffs
+- DOI-minted dataset and tagged GitHub release with reproducible code.
+- Communication package for the ingestion team (release notes, schema summary, contact info).
+- Guidance for transferring large/complex files directly to the Central Data Team when needed.

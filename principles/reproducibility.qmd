@@ -1,0 +1,23 @@
+---
+title: "Reproducible Science"
+---
+
+## Purpose
+- Document HRL-wide expectations for transparent, reproducible coding, data engineering, and analytical practices.
+
+## Core commitments
+- Version-controlled R/Python workflows that follow the HRL Style & Development Guide.
+- Continuous integration/testing for data publication, ingestion, and synthesis repositories.
+- Comprehensive documentation of inputs, assumptions, QA steps, and outputs.
+
+## Practices to outline
+- Repository boilerplate (README, CONTRIBUTING, LICENSE, NEWS) plus data dictionaries and metadata files.
+- Use of Quarto for report generation, parameterized workflows, and scripted pipelines.
+- Provenance tracking (dataset DOIs, commit hashes, release tags) and alignment with semantic versioning.
+
+## Review and support mechanisms
+- Peer/code review expectations, Central Data Team consultation routes, and issue tracking norms.
+- Storage of validation artifacts (QA logs, reproduction reports) alongside datasets and releases.
+
+## Resources
+- Pointers to quickstarts, templates, office hours, and other support channels that help teams meet reproducibility goals.

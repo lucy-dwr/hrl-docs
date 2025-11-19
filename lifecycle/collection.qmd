@@ -1,0 +1,23 @@
+---
+title: "Collection"
+---
+
+## Objectives
+- Define what counts as collection (field, lab, and model outputs) across HRL hypotheses.
+- Ensure data type documentation and approved protocols appear in system-level science plans.
+- Emphasize real-time metadata capture and field QA/QC expectations.
+
+## Topics to cover
+- Inventory of common data types plus process for proposing new methods.
+- Required metadata elements (who, when, where, how, equipment, calibration routines).
+- Field QA/QC practices such as calibration logs, duplicates, controls, and environmental notes.
+- Roles for Data Producers and oversight points for the HRL Science Committee/Data Governance Group.
+
+## Inputs and outputs
+- Inputs: approved protocols, instrumentation settings, sampling designs, training materials.
+- Outputs: raw data files, field forms, preliminary QA reports ready for static publication workflows.
+
+## Decision points & governance
+- Explain when protocol updates need approval and how to document that decision.
+- Note notification pathways back to the Central Data Team following collection events.
+- Describe how sensitive/Tribal data agreements are recorded at the point of collection.

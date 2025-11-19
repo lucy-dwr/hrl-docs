@@ -22,10 +22,10 @@ Scientific evaluation occurs through:
 
 HRL science and implementation are organized through an interagency governance structure. Key program roles include:
 
--   **Data Producers** – Collect and publish datasets and metadata following shared protocols
--   **Central Data Team** – Maintain program-level data systems, standards, and tools for analysis, modeling, visualization, and communication
--   **Synthesis Teams** – Analyze curated data to evaluate hypotheses and generate synthesis products
--   **HRL Science Committee** – Provide scientific oversight, prioritization, and guidance
+-   [Data Producers](governance-roles.qmd#data-producers) – Collect and publish datasets and metadata following shared protocols
+-   [Central Data Team](governance-roles.qmd#central-data-team) – Maintain program-level data systems, standards, and tools for analysis, modeling, visualization, and communication
+-   [Synthesis Teams](governance-roles.qmd#synthesis-teams) – Analyze curated data to evaluate hypotheses and generate synthesis products
+-   [HRL Science Committee](governance-roles.qmd#hrl-science-committee) – Provide scientific oversight, prioritization, and guidance
 
 These groups work together to support scientific research and adaptive management and ensure that HRL decisions are informed by rigorous, transparent, and reproducible science.
 

@@ -1,0 +1,22 @@
+---
+title: "Resources"
+---
+
+## Purpose
+- Curate links to program documents, templates, tooling, and training that support HRL data governance commitments.
+
+## Core documents
+- HRL Data Governance and Management Plan, Science Committee Charter, science plans, and governance decisions.
+- Key site pages (Program Overview, Governance & Roles, Commitments) for foundational context.
+
+## Technical resources
+- HRL GitHub organization, Style & Development Guide, metadata standards, schema/vocabulary registries.
+- Data catalog, APIs, SDKs, and infrastructure documentation for accessing curated datasets.
+
+## Training and support
+- Onboarding modules, recorded demos, workshops, and office hour schedules.
+- Contact information for Central Data Team, metadata leads, and governance liaisons.
+
+## Contribution and feedback
+- Instructions for proposing new resources, reporting broken links, or requesting updates.
+- Pointers to issue trackers or forms used to manage resource inventory.

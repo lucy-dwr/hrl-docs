@@ -1,0 +1,25 @@
+---
+title: "Data Architecture Reference"
+---
+
+## Purpose
+- Document the technical architecture that enables HRL data collection, publication, ingestion, storage, analysis, and reporting.
+
+## Layers to describe
+- **Source systems** – Field/lab systems and static publication repositories such as EDI.
+- **Ingestion & processing** – R/Python pipelines, containers, orchestration, and CI/CD services.
+- **Storage & serving** – Cloud object storage, databases, catalogs, APIs, and SDKs.
+- **Access & application** – Dashboards, decision-support tools, reporting pipelines, and user interfaces.
+
+## Cross-cutting concerns
+- Authentication/authorization, segmentation of sensitive data, and compliance with CARE agreements.
+- Observability, logging, monitoring, and incident response procedures.
+- Cost management, scalability, and sustainability over the eight-year program.
+
+## Artifacts to include
+- Architecture diagrams, sequence flows, infrastructure inventories, and dependency lists.
+- References to backup/disaster-recovery strategies and large-file management plans.
+
+## Ownership and evolution
+- Central Data Team roles in maintaining the architecture and proposing enhancements.
+- Change management process for approving new platforms, tools, or integrations via HRL governance bodies.
