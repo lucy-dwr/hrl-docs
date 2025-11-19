@@ -13,6 +13,7 @@ project:
 website:
   title: "HRL Docs"
   bread-crumbs: false
+  page-navigation: true
 
   navbar:
     left:
@@ -33,8 +34,7 @@ website:
     collapse-level: 1
     contents:
       - text: "Welcome"
-        contents:
-          - index.qmd
+        href: index.qmd
 
       - section: "Program Foundations"
         contents:
@@ -73,8 +73,16 @@ website:
           - reference/architecture.qmd
           - reference/resources.qmd
 
+  page-footer:
+    right:
+      - icon: github
+        aria-label: "HRL Docs on GitHub"
+        href: https://github.com/lucy-dwr/hrl-docs
+
 format:
   html:
-    theme: sandstone
+    theme:
+      - sandstone
+      - theme/dwr-overrides.scss
     css: styles.css
     toc: true
