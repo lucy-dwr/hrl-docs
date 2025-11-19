@@ -1,0 +1,74 @@
+/* ===============================
+   Global Layout & Typography
+   =============================== */
+
+/* Headings
+   ------------------------------- */
+
+/* Main page title */
+main h1,
+main .h1 {
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Second-level headings */
+main h2,
+main .h2 {
+  /* Top margin set more specifically below */
+  margin-bottom: 0.75rem;
+}
+
+/* Third-level headings */
+main h3,
+main .h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Ensure generous spacing before any H2 */
+main .section > h2,
+main h2 {
+  margin-top: 3.5rem !important;
+}
+
+/* Sections
+   ------------------------------- */
+
+main section {
+  /* Add a little more breathing room between sections overall */
+  margin-bottom: 2.5rem;
+}
+
+/* Body text
+   ------------------------------- */
+
+main p {
+  /* Slightly increase line height in body text for readability */
+  line-height: 1.6;
+}
+
+/* Lists
+   ------------------------------- */
+
+/* Give lists a bit more air without messing with list-item spacing */
+main ul,
+main ol {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Contextual spacing rules
+   ------------------------------- */
+
+/* Add extra space when a third-level heading follows text or a list */
+main p + h3,
+main ul + h3,
+main ol + h3 {
+  margin-top: 2.5rem;
+}
+
+/* Tighten spacing when a heading is immediately followed by a sub-section heading */
+main section[class^="level"] > :is(h1, h2, h3, h4, h5) + section[class^="level"] > :is(h2, h3, h4, h5, h6) {
+  margin-top: 1.5rem !important;
+}
