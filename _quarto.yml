@@ -52,6 +52,7 @@ website:
           - lifecycle/ingestion-standardization.qmd
           - lifecycle/storage-serving.qmd
           - lifecycle/analysis-synthesis.qmd
+          - lifecycle/reporting-communication.qmd
 
       - section: "Quickstart Guides"
         contents:

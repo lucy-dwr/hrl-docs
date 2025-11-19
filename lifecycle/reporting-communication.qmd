@@ -1,0 +1,17 @@
+---
+title: "Reporting & Communication"
+---
+
+# Reporting & Communication
+
+This page will capture how HRL teams share results, produce artifacts, and close feedback loops across the data lifecycle.
+
+## Purpose
+
+- Outline reporting expectations for each lifecycle phase
+- Document communication pathways between science teams, governance, and partners
+- Provide templates and tools for regular updates
+
+## Coming Soon
+
+Detailed content is still in development. Check back later for finalized guidance on HRL reporting and communication practices.
