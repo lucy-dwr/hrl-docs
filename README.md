@@ -25,3 +25,12 @@ The HRL science documentation website contains information about:
 ### Technical Details
 
 This website is built using Quarto, a scientific and technical publishing system built on Pandoc. The website is rendered using GitHub Pages. We welcome suggestions for how this documentation website can be improved. Visit our [contributing guidelines](.github/CONTRIBUTING.md) for more information on improving the HRL documentation website, and please note that contributors are expected to follow our [code of conduct](.github/CODE_OF_CONDUCT.md).
+
+#### Rendering, Freezing, and Dependencies
+
+- Quarto execution freezing is enabled globally (`execute.freeze: auto` in `_quarto.yml`). On render, Quarto saves cached computations for executable documents in the `_freeze/` directory. Commit those cached outputs whenever you update rendered content so GitHub Actions can publish without re-running code.
+- When you edit a `.qmd` file with executable code, re-run `quarto render` locally to refresh its `_freeze` artifacts. Quarto automatically re-executes any page whose source changed; untouched pages keep their cached results.
+- If you need to force a rebuild of everything (for example, after updating packages), delete `_freeze/` or run `quarto render --no-cache` before committing.
+- R dependencies are managed with [`renv`](https://rstudio.github.io/renv/). After cloning the repo, run `renv::restore()` from R to install the packages pinned in `renv.lock`. When you add or update packages, use `renv::install()` / `renv::snapshot()` so the lockfile stays in sync. GitHub Actions automatically restores the `renv` environment before rendering.
+
+With this workflow, everyday commits render locally with frozen outputs, and GitHub Actions simply republishes the already-computed site while remaining ready for future, more rigorous dependency management.
