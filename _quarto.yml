@@ -43,7 +43,7 @@ website:
         contents:
           - about/overview.qmd
           - about/governance-roles.qmd
-          - principles/commitments.qmd
+          - principles/charter.qmd
           - principles/fair-care.qmd
           - principles/reproducibility.qmd
 

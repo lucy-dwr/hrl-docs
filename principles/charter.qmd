@@ -1,5 +1,5 @@
 ---
-title: "HRL Science Program Commitments"
+title: "Science Charter Commitments"
 ---
 
 The [HRL Science Committee Charter](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Support-Healthy-Rivers-and-Landscape/VASciProgramDraftCharter.pdf), particularly Appendix D, describes the commitments that guide data collection, publication, and analysis activities under the HRL Science Program. This page summarizes those commitments so that HRL Program partners understand the expectations that underpin the rest of this documentation hub. Use it as a quick refresher before diving into detailed guidance on the data lifecycle, standards, or common activities.
