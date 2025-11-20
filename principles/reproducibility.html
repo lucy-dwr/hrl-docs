@@ -361,11 +361,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#core-commitments" id="toc-core-commitments" class="nav-link" data-scroll-target="#core-commitments">Core commitments</a></li>
-  <li><a href="#practices-to-outline" id="toc-practices-to-outline" class="nav-link" data-scroll-target="#practices-to-outline">Practices to outline</a></li>
-  <li><a href="#review-and-support-mechanisms" id="toc-review-and-support-mechanisms" class="nav-link" data-scroll-target="#review-and-support-mechanisms">Review and support mechanisms</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#reproducibility-essentials" id="toc-reproducibility-essentials" class="nav-link active" data-scroll-target="#reproducibility-essentials">Reproducibility Essentials</a></li>
+  <li><a href="#why-reproducibility-matters" id="toc-why-reproducibility-matters" class="nav-link" data-scroll-target="#why-reproducibility-matters">Why Reproducibility Matters</a></li>
+  <li><a href="#reproducible-code-and-software-practices" id="toc-reproducible-code-and-software-practices" class="nav-link" data-scroll-target="#reproducible-code-and-software-practices">Reproducible Code and Software Practices</a></li>
+  <li><a href="#support-and-resources" id="toc-support-and-resources" class="nav-link" data-scroll-target="#support-and-resources">Support and resources</a></li>
   </ul>
 </nav>
     </div>
@@ -391,39 +390,75 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<p><strong>Reproducibility is the ability for another person to understand, repeat, and validate scientific results.</strong> In practice, this means people can see the data, methods, assumptions, and decisions that produced a result and can rerun the same steps (or adapt them) with confidence and minimal effort. This page explains HRL-wide expectations for reproducibility at a high level; detailed “how-to” guidance lives in the HRL Style and Development Guide and related resources (links will be added here when public).</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="At a glance">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>At a glance
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>Document HRL-wide expectations for transparent, reproducible coding, data engineering, and analytical practices.</li>
+<li>Reproducibility means others can see the data, methods, and decisions in an analysis and rerun the same steps with confidence to produce the same results.</li>
+<li>HRL parties commit to stable data and metadata with unique identifiers, clearly scoped and documented datasets and analyses, documented and executable workflows with version control, and adherence to data use and sovereignty agreements.</li>
+<li>HRL parties use GitHub repositories with version control, captured environments, and CI/CD so workflows run the same every release.</li>
+<li>HRL-specific templates and GitHub workflows are provided to support reproducibility; see quickstarts and resources for more detail.</li>
+</ul>
+</div>
+</div>
+<section id="reproducibility-essentials" class="level2">
+<h2 class="anchored" data-anchor-id="reproducibility-essentials">Reproducibility Essentials</h2>
+<p>The HRL program strives for reproducibility through these key expectations:</p>
+<ul>
+<li><strong>Define the purpose and scope</strong> of data products and analyses so others understand what each dataset or analysis represents and answers.</li>
+<li><strong>Keep data, metadata, and documentation</strong> in stable, accessible locations with persistent identifiers (e.g., DOIs).</li>
+<li><strong>Record every step from raw data to reported findings</strong> in executable workflows with quality checks, decisions, assumptions, and environment and dependencies management.</li>
+<li><strong>Use automated tests and continuous integration/continuous deployment</strong> to catch regressions early and keep workflows reproducible with every release.</li>
+<li><strong>Maintain version control</strong> using common tools (e.g., git and GitHub) so that data products and results always trace back to the exact inputs, versions, and parameters used and important changes can be easily identified.</li>
+<li><strong>Honor data sharing agreements</strong> by carrying forward access notes and restrictions for governed data.</li>
+<li><strong>Document workflows, checkpoints, and artifacts</strong> so they can be audited and improved over the life of the program.</li>
 </ul>
 </section>
-<section id="core-commitments" class="level2">
-<h2 class="anchored" data-anchor-id="core-commitments">Core commitments</h2>
+<section id="why-reproducibility-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-reproducibility-matters">Why Reproducibility Matters</h2>
+<p>By making our scientific work rigorously reproducible, HRL parties:</p>
 <ul>
-<li>Version-controlled R/Python workflows that follow the HRL Style &amp; Development Guide.</li>
-<li>Continuous integration/testing for data publication, ingestion, and synthesis repositories.</li>
-<li>Comprehensive documentation of inputs, assumptions, QA steps, and outputs.</li>
+<li><strong>Build trust</strong> in program decisions by showing how evidence was produced.</li>
+<li><strong>Speed onboarding and collaboration</strong> across agencies, contractors, and partners.</li>
+<li><strong>Reduce duplicated effort and inefficiency</strong> by turning one-off analyses into repeatable workflows for annual and triennial reporting.</li>
+<li><strong>Protect continuity</strong> when staff change, ensuring that knowledge and processes are retained and auditable.</li>
+<li><strong>Align with HRL commitments</strong> to FAIR, CARE, and open science.</li>
 </ul>
 </section>
-<section id="practices-to-outline" class="level2">
-<h2 class="anchored" data-anchor-id="practices-to-outline">Practices to outline</h2>
+<section id="reproducible-code-and-software-practices" class="level2">
+<h2 class="anchored" data-anchor-id="reproducible-code-and-software-practices">Reproducible Code and Software Practices</h2>
+<p>Detailed implementation standards, such as repository structures, naming conventions, dependency and environment management, testing, and automation, are provided in the HRL Style and Development Guide (link to be added when published). At a minimum:</p>
 <ul>
-<li>Repository boilerplate (README, CONTRIBUTING, LICENSE, NEWS) plus data dictionaries and metadata files.</li>
-<li>Use of Quarto for report generation, parameterized workflows, and scripted pipelines.</li>
-<li>Provenance tracking (dataset DOIs, commit hashes, release tags) and alignment with semantic versioning.</li>
+<li><strong>Keep work in HRL-managed GitHub repositories</strong> with clear commit histories, branches, pull requests, documentation, and tags for releases.</li>
+<li><strong>Use the provided templates</strong> for static data publication, ingestion, and analysis repositories instead of ad hoc folder structures.</li>
+<li><strong>Capture environment details</strong> (e.g., software versions, parameters, and configuration files) so workflows run consistently on local machines and in automated checks.</li>
+<li><strong>Use deterministic processes</strong>, such as random seed specification, where possible to ensure the same inputs always yield the same outputs.</li>
+<li><strong>Run automated checks</strong> where available in a CI/CD framework (e.g., style, tests, and schema validation) before releasing datasets or analysis results.</li>
+<li><strong>Track decisions and issues</strong> in repository issue trackers so future users understand why changes were made.</li>
 </ul>
 </section>
-<section id="review-and-support-mechanisms" class="level2">
-<h2 class="anchored" data-anchor-id="review-and-support-mechanisms">Review and support mechanisms</h2>
+<section id="support-and-resources" class="level2">
+<h2 class="anchored" data-anchor-id="support-and-resources">Support and resources</h2>
 <ul>
-<li>Peer/code review expectations, Central Data Team consultation routes, and issue tracking norms.</li>
-<li>Storage of validation artifacts (QA logs, reproduction reports) alongside datasets and releases.</li>
-</ul>
-</section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<li><a href="../lifecycle/overview.html">Data Lifecycle Overview</a> – How collection, publication, ingestion, storage, analysis, and reporting connect across the HRL Science Program.</li>
+<li><a href="../about/governance-roles.html">Governance and Roles</a> – Responsibilities across Data Producers, the Central Data Team, Synthesis Teams, and the HRL Science Committee.</li>
+<li>Quickstarts:
 <ul>
-<li>Pointers to quickstarts, templates, office hours, and other support channels that help teams meet reproducibility goals.</li>
+<li><a href="../quickstart/publish-to-edi.html">Publish a Static Dataset to EDI</a></li>
+<li><a href="../quickstart/ingestion.html">Ingest Data into the HRL Platform</a></li>
+<li><a href="../quickstart/analysis.html">Launch an HRL Analysis</a></li>
+<li><a href="../quickstart/getting-help.html">Getting Help</a></li>
+</ul></li>
+<li>HRL Style and Development Guide – Source of detailed practices, code style, templates, and automation (link will be added here when the public guide is available).</li>
+<li><a href="https://doi.org/10.17226/25303">Reproducibility and Replicability in Science</a> – National Academies publication that defines and discusses best practices for reproducibility and replicability in science.</li>
 </ul>
 
 

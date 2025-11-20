@@ -748,7 +748,7 @@
     "href": "principles/fair-care.html",
     "title": "FAIR and CARE Principles",
     "section": "",
-    "text": "HRL’s Science Program commits to creating data assets that are open, reusable, and respectful of Tribal sovereignty and community priorities. The FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) frameworks serve as the shared language for those commitments. This page translates the frameworks into practical expectations that Data Producers, the Central Data Team, and Synthesis Teams can apply across every phase of the HRL Data Lifecycle.",
+    "text": "The HRL Science Program commits to creating data assets that are open, reusable, and respectful of Tribal sovereignty and community priorities. The FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) frameworks serve as the shared language for those commitments. This page translates the frameworks into practical expectations that Data Producers, the Central Data Team, and Synthesis Teams can apply across every phase of the HRL Data Lifecycle.",
     "crumbs": [
       "Home",
       "Program Foundations",
@@ -760,7 +760,7 @@
     "href": "principles/fair-care.html#fair-and-care-at-a-glance",
     "title": "FAIR and CARE Principles",
     "section": "FAIR and CARE at a glance",
-    "text": "FAIR and CARE at a glance\n\nFAIR\nThe FAIR Guiding Principles for scientific data management and stewardship were published in 2016 to improve the ability of both humans and machines to find, access, interoperate, and reuse scientific data.\n\n\n\n\n\n\n\n\n\nPrinciple\n\n\nDefinition\n\n\nHRL Expectation\n\n\n\n\n\n\nFindable\n\n\nData and metadata carry persistent identifiers and can be discovered through catalogs and search.\n\n\n\n\nRegister DOIs and expose them through the HRL data catalog and common repositories.\n\n\nProvide structured inventories and keyword-rich, semantically-meaningful metadata (e.g., spatial/temporal coverage, parameters) so catalogs, APIs, and portals harvest records automatically.\n\n\n\n\n\n\nAccessible\n\n\nUsers can retrieve data via standard protocols with transparent documentation and notice of any limits.\n\n\n\n\nHost datasets on repositories with stable API endpoints and open download options that serve users with varied levels of technical sophistication.\n\n\nWhere relevant, document authentication steps and contact points and maintain access notes, embargoes with renewal dates, and Tribal review requirements.\n\n\nUpdate metadata when access pathways or restrictions change so downstream users and catalogs stay accurate.\n\n\n\n\n\n\nInteroperable\n\n\nData use shared languages, vocabularies, and formats to integrate with other systems.\n\n\n\n\nPublish tidy data using HRL-approved schemas, controlled vocabularies, and consistent spatial references.\n\n\nDistribute data dictionaries, JSON schemas, and frictionless packages so ingestion workflows can validate inputs.\n\n\nEncode units, qualifiers, and missing-value conventions in machine-readable formats aligned with HRL standards to avoid ambiguity.\n\n\n\n\n\n\nReusable\n\n\nData include clear provenance, licensing, and quality statements so others can reuse them responsibly.\n\n\n\n\nBundle QA/QC logs, provenance code, and uncertainty and use notes with each data publication package and synthesis release.\n\n\nSpecify licenses and citation instructions so downstream users understand reuse terms.\n\n\nRecord provenance (raw inputs, code versions, DOIs) and a contact for questions or clarifications.\n\n\n\n\n\n\n\n\nCARE\nThe CARE Principles for Indigenous Data Governance were published in 2020 to ensure that scientific data practices respect Indigenous sovereignty and promote equitable benefits for Indigenous Peoples and local communities. The CARE Principles are motivated by the recognition that data about Indigenous Peoples and collected by them are frequently suppressed, stolen, misused, and mishandled by in ways that perpetuate harm and extractive relationships.\n\n\n\n\n\n\n\n\n\nPrinciple\n\n\nDefinition\n\n\nHRL Expectation\n\n\n\n\n\n\nCollective Benefit\n\n\nData activities should generate measurable value for Indigenous Peoples and affected communities.\n\n\n\n\nCo-design monitoring objectives and document expected Tribal and community outcomes in metadata and other research materials.\n\n\nDescribe feedback loops (e.g., shared interpretation, co-developed indicators) before distributing data.\n\n\n\n\n\n\nAuthority to Control\n\n\nIndigenous Peoples retain rights to govern the creation, stewardship, dissemination, and use of data about them and/or collected by them.\n\n\n\n\nCapture formal data sharing and management agreements and archive them with publication packages.\n\n\nApply sovereignty flags at collection and downstream processing steps so that storage, catalog, and reporting workflows enforce access controls.\n\n\n\n\n\n\nResponsibility\n\n\nData stewards must uphold obligations for security, transparency, and capacity building.\n\n\n\n\nAssign contacts for stewardship, data sharing and management agreement renewal, and incident response.\n\n\nLog training requirements and provide channels for Tribes and communities to audit usage or request updates.\n\n\n\n\n\n\nEthics\n\n\nData practices must minimize harm and respect cultural protocols and context.\n\n\n\n\nRequire Tribal or community review checkpoints before publication or synthesis, in alignment with data sharing and management agreements.\n\n\nAdopt respectful language in metadata, dashboards, and reports and archive approvals with the dataset record.",
+    "text": "FAIR and CARE at a glance\n\nFAIR\nThe FAIR Guiding Principles for scientific data management and stewardship were published in 2016 to improve the ability of both humans and machines to find, access, interoperate, and reuse scientific data.\n\n\n\n\n\n\n\n\n\nPrinciple\n\n\nDefinition\n\n\nHRL Expectation\n\n\n\n\n\n\nFindable\n\n\nData and metadata carry persistent identifiers and can be discovered through catalogs and search.\n\n\n\n\nRegister DOIs and expose them through the HRL data catalog and common repositories.\n\n\nProvide structured inventories and keyword-rich, semantically-meaningful metadata (e.g., spatial/temporal coverage, parameters) so catalogs, APIs, and portals harvest records automatically.\n\n\n\n\n\n\nAccessible\n\n\nUsers can retrieve data via standard protocols with transparent documentation and notice of any limits.\n\n\n\n\nHost datasets on repositories with stable API endpoints and open download options that serve users with varied levels of technical sophistication.\n\n\nWhere relevant, document authentication steps and contact points and maintain access notes, embargoes with renewal dates, and Tribal review requirements.\n\n\nUpdate metadata when access pathways or restrictions change so downstream users and catalogs stay accurate.\n\n\n\n\n\n\nInteroperable\n\n\nData use shared languages, vocabularies, and formats to integrate with other systems.\n\n\n\n\nPublish tidy data using HRL-approved schemas, controlled vocabularies, and consistent spatial references.\n\n\nDistribute data dictionaries, JSON schemas, and frictionless packages so ingestion workflows can validate inputs.\n\n\nEncode units, qualifiers, and missing-value conventions in machine-readable formats aligned with HRL standards to avoid ambiguity.\n\n\n\n\n\n\nReusable\n\n\nData include clear provenance, licensing, and quality statements so others can reuse them responsibly.\n\n\n\n\nBundle QA/QC logs, provenance code, and uncertainty and use notes with each data publication package and synthesis release.\n\n\nSpecify licenses and citation instructions so downstream users understand reuse terms.\n\n\nRecord provenance (raw inputs, code versions, DOIs) and a contact for questions or clarifications.\n\n\n\n\n\n\n\n\nCARE\nThe CARE Principles for Indigenous Data Governance were published in 2020 to ensure that scientific data practices respect Indigenous sovereignty and promote equitable benefits for Indigenous Peoples and local communities. The CARE Principles are motivated by the recognition that data about Indigenous Peoples and collected by them are frequently suppressed, stolen, misused, and mishandled in ways that perpetuate harm and extractive relationships.\n\n\n\n\n\n\n\n\n\nPrinciple\n\n\nDefinition\n\n\nHRL Expectation\n\n\n\n\n\n\nCollective Benefit\n\n\nData activities should generate measurable value for Indigenous Peoples and affected communities.\n\n\n\n\nCo-design monitoring objectives and document expected Tribal and community outcomes in metadata and other research materials.\n\n\nDescribe feedback loops (e.g., shared interpretation, co-developed indicators) before distributing data.\n\n\n\n\n\n\nAuthority to Control\n\n\nIndigenous Peoples retain rights to govern the creation, stewardship, dissemination, and use of data about them and/or collected by them.\n\n\n\n\nCapture formal data sharing and management agreements and archive them with publication packages.\n\n\nApply sovereignty flags at collection and downstream processing steps so that storage, catalog, and reporting workflows enforce access controls.\n\n\n\n\n\n\nResponsibility\n\n\nData stewards must uphold obligations for security, transparency, and capacity building.\n\n\n\n\nAssign contacts for stewardship, data sharing and management agreement renewal, and incident response.\n\n\nLog training requirements and provide channels for Tribes and communities to audit usage or request updates.\n\n\n\n\n\n\nEthics\n\n\nData practices must minimize harm and respect cultural protocols and context.\n\n\n\n\nRequire Tribal or community review checkpoints before publication or synthesis, in alignment with data sharing and management agreements.\n\n\nAdopt respectful language in metadata, dashboards, and reports and archive approvals with the dataset record.",
     "crumbs": [
       "Home",
       "Program Foundations",
@@ -792,11 +792,11 @@
     ]
   },
   {
-    "objectID": "principles/fair-care.html#supporting-resources",
-    "href": "principles/fair-care.html#supporting-resources",
+    "objectID": "principles/fair-care.html#resources",
+    "href": "principles/fair-care.html#resources",
     "title": "FAIR and CARE Principles",
-    "section": "Supporting resources",
-    "text": "Supporting resources\n\nScience Charter Commitments – overarching governance statements that FAIR/CARE workflows implement.\nGovernance and Roles – descriptions of Data Producers, Central Data Team, and synthesis leads.\nMetadata Standards – templates and vocabularies for recording FAIR and CARE metadata fields.",
+    "section": "Resources",
+    "text": "Resources\n\nScience Committee Charter Commitments – overarching governance statements that FAIR/CARE workflows implement.\nData Governance and Roles – descriptions of Data Producers, Central Data Team, and synthesis leads.\nMetadata Standards – templates and vocabularies for recording FAIR and CARE metadata fields.",
     "crumbs": [
       "Home",
       "Program Foundations",
@@ -1020,7 +1020,7 @@
     "href": "principles/reproducibility.html",
     "title": "Reproducible Science",
     "section": "",
-    "text": "Document HRL-wide expectations for transparent, reproducible coding, data engineering, and analytical practices.",
+    "text": "Reproducibility is the ability for another person to understand, repeat, and validate scientific results. In practice, this means people can see the data, methods, assumptions, and decisions that produced a result and can rerun the same steps (or adapt them) with confidence and minimal effort. This page explains HRL-wide expectations for reproducibility at a high level; detailed “how-to” guidance lives in the HRL Style and Development Guide and related resources (links will be added here when public).",
     "crumbs": [
       "Home",
       "Program Foundations",
@@ -1028,11 +1028,11 @@
     ]
   },
   {
-    "objectID": "principles/reproducibility.html#purpose",
-    "href": "principles/reproducibility.html#purpose",
+    "objectID": "principles/reproducibility.html#reproducibility-essentials",
+    "href": "principles/reproducibility.html#reproducibility-essentials",
     "title": "Reproducible Science",
-    "section": "",
-    "text": "Document HRL-wide expectations for transparent, reproducible coding, data engineering, and analytical practices.",
+    "section": "Reproducibility Essentials",
+    "text": "Reproducibility Essentials\nThe HRL program strives for reproducibility through these key expectations:\n\nDefine the purpose and scope of data products and analyses so others understand what each dataset or analysis represents and answers.\nKeep data, metadata, and documentation in stable, accessible locations with persistent identifiers (e.g., DOIs).\nRecord every step from raw data to reported findings in executable workflows with quality checks, decisions, assumptions, and environment and dependencies management.\nUse automated tests and continuous integration/continuous deployment to catch regressions early and keep workflows reproducible with every release.\nMaintain version control using common tools (e.g., git and GitHub) so that data products and results always trace back to the exact inputs, versions, and parameters used and important changes can be easily identified.\nHonor data sharing agreements by carrying forward access notes and restrictions for governed data.\nDocument workflows, checkpoints, and artifacts so they can be audited and improved over the life of the program.",
     "crumbs": [
       "Home",
       "Program Foundations",
@@ -1040,11 +1040,11 @@
     ]
   },
   {
-    "objectID": "principles/reproducibility.html#core-commitments",
-    "href": "principles/reproducibility.html#core-commitments",
+    "objectID": "principles/reproducibility.html#why-reproducibility-matters",
+    "href": "principles/reproducibility.html#why-reproducibility-matters",
     "title": "Reproducible Science",
-    "section": "Core commitments",
-    "text": "Core commitments\n\nVersion-controlled R/Python workflows that follow the HRL Style & Development Guide.\nContinuous integration/testing for data publication, ingestion, and synthesis repositories.\nComprehensive documentation of inputs, assumptions, QA steps, and outputs.",
+    "section": "Why Reproducibility Matters",
+    "text": "Why Reproducibility Matters\nBy making our scientific work rigorously reproducible, HRL parties:\n\nBuild trust in program decisions by showing how evidence was produced.\nSpeed onboarding and collaboration across agencies, contractors, and partners.\nReduce duplicated effort and inefficiency by turning one-off analyses into repeatable workflows for annual and triennial reporting.\nProtect continuity when staff change, ensuring that knowledge and processes are retained and auditable.\nAlign with HRL commitments to FAIR, CARE, and open science.",
     "crumbs": [
       "Home",
       "Program Foundations",
@@ -1052,11 +1052,11 @@
     ]
   },
   {
-    "objectID": "principles/reproducibility.html#practices-to-outline",
-    "href": "principles/reproducibility.html#practices-to-outline",
+    "objectID": "principles/reproducibility.html#reproducible-code-and-software-practices",
+    "href": "principles/reproducibility.html#reproducible-code-and-software-practices",
     "title": "Reproducible Science",
-    "section": "Practices to outline",
-    "text": "Practices to outline\n\nRepository boilerplate (README, CONTRIBUTING, LICENSE, NEWS) plus data dictionaries and metadata files.\nUse of Quarto for report generation, parameterized workflows, and scripted pipelines.\nProvenance tracking (dataset DOIs, commit hashes, release tags) and alignment with semantic versioning.",
+    "section": "Reproducible Code and Software Practices",
+    "text": "Reproducible Code and Software Practices\nDetailed implementation standards, such as repository structures, naming conventions, dependency and environment management, testing, and automation, are provided in the HRL Style and Development Guide (link to be added when published). At a minimum:\n\nKeep work in HRL-managed GitHub repositories with clear commit histories, branches, pull requests, documentation, and tags for releases.\nUse the provided templates for static data publication, ingestion, and analysis repositories instead of ad hoc folder structures.\nCapture environment details (e.g., software versions, parameters, and configuration files) so workflows run consistently on local machines and in automated checks.\nUse deterministic processes, such as random seed specification, where possible to ensure the same inputs always yield the same outputs.\nRun automated checks where available in a CI/CD framework (e.g., style, tests, and schema validation) before releasing datasets or analysis results.\nTrack decisions and issues in repository issue trackers so future users understand why changes were made.",
     "crumbs": [
       "Home",
       "Program Foundations",
@@ -1064,23 +1064,11 @@
     ]
   },
   {
-    "objectID": "principles/reproducibility.html#review-and-support-mechanisms",
-    "href": "principles/reproducibility.html#review-and-support-mechanisms",
+    "objectID": "principles/reproducibility.html#support-and-resources",
+    "href": "principles/reproducibility.html#support-and-resources",
     "title": "Reproducible Science",
-    "section": "Review and support mechanisms",
-    "text": "Review and support mechanisms\n\nPeer/code review expectations, Central Data Team consultation routes, and issue tracking norms.\nStorage of validation artifacts (QA logs, reproduction reports) alongside datasets and releases.",
-    "crumbs": [
-      "Home",
-      "Program Foundations",
-      "Reproducible Science"
-    ]
-  },
-  {
-    "objectID": "principles/reproducibility.html#resources",
-    "href": "principles/reproducibility.html#resources",
-    "title": "Reproducible Science",
-    "section": "Resources",
-    "text": "Resources\n\nPointers to quickstarts, templates, office hours, and other support channels that help teams meet reproducibility goals.",
+    "section": "Support and resources",
+    "text": "Support and resources\n\nData Lifecycle Overview – How collection, publication, ingestion, storage, analysis, and reporting connect across the HRL Science Program.\nGovernance and Roles – Responsibilities across Data Producers, the Central Data Team, Synthesis Teams, and the HRL Science Committee.\nQuickstarts:\n\nPublish a Static Dataset to EDI\nIngest Data into the HRL Platform\nLaunch an HRL Analysis\nGetting Help\n\nHRL Style and Development Guide – Source of detailed practices, code style, templates, and automation (link will be added here when the public guide is available).\nReproducibility and Replicability in Science – National Academies publication that defines and discusses best practices for reproducibility and replicability in science.",
     "crumbs": [
       "Home",
       "Program Foundations",
