@@ -2,22 +2,56 @@
 title: "Reproducible Science"
 ---
 
-## Purpose
-- Document HRL-wide expectations for transparent, reproducible coding, data engineering, and analytical practices.
+**Reproducibility is the ability for another person to understand, repeat, and validate scientific results.** In practice, this means people can see the data, methods, assumptions, and decisions that produced a result and can rerun the same steps (or adapt them) with confidence and minimal effort. This page explains HRL-wide expectations for reproducibility at a high level; detailed “how-to” guidance lives in the HRL Style and Development Guide and related resources (links will be added here when public).
 
-## Core commitments
-- Version-controlled R/Python workflows that follow the HRL Style & Development Guide.
-- Continuous integration/testing for data publication, ingestion, and synthesis repositories.
-- Comprehensive documentation of inputs, assumptions, QA steps, and outputs.
+::: {.callout-tip title="At a glance"}
+- Reproducibility means others can see the data, methods, and decisions in an analysis and rerun the same steps with confidence to produce the same results.
+- HRL parties commit to stable data and metadata with unique identifiers, clearly scoped and documented datasets and analyses, documented and executable workflows with version control, and adherence to data use and sovereignty agreements.
+- HRL parties use GitHub repositories with version control, captured environments, and CI/CD so workflows run the same every release.
+- HRL-specific templates and GitHub workflows are provided to support reproducibility; see quickstarts and resources for more detail.
+:::
 
-## Practices to outline
-- Repository boilerplate (README, CONTRIBUTING, LICENSE, NEWS) plus data dictionaries and metadata files.
-- Use of Quarto for report generation, parameterized workflows, and scripted pipelines.
-- Provenance tracking (dataset DOIs, commit hashes, release tags) and alignment with semantic versioning.
+## Reproducibility Essentials
 
-## Review and support mechanisms
-- Peer/code review expectations, Central Data Team consultation routes, and issue tracking norms.
-- Storage of validation artifacts (QA logs, reproduction reports) alongside datasets and releases.
+The HRL program strives for reproducibility through these key expectations:
 
-## Resources
-- Pointers to quickstarts, templates, office hours, and other support channels that help teams meet reproducibility goals.
+- **Define the purpose and scope** of data products and analyses so others understand what each dataset or analysis represents and answers.
+- **Keep data, metadata, and documentation** in stable, accessible locations with persistent identifiers (e.g., DOIs).
+- **Record every step from raw data to reported findings** in executable workflows with quality checks, decisions, assumptions, and environment and dependencies management.
+- **Use automated tests and continuous integration/continuous deployment** to catch regressions early and keep workflows reproducible with every release.
+- **Maintain version control** using common tools (e.g., git and GitHub) so that data products and results always trace back to the exact inputs, versions, and parameters used and important changes can be easily identified.
+- **Honor data sharing agreements** by carrying forward access notes and restrictions for governed data.
+- **Document workflows, checkpoints, and artifacts** so they can be audited and improved over the life of the program.
+
+## Why Reproducibility Matters
+
+By making our scientific work rigorously reproducible, HRL parties:
+
+- **Build trust** in program decisions by showing how evidence was produced.
+- **Speed onboarding and collaboration** across agencies, contractors, and partners.
+- **Reduce duplicated effort and inefficiency** by turning one-off analyses into repeatable workflows for annual and triennial reporting.
+- **Protect continuity** when staff change, ensuring that knowledge and processes are retained and auditable.
+- **Align with HRL commitments** to FAIR, CARE, and open science.
+
+## Reproducible Code and Software Practices
+
+Detailed implementation standards, such as repository structures, naming conventions, dependency and environment management, testing, and automation, are provided in the HRL Style and Development Guide (link to be added when published). At a minimum:
+
+- **Keep work in HRL-managed GitHub repositories** with clear commit histories, branches, pull requests, documentation, and tags for releases.
+- **Use the provided templates** for static data publication, ingestion, and analysis repositories instead of ad hoc folder structures.
+- **Capture environment details** (e.g., software versions, parameters, and configuration files) so workflows run consistently on local machines and in automated checks.
+- **Use deterministic processes**, such as random seed specification, where possible to ensure the same inputs always yield the same outputs.
+- **Run automated checks** where available in a CI/CD framework (e.g., style, tests, and schema validation) before releasing datasets or analysis results.
+- **Track decisions and issues** in repository issue trackers so future users understand why changes were made.
+
+## Support and resources
+
+- [Data Lifecycle Overview](../lifecycle/overview.qmd) – How collection, publication, ingestion, storage, analysis, and reporting connect across the HRL Science Program.
+- [Governance and Roles](../about/governance-roles.qmd) – Responsibilities across Data Producers, the Central Data Team, Synthesis Teams, and the HRL Science Committee.
+- Quickstarts:
+    - [Publish a Static Dataset to EDI](../quickstart/publish-to-edi.qmd)
+    - [Ingest Data into the HRL Platform](../quickstart/ingestion.qmd)
+    - [Launch an HRL Analysis](../quickstart/analysis.qmd)
+    - [Getting Help](../quickstart/getting-help.qmd)
+- HRL Style and Development Guide – Source of detailed practices, code style, templates, and automation (link will be added here when the public guide is available).
+- [Reproducibility and Replicability in Science](https://doi.org/10.17226/25303) – National Academies publication that defines and discusses best practices for reproducibility and replicability in science.
