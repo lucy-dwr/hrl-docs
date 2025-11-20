@@ -43,6 +43,11 @@ main section {
 /* Body text
    ------------------------------- */
 
+/* Slightly reduce base body text size without altering headings/navigation */
+main {
+  font-size: 0.9rem;
+}
+
 main p {
   /* Slightly increase line height in body text for readability */
   line-height: 1.6;
