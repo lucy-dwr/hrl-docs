@@ -2,7 +2,7 @@
 title: "FAIR and CARE Principles"
 ---
 
-HRL’s Science Program commits to creating data assets that are open, reusable, and respectful of Tribal sovereignty and community priorities. The FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) frameworks serve as the shared language for those commitments. This page translates the frameworks into practical expectations that Data Producers, the Central Data Team, and Synthesis Teams can apply across every phase of the HRL Data Lifecycle.
+The HRL Science Program commits to creating data assets that are open, reusable, and respectful of Tribal sovereignty and community priorities. The FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) frameworks serve as the shared language for those commitments. This page translates the frameworks into practical expectations that Data Producers, the Central Data Team, and Synthesis Teams can apply across every phase of the HRL Data Lifecycle.
 
 <style>
 .fair-care-table {
@@ -112,7 +112,7 @@ The [FAIR Guiding Principles](https://www.go-fair.org/fair-principles/) for scie
 
 ### CARE
 
-The [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care) were [published in 2020](https://datascience.codata.org/articles/dsj-2020-043) to ensure that scientific data practices respect Indigenous sovereignty and promote equitable benefits for Indigenous Peoples and local communities. The CARE Principles are motivated by the recognition that data about Indigenous Peoples and collected by them are frequently suppressed, stolen, misused, and mishandled by in ways that perpetuate harm and extractive relationships.
+The [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care) were [published in 2020](https://datascience.codata.org/articles/dsj-2020-043) to ensure that scientific data practices respect Indigenous sovereignty and promote equitable benefits for Indigenous Peoples and local communities. The CARE Principles are motivated by the recognition that data about Indigenous Peoples and collected by them are frequently suppressed, stolen, misused, and mishandled in ways that perpetuate harm and extractive relationships.
 
 <table class="table fair-care-table">
 <colgroup>
@@ -336,8 +336,8 @@ Use this table as a quick crosswalk for what FAIR and CARE look like at each poi
 </tbody>
 </table>
 
-## Supporting resources
+## Resources
 
-- [Science Charter Commitments](charter.qmd) – overarching governance statements that FAIR/CARE workflows implement.
-- [Governance and Roles](../about/governance-roles.qmd) – descriptions of Data Producers, Central Data Team, and synthesis leads.
+- [Science Committee Charter Commitments](charter.qmd) – overarching governance statements that FAIR/CARE workflows implement.
+- [Data Governance and Roles](../about/governance-roles.qmd) – descriptions of Data Producers, Central Data Team, and synthesis leads.
 - [Metadata Standards](../standards/metadata.qmd) – templates and vocabularies for recording FAIR and CARE metadata fields.
