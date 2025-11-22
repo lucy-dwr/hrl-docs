@@ -117,8 +117,9 @@ main ol li p {
    Callouts
    ========================================================= */
 
-/* Add a bit more vertical padding in the tip callout header banner */
-.callout.callout-tip > .callout-header {
+/* Add a bit more vertical padding in the tip and note callout header banners */
+.callout.callout-tip > .callout-header,
+.callout.callout-note > .callout-header {
   padding-top: 0.7rem;
   padding-bottom: 0.4rem;
 }
@@ -133,4 +134,17 @@ main ol li p {
 .callout .callout-body ul li:last-child,
 .callout .callout-body ol li:last-child {
   margin-bottom: 0 !important;
+}
+
+/* Footer draft notice */
+.footer-draft-note {
+  color: #333333;
+  font-style: italic;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-footer {
+  align-items: center !important;
 }

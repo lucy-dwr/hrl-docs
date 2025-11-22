@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f462bea9a75bd0c6c8219b60fea605da.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-23a618cdc0987c087067db546fa8dadd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -211,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lifecycle/collection.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Collection</span></a>
+ <span class="menu-text">Data Collection</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -361,10 +361,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#purpose-of-this-page" id="toc-purpose-of-this-page" class="nav-link active" data-scroll-target="#purpose-of-this-page">Purpose of this page</a></li>
-  <li><a href="#lifecycle-phases-at-a-glance" id="toc-lifecycle-phases-at-a-glance" class="nav-link" data-scroll-target="#lifecycle-phases-at-a-glance">Lifecycle phases at a glance</a></li>
-  <li><a href="#governance-touchpoints-to-highlight" id="toc-governance-touchpoints-to-highlight" class="nav-link" data-scroll-target="#governance-touchpoints-to-highlight">Governance touchpoints to highlight</a></li>
-  <li><a href="#how-to-use-this-section" id="toc-how-to-use-this-section" class="nav-link" data-scroll-target="#how-to-use-this-section">How to use this section</a></li>
+  <li><a href="#lifecycle-phases-at-a-glance" id="toc-lifecycle-phases-at-a-glance" class="nav-link active" data-scroll-target="#lifecycle-phases-at-a-glance">Lifecycle Phases at a Glance</a></li>
   </ul>
 </nav>
     </div>
@@ -390,39 +387,140 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="purpose-of-this-page" class="level2">
-<h2 class="anchored" data-anchor-id="purpose-of-this-page">Purpose of this page</h2>
-<ul>
-<li>Introduce the HRL-specific lifecycle described in the Data Governance and Management Plan and how it supports transparent, reproducible science.</li>
-<li>Show how responsibilities shift among Data Producers, the Central Data Team, Synthesis Teams, and the HRL Science Committee.</li>
-</ul>
-</section>
+<p>HRL structures data governance and reproducible, collaborative practices around a program-specific data lifecycle. The data lifecycle outlines key phases that data pass through from initial collection in the field to final reporting and communication of results. Each phase includes defined activities, responsible parties, and governance touchpoints to ensure integrity, transparency, and usability of data and analyses throughout the HRL program.</p>
+<object data="../images/hrl-data-lifecycle.svg" type="image/svg+xml" class="img-fluid quarto-figure quarto-figure-center" style="display:block;margin-top:3rem;margin-bottom:3rem;width:100%;" aria-label="HRL data lifecycle diagram with clickable links to each phase.">
+HRL data lifecycle diagram
+</object>
+<p><strong>The HRL Science Committee oversees the data lifecycle and governance model but does not directly implement any phases of the HRL data lifecycle.</strong> The HRL Science Committee provides strategic direction, prioritization, and oversight to ensure that Data Producers, the Central Data Team, and Synthesis Teams are equipped to uphold HRL Science Program commitments and collaborate effectively.</p>
+<style>
+.lifecycle-table {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.lifecycle-table col.phase-col {
+  width: 25%;
+}
+.lifecycle-table col.summary-col {
+  width: 55%;
+}
+.lifecycle-table col.responsible-col {
+  width: 20%;
+}
+.lifecycle-table thead th {
+  background-color: #4c4c4c;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.lifecycle-table tbody tr:hover td,
+.lifecycle-table tbody tr:hover th,
+.lifecycle-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+.responsible-entity {
+  font-weight: 600;
+}
+.responsible-entity.data-producers {
+  color: #2E7DA1;
+}
+.responsible-entity.central-data-team {
+  color: #D89A28;
+}
+.responsible-entity.synthesis-teams {
+  color: #2E6E3D;
+}
+</style>
 <section id="lifecycle-phases-at-a-glance" class="level2">
-<h2 class="anchored" data-anchor-id="lifecycle-phases-at-a-glance">Lifecycle phases at a glance</h2>
-<ul>
-<li><a href="../lifecycle/collection.html">Collection</a> – Document approved protocols, metadata capture, and field QA/QC practices.</li>
-<li><a href="../lifecycle/static-publication.html">Static Publication</a> – Publish cleaned datasets with metadata packages and DOIs through the HRL GitHub + EDI workflow.</li>
-<li><a href="../lifecycle/ingestion-standardization.html">Ingestion &amp; Standardization</a> – Harmonize static releases, align schemas/vocabularies, and capture provenance.</li>
-<li><a href="../lifecycle/storage-serving.html">Storage &amp; Serving</a> – Keep curated datasets durable, discoverable, and accessible via catalogs, APIs, and SDKs.</li>
-<li><a href="../lifecycle/analysis-synthesis.html">Analysis &amp; Synthesis</a> – Run reproducible analyses, create indicators, and return derived products for curation.</li>
-<li><a href="../lifecycle/reporting-communication.html">Reporting &amp; Communication</a> – Translate findings into annual and triennial products that guide adaptive management.</li>
-</ul>
-</section>
-<section id="governance-touchpoints-to-highlight" class="level2">
-<h2 class="anchored" data-anchor-id="governance-touchpoints-to-highlight">Governance touchpoints to highlight</h2>
-<ul>
-<li>Describe Science Committee checkpoints (science plan approval, prioritization, resourcing) tied to each phase.</li>
-<li>Clarify accountability for Data Producers, Central Data Team engineers, and Synthesis Teams.</li>
-<li>Note how sensitive/Tribal data agreements constrain movement through the lifecycle.</li>
-</ul>
-</section>
-<section id="how-to-use-this-section" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-use-this-section">How to use this section</h2>
-<ul>
-<li>Provide narrative context for newcomers and link to quickstarts, standards, and reference diagrams.</li>
-<li>Summarize where SOPs, templates, and decision logs live for each lifecycle phase.</li>
-<li>Capture updates as HRL policies evolve over the eight-year program.</li>
-</ul>
+<h2 class="anchored" data-anchor-id="lifecycle-phases-at-a-glance">Lifecycle Phases at a Glance</h2>
+<table class="table lifecycle-table">
+<colgroup>
+<col class="phase-col">
+<col class="summary-col">
+<col class="responsible-col">
+</colgroup>
+<thead>
+<tr>
+<th>
+Lifecycle Phase
+</th>
+<th>
+Summary
+</th>
+<th>
+Responsible Entity
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">
+<a href="../lifecycle/collection.html">Collection</a>
+</th>
+<td>
+Collect data and document approved protocols, metadata, and field quality assurance and quality control practices.
+</td>
+<td>
+<span class="responsible-entity data-producers">Data Producers</span>
+</td>
+</tr>
+<tr>
+<th scope="row">
+<a href="../lifecycle/static-publication.html">Static Publication</a>
+</th>
+<td>
+Publish cleaned datasets with metadata packages and DOIs through the HRL GitHub + EDI workflow.
+</td>
+<td>
+<span class="responsible-entity data-producers">Data Producers</span>
+</td>
+</tr>
+<tr>
+<th scope="row">
+<a href="../lifecycle/ingestion-standardization.html">Ingestion and Standardization</a>
+</th>
+<td>
+Harmonize static data releases, incorporate external datasets, align schemas and vocabularies, conduct program-level quality control, and capture provenance.
+</td>
+<td>
+<span class="responsible-entity central-data-team">Central Data Team</span>
+</td>
+</tr>
+<tr>
+<th scope="row">
+<a href="../lifecycle/storage-serving.html">Storage and Serving</a>
+</th>
+<td>
+Keep curated datasets durable, discoverable, and accessible via catalogs, APIs, and SDKs.
+</td>
+<td>
+<span class="responsible-entity central-data-team">Central Data Team</span>
+</td>
+</tr>
+<tr>
+<th scope="row">
+<a href="../lifecycle/analysis-synthesis.html">Analysis and Synthesis</a>
+</th>
+<td>
+Run reproducible analyses, create models and indicators, and return models derived data products to the Central Data Team for curation.
+</td>
+<td>
+<span class="responsible-entity synthesis-teams">Synthesis Teams</span>
+</td>
+</tr>
+<tr>
+<th scope="row">
+<a href="../lifecycle/reporting-communication.html">Reporting and Communication</a>
+</th>
+<td>
+Translate findings into synthesis reports, decision support tools, visualization applications, and other science communication products that guide adaptive management and make HRL science outcomes accessible.
+</td>
+<td>
+<span class="responsible-entity central-data-team">Central Data Team</span><br><span class="responsible-entity synthesis-teams">Synthesis Teams</span>
+</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
@@ -835,8 +933,8 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../lifecycle/collection.html" class="pagination-link" aria-label="Collection">
-        <span class="nav-page-text">Collection</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../lifecycle/collection.html" class="pagination-link" aria-label="Data Collection">
+        <span class="nav-page-text">Data Collection</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
