@@ -70,7 +70,7 @@ Community leaders will follow these Community Impact Guidelines in determining t
 
 **Consequence**: A permanent ban from any sort of public interaction within the community.
 
-## Acknowledgements
+## Acknowledgments
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, available [here](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).
 
