@@ -6,21 +6,23 @@
 
 /* ------- Palette Variables ------- */
 
-$dwr-navy:       #0C425C;
-$dwr-blue:       #2E7DA1;
-$dwr-blue-dark:  #052C3A;
+$dwr-navy:        #0C425C;
+$dwr-blue-dark:   #052C3A;
+$dwr-blue:        #2E7DA1;
+$dwr-blue-light:  #D2EAF4;
 
-$dwr-gold:       #F2C94C;
-$dwr-amber:      #D89A28;
-$dwr-gold-light: #FAE9A4;
+$dwr-gold:        #F2C94C;
+$dwr-amber:       #D89A28;
+$dwr-gold-light:  #FAE9A4;
 
-$dwr-green:       #2E6E3D;
-$dwr-green-light: #76A57C;
+$dwr-green-dark:  #2E6E3D;
+$dwr-green:       #76A57C;
+$dwr-green-light: #C4D8C6;
 
-$dwr-charcoal:   #333333;
-$dwr-grey:       #777777;
-$dwr-light-grey: #DADADA;
-$dwr-bg:         #F7F7F7;
+$dwr-charcoal:    #333333;
+$dwr-grey:        #777777;
+$dwr-grey-light:  #DADADA;
+$dwr-bg:          #F7F7F7;
 
 /* ------- Bootstrap Variable Overrides ------- */
 
@@ -33,23 +35,23 @@ $primary-light:      $dwr-blue;
 $secondary:          $dwr-gold;
 
 /* Success tone (environmental cues) */
-$success:            $dwr-green;
+$success:            $dwr-green-dark;
 
 /* Info / link color */
 $info:               $dwr-blue;
 
 /* Neutrals */
 $body-color:         $dwr-charcoal;
-$headings-color:     $dwr-green; 
+$headings-color:     $dwr-green-dark; 
 $body-bg:            #ffffff;
-$border-color:       $dwr-light-grey;
+$border-color:       $dwr-grey-light;
 
 /* Links */
 $link-color:         $dwr-navy;
 $link-hover-color:   $dwr-blue;
 
 /* Cards, callouts, subtle components */
-$card-border-color:  $dwr-light-grey;
+$card-border-color:  $dwr-grey-light;
 $card-cap-bg:        $dwr-bg;
 
 /* Buttons */
@@ -68,17 +70,17 @@ $navbar-dark-hover-color: $dwr-gold;
 /* Heading color hierarchy (branding) */
 main h1,
 main .h1 {
-  color: $dwr-green;
+  color: $dwr-green-dark;
 }
 
 main h2,
 main .h2 {
-  color: $dwr-green;
+  color: $dwr-green-dark;
 }
 
 main h3,
 main .h3 {
-  color: $dwr-green-light;
+  color: $dwr-green;
 }
 
 /* GitHub icon */
@@ -101,7 +103,7 @@ footer i.bi-github:hover,
 footer.footer,
 footer .nav-footer,
 .nav-footer {
-  background-color: $dwr-light-grey !important;
+  background-color: $dwr-grey-light !important;
   color: $dwr-charcoal;
 }
 
@@ -113,7 +115,7 @@ footer.footer .nav-footer a,
 
 footer.footer .nav-footer a:hover,
 .nav-footer a:hover {
-  color: $dwr-green;
+  color: $dwr-green-dark;
 }
 
 
@@ -123,9 +125,9 @@ footer.footer .nav-footer a:hover,
 
 /* Default state: light grey fill, navy text */
 .btn-outline-primary {
-  background-color: $dwr-light-grey !important;
+  background-color: $dwr-grey-light !important;
   color: $dwr-navy !important;
-  border-color: $dwr-light-grey !important;
+  border-color: $dwr-grey-light !important;
 }
 
 /* Hover: dark blue background, white text */
