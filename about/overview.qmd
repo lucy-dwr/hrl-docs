@@ -2,25 +2,25 @@
 title: "Program Overview"
 ---
 
-The **Healthy Rivers and Landscapes (HRL)** program is an eight-year, multi-agency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems across the **Sacramento River watershed and the Bay-Delta estuary**. HRL aims to improve ecological conditions for native fishes by coordinating habitat restoration and flow actions at a watershed scale.
+The [**Healthy Rivers and Landscapes (HRL) program**](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page) is an eight-year, multi-agency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems across the **Sacramento River watershed and the Bay-Delta estuary**. HRL aims to improve ecological conditions for native fishes by coordinating habitat restoration and flow actions at a watershed scale.
 
-HRL is proposed as part of the program of implementation for the **State Water Resources Control Board’s Bay-Delta Water Quality Control Plan** and reflects a broad partnership among state, federal, and local entities.
+HRL is proposed as part of the program of implementation for the **State Water Resources Control Board’s** [**Bay-Delta Water Quality Control Plan**](https://waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/comp_review.html) and reflects a broad partnership among state, federal, and local entities.
 
 ## HRL Science Program
 
-The HRL Science Program provides the scientific foundation for implementing and evaluating HRL. It investigates how restoration actions and environmental flows influence ecosystem processes, habitat conditions, and biological responses across diverse riverine and estuarine environments.
+The [**HRL Science Program**](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page/Science) provides the scientific foundation for implementing and evaluating HRL. It investigates how restoration actions and environmental flows influence ecosystem processes, habitat conditions, and biological responses across diverse riverine and estuarine environments.
 
-The Science Program is structured around **55 hypotheses** that span tributary habitats, the mainstem Sacramento River, bypass floodplains, and tidal wetlands. To investigate the hypotheses, the HRL Science Committee has written science plans that describe data collection, modeling, monitoring, and synthesis activities over the life of the program.
+The Science Program is structured around **55 hypotheses that span tributary habitats, the mainstem Sacramento River, bypass floodplains, and tidal wetlands. These hypotheses are articulated in the overarching** [**HRL Science Plan**](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Voluntary-Watershed-Agreements/Draft_VA_Science_Plan.pdf). Mechanisms for collecting necessary data and evaluating these hypotheses are further detailed in system- and project-level science plans.
 
-Scientific evaluation occurs through:
+Scientific evaluation will occur through:
 
 - **Annual reporting** on data collection and early insights
-- **Triennial synthesis reports** that integrate results across projects and geographic scales every three years
+- **Triennial synthesis reports** that integrate results across projects, special studies, and geographic scales every three years
 - **Ecological Outcomes and Analysis report** at the end of the program that assesses the cumulative effectiveness of HRL actions
 
-## Program Structure and Collaboration
+## Data Program Structure and Collaboration
 
-HRL science and implementation are organized through an interagency governance structure. Key program roles include:
+HRL science and implementation are organized through an interagency governance structure. For HRL data engineering and data science work, key program roles include:
 
 -   [Data Producers](governance-roles.qmd#data-producers) – Collect and publish datasets and metadata following shared protocols
 -   [Central Data Team](governance-roles.qmd#central-data-team) – Maintain program-level data systems, standards, and tools for analysis, modeling, visualization, and communication

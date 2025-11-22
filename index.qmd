@@ -2,7 +2,7 @@
 title: "Welcome to the HRL Documentation Hub"
 ---
 
-The [Healthy Rivers and Landscapes program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page) (HRL) is an eight-year interagency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems in the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fish populations and is proposed as part of the program of implementation for the State Water Resources Control Board’s Bay-Delta Water Quality Control Plan.
+The [Healthy Rivers and Landscapes program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page) (HRL) is an eight-year interagency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems in the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fish populations and is proposed as part of the program of implementation for the State Water Resources Control Board’s [Bay-Delta Water Quality Control Plan](https://waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/comp_review.html).
 
 HRL implementation and adaptive management are guided by a comprehensive [Science Program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page/Science) that investigates how coordinated restoration and environmental flows influence ecological processes and native aquatic species from Sacramento tributary systems to the Bay-Delta estuary. The program is governed by a [Science Committee](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Support-Healthy-Rivers-and-Landscape/VASciProgramDraftCharter.pdf) composed of representatives from HRL signatory entities and technical experts.
 
@@ -18,7 +18,7 @@ This documentation website provides:
 -   **Guidance and onboarding materials** for data producers, analysts, and synthesis teams
 -   **Links to templates, examples, tools, and other HRL resources** for synthesis science, communication, and adaptive management
 
-This site focuses on high-level program governance, structures, and workflows. Technical implementations, reproducible templates, and workflow code live in companion HRL GitHub repositories and are linked throughout this documentation hub.
+This site focuses on high-level program governance, structures, and workflows. Technical implementations, reproducible templates, and workflow code live in companion HRL GitHub repositories and other documentation sites and are linked throughout this documentation hub.
 
 ## Getting Started
 
@@ -26,10 +26,10 @@ If you are new to the HRL Science Program, particularly the data engineering and
 
 -   [HRL Program Overview](about/overview.qmd) – HRL Program overview, governance structure, and roles
 -   [Program Commitments](principles/charter.qmd) – HRL program commitments to open, ethical, and reproducible science
--   [Data Governance](lifecycle/overview.qmd) – How data move through HRL’s lifecycle to produce open scientific insights
+-   [Data Governance](lifecycle/overview.qmd) – How HRL entities move data and analyses through HRL’s data lifecycle to produce open scientific insights
 -   [Quickstarts](quickstart/quickstart-catalog.qmd) – Step-by-step guides to common tasks (e.g., publishing static datasets and metadata on EDI, getting help with HRL data science)
 
-As HRL evolves, keystone science documents such as the HRL Science Plan will also be made available as interactive web documents.
+As HRL evolves, keystone science documents, such as the [HRL Science Plan](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Voluntary-Watershed-Agreements/Draft_VA_Science_Plan.pdf), will also be made available as interactive web documents.
 
 ## Learn More
 
@@ -37,7 +37,7 @@ Use the navigation sidebar to explore documentation on this site.
 
 For information about HRL more broadly, visit:
 
--   [HRL program website](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page)
--   [HRL science website](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page/Science)
+-   [HRL Program website](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page)
+-   [HRL Science website](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page/Science)
 
 For questions or suggestions regarding this documentation, please contact Lucy Andrews at [lucy.andrews\@water.ca.gov](mailto:lucy.andrews@water.ca.gov).

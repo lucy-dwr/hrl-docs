@@ -2,7 +2,7 @@
 title: "FAIR and CARE Principles"
 ---
 
-The HRL Science Program commits to creating data assets that are open, reusable, and respectful of Tribal sovereignty and community priorities. The FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) frameworks serve as the shared language for those commitments. This page translates the frameworks into practical expectations that Data Producers, the Central Data Team, and Synthesis Teams can apply across every phase of the HRL Data Lifecycle.
+**The HRL Science Program commits to creating data assets that are open, reusable, and respectful of Tribal sovereignty and community priorities.** The FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) frameworks serve as the shared language for those commitments. This page translates the FAIR and CARE frameworks into practical expectations that [Data Producers, the Central Data Team, and Synthesis Teams](../about/governance-roles.qmd) can apply across every phase of the [HRL Data Lifecycle](../lifecycle/overview.qmd).
 
 <style>
 .fair-care-table {
@@ -44,7 +44,7 @@ The HRL Science Program commits to creating data assets that are open, reusable,
 }
 </style>
 
-## FAIR and CARE at a glance
+## FAIR and CARE at a Glance
 
 ### FAIR
 
@@ -70,7 +70,7 @@ The [FAIR Guiding Principles](https://www.go-fair.org/fair-principles/) for scie
 <td>
 <ul>
 <li>Register DOIs and expose them through the HRL data catalog and common repositories.</li>
-<li>Provide structured inventories and keyword-rich, semantically-meaningful metadata (e.g., spatial/temporal coverage, parameters) so catalogs, APIs, and portals harvest records automatically.</li>
+<li>Provide structured inventories and keyword-rich, semantically-meaningful metadata (e.g., spatial/temporal coverage, parameters, and data dictionaries) so catalogs, APIs, and portals harvest records automatically.</li>
 </ul>
 </td>
 </tr>
@@ -150,20 +150,21 @@ The [CARE Principles for Indigenous Data Governance](https://www.gida-global.org
 </tr>
 <tr>
 <th scope="row">Responsibility</th>
-<td>Data stewards must uphold obligations for security, transparency, and capacity building.</td>
+<td>Those working with Indigenous data have a responsibility to transparently uphold Indigenous Peoples' self-determination and collective benefit.</td>
 <td>
 <ul>
-<li>Assign contacts for stewardship, data sharing and management agreement renewal, and incident response.</li>
+<li>Assign contacts responsible for stewardship, data sharing and management agreement renewal, and incident response.</li>
 <li>Log training requirements and provide channels for Tribes and communities to audit usage or request updates.</li>
+<li>Co-create mechanisms for determining and tracking Tribal benefits and programmatic adherence to CARE principles.</li>
 </ul>
 </td>
 </tr>
 <tr>
 <th scope="row">Ethics</th>
-<td>Data practices must minimize harm and respect cultural protocols and context.</td>
+<td>Data practices must minimize harm, maximize Tribal benefits, and respect cultural protocols and context.</td>
 <td>
 <ul>
-<li>Require Tribal or community review checkpoints before publication or synthesis, in alignment with data sharing and management agreements.</li>
+<li>Require co-developed Tribal or community review checkpoints before publication or synthesis, in alignment with data sharing and management agreements.</li>
 <li>Adopt respectful language in metadata, dashboards, and reports and archive approvals with the dataset record.</li>
 </ul>
 </td>
@@ -179,7 +180,7 @@ The [CARE Principles for Indigenous Data Governance](https://www.gida-global.org
 
 ## Implementation References
 
-Use this table as a quick crosswalk for what FAIR and CARE look like at each point in the HRL data lifecycle and which artifacts demonstrate that the requirements were addressed.
+Use this table as a quick crosswalk for what FAIR and CARE look like at each point in the HRL data lifecycle and which artifacts demonstrate that the requirements were addressed. **Program-level resources for HRL parties to develop overarching knowledge, capacity, and practices for upholding FAIR and CARE commitments will be developed by the HRL Science Committee and the Central Data Team.**
 
 <table class="table fair-care-table implementation-table">
 <colgroup>
@@ -338,6 +339,6 @@ Use this table as a quick crosswalk for what FAIR and CARE look like at each poi
 
 ## Resources
 
-- [Science Committee Charter Commitments](charter.qmd) – overarching governance statements that FAIR/CARE workflows implement.
-- [Data Governance and Roles](../about/governance-roles.qmd) – descriptions of Data Producers, Central Data Team, and synthesis leads.
-- [Metadata Standards](../standards/metadata.qmd) – templates and vocabularies for recording FAIR and CARE metadata fields.
+- [HRL Science Committee Charter Commitments](charter.qmd) – Overarching governance statements that FAIR and CARE workflows implement.
+- [Data Governance and Roles](../about/governance-roles.qmd) – Descriptions of Data Producers, Central Data Team, and Synthesis Teams.
+- [Metadata Standards](../standards/metadata.qmd) – Templates and vocabularies for recording FAIR and CARE metadata fields.

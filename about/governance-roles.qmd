@@ -2,18 +2,25 @@
 title: "Data Governance and Roles"
 ---
 
-The HRL Science Program relies on a distributed, multi-agency governance structure designed to support transparent, reproducible, and high-quality science  across the Sacramento River watershed and Bay-Delta estuary over the program’s eight-year duration. This structure defines who does what in data collection, publication, and analysis; how data move through the program; and how decisions are made at each stage of the HRL data lifecycle.
+The HRL Science Program relies on a Science Committee, which is a distributed, multi-agency governance structure designed to support high-quality, management-relevant science  across the Sacramento River watershed and Bay-Delta estuary over the program’s eight-year duration. Part of the HRL Science Committee's governance structure addresses data governance---defining who does what in data collection, publication, and analysis; how data move through the program; and how decisions are made at each stage of the HRL data lifecycle.
 
-The governance model balances the independence of data producers with shared program-wide standards, centralized data engineering capacity, and strategic oversight from the HRL Science Committee.
+::: callout-tip
+### Defining Data Governance
+Data governance is a set of processes that ensures that data assets are formally managed throughout an enterprise. A data governance model establishes authority and management and decision-making parameters related to the data produced or managed by the enterprise.
+
+_Definition drawn from the [National Institute of Standards and Technology]((https://csrc.nist.gov/glossary/term/data_governance))._
+:::
+
+The HRL data governance model balances the independence of Data Producers with shared program-wide standards, centralized data engineering capacity, and strategic oversight from the HRL Science Committee.
 
 For a description of how data move from collection to analysis and reporting, see the **[HRL Data Lifecycle](../lifecycle/overview.qmd)** section of this site.
 
 ## Why Governance Matters
 
-HRL is evaluating dozens of hypotheses across multiple spatial scales, habitat types, and time periods. This complexity necessitates:
+HRL is evaluating dozens of hypotheses across multiple spatial scales, habitat types, and time periods. The HRL Science Program will last at least eight years. The complexity and duration of this collaborative research program necessitates:
 
-- Clear accountability for data stewardship  
-- Documented standards for data collection, management, and analysis  
+- Clear accountability for data collection and stewardship  
+- Documented standards for data collection, management, publication, and analysis  
 - Trusted data repositories and open, reproducible workflows for cleaning, publishing, and synthesizing data
 - Feedback loops that allow HRL to learn and adapt  
 - Transparent decision-making around priorities, resources, and changes to standards  
@@ -38,9 +45,13 @@ The HRL data governance framework is built around four interacting groups:
 3. **Synthesis Teams**  
 4. **The HRL Science Committee**
 
-Each group plays a distinct role in guiding data from collection to static publication, ingestion, storage, analysis, synthesis, and reporting and communicaiton, with clearly defined decision authorities and responsibilities.
+Each group plays a distinct role in guiding data from collection to static publication, ingestion, storage, analysis, synthesis, and reporting and communication, with clearly defined decision authorities and responsibilities.
 
-![Placeholder image for simple governance figure or flowchart.](../images/governance-structure-placeholder.svg){#fig-governance-structure fig-cap="Governance image to go here (placeholder graphic)." width="100%"}
+The figure below illustrates how these roles interact across the HRL data lifecycle. **The HRL Science Committee plays an oversight role for the entire data lifecycle but does not directly implement any phase of the data lifecycle.**
+
+<object data="../images/hrl-data-lifecycle.svg" type="image/svg+xml" class="img-fluid quarto-figure quarto-figure-center" style="display:block;margin-top:3rem;margin-bottom:3rem;width:100%;" aria-label="HRL data lifecycle diagram with clickable links to each phase.">
+  HRL data lifecycle diagram
+</object>
 
 # Roles and Responsibilities
 
@@ -193,7 +204,7 @@ Across the data lifecycle, governance mechanisms and data product quality gates 
 - Every dataset and analysis is traceable, citable, and reproducible  
 - Data can be harmonized and compared across systems, habitat types, and years  
 - Synthesis teams have timely, reliable access to analysis-ready data and tools  
-- The program learns and adapts based on documented feedback and evaluation  
+- The HRL Science Program learns and adapts based on documented feedback and evaluation  
 
 Together, these roles and structures provide the foundation for evidence-based decision-making, adaptive management, long-term data infrastructure stewardship, and transparent public reporting on HRL’s ecological outcomes.
 
