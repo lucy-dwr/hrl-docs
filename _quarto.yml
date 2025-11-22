@@ -79,6 +79,8 @@ website:
           - reference/resources.qmd
 
   page-footer:
+    left:
+      - text: '<span class="footer-draft-note">Disclaimer: this site is currently published in draft form, aligned with HRL''s commitment to open source work, and should not be cited as authoritative HRL policy.</span>'
     right:
       - icon: github
         aria-label: "HRL Docs on GitHub"

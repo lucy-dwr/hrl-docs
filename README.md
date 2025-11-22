@@ -1,6 +1,8 @@
 # Healthy Rivers and Landscapes Documentation Website
 
-The [Healthy Rivers and Landscapes program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page) (HRL) is an eight-year interagency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems in the Sacramento River watershed and the Bay-Delta estuary. HRL aims to support California's native fish populations and is proposed as part of the program of implementation for the State Water Resource Control Board's Bay-Delta Water Quality Control Plan.
+_Disclaimer: this site is currently published in draft form, aligned with HRL's commitment to open source work, and should not be cited as authoritative HRL policy. It is released with an [MIT license](LICENSE.md)._
+
+The [Healthy Rivers and Landscapes program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page) (HRL) is an eight-year interagency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems in the Sacramento River watershed and the Bay-Delta estuary. HRL aims to support California's native fish populations and is proposed as part of the program of implementation for the State Water Resource Control Board's [Bay-Delta Water Quality Control Plan](https://waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/comp_review.html).
 
 HRL implementation and adaptive management is guided by a comprehensive [Science Program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page/Science) that facilitates research into the impacts of integrated environmental flows provision and habitat restoration from upper Sacramento River tributary watersheds to the Bay-Delta estuary. The HRL Science Program is governed by a [Science Committee](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Support-Healthy-Rivers-and-Landscape/VASciProgramDraftCharter.pdf) composed of representatives from HRL signatory entities and other technical experts.
 
@@ -11,7 +13,7 @@ For more information, visit:
 
 ## This Repository
 
-This repository contains code to render an overarching HRL science documentation website. The website is currently geared toward the data engineering and data science components of the HRL science program. Eventually, keystone HRL science documents, [such as the HRL science plan](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Voluntary-Watershed-Agreements/Draft_VA_Science_Plan.pdf), will also be provided as interactive web documents.
+This repository contains code to render an overarching [**HRL science documentation website**](https://lucy-dwr.github.io/hrl-docs/). The website is currently geared toward the data engineering and data science components of the HRL science program. Eventually, keystone HRL science documents, [such as the HRL science plan](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Voluntary-Watershed-Agreements/Draft_VA_Science_Plan.pdf), will also be provided as interactive web documents.
 
 The HRL science documentation website contains information about:
 
