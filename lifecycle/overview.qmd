@@ -2,24 +2,98 @@
 title: "HRL Data Lifecycle Overview"
 ---
 
-## Purpose of this page
-- Introduce the HRL-specific lifecycle described in the Data Governance and Management Plan and how it supports transparent, reproducible science.
-- Show how responsibilities shift among Data Producers, the Central Data Team, Synthesis Teams, and the HRL Science Committee.
+HRL structures data governance and reproducible, collaborative practices around a program-specific data lifecycle. The data lifecycle outlines key phases that data pass through from initial collection in the field to final reporting and communication of results. Each phase includes defined activities, responsible parties, and governance touchpoints to ensure integrity, transparency, and usability of data and analyses throughout the HRL program.
 
-## Lifecycle phases at a glance
-- [Collection](collection.qmd) – Document approved protocols, metadata capture, and field QA/QC practices.
-- [Static Publication](static-publication.qmd) – Publish cleaned datasets with metadata packages and DOIs through the HRL GitHub + EDI workflow.
-- [Ingestion & Standardization](ingestion-standardization.qmd) – Harmonize static releases, align schemas/vocabularies, and capture provenance.
-- [Storage & Serving](storage-serving.qmd) – Keep curated datasets durable, discoverable, and accessible via catalogs, APIs, and SDKs.
-- [Analysis & Synthesis](analysis-synthesis.qmd) – Run reproducible analyses, create indicators, and return derived products for curation.
-- [Reporting & Communication](reporting-communication.qmd) – Translate findings into annual and triennial products that guide adaptive management.
+<object data="../images/hrl-data-lifecycle.svg" type="image/svg+xml" class="img-fluid quarto-figure quarto-figure-center" style="display:block;margin-top:3rem;margin-bottom:3rem;width:100%;" aria-label="HRL data lifecycle diagram with clickable links to each phase.">
+  HRL data lifecycle diagram
+</object>
 
-## Governance touchpoints to highlight
-- Describe Science Committee checkpoints (science plan approval, prioritization, resourcing) tied to each phase.
-- Clarify accountability for Data Producers, Central Data Team engineers, and Synthesis Teams.
-- Note how sensitive/Tribal data agreements constrain movement through the lifecycle.
+**The HRL Science Committee oversees the data lifecycle and governance model but does not directly implement any phases of the HRL data lifecycle.** The HRL Science Committee provides strategic direction, prioritization, and oversight to ensure that Data Producers, the Central Data Team, and Synthesis Teams are equipped to uphold HRL Science Program commitments and collaborate effectively.
 
-## How to use this section
-- Provide narrative context for newcomers and link to quickstarts, standards, and reference diagrams.
-- Summarize where SOPs, templates, and decision logs live for each lifecycle phase.
-- Capture updates as HRL policies evolve over the eight-year program.
+<style>
+.lifecycle-table {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.lifecycle-table col.phase-col {
+  width: 25%;
+}
+.lifecycle-table col.summary-col {
+  width: 55%;
+}
+.lifecycle-table col.responsible-col {
+  width: 20%;
+}
+.lifecycle-table thead th {
+  background-color: #4c4c4c;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.lifecycle-table tbody tr:hover td,
+.lifecycle-table tbody tr:hover th,
+.lifecycle-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+.responsible-entity {
+  font-weight: 600;
+}
+.responsible-entity.data-producers {
+  color: #2E7DA1;
+}
+.responsible-entity.central-data-team {
+  color: #D89A28;
+}
+.responsible-entity.synthesis-teams {
+  color: #2E6E3D;
+}
+</style>
+
+## Lifecycle Phases at a Glance
+<table class="table lifecycle-table">
+<colgroup>
+<col class="phase-col" />
+<col class="summary-col" />
+<col class="responsible-col" />
+</colgroup>
+<thead>
+<tr>
+<th>Lifecycle Phase</th>
+<th>Summary</th>
+<th>Responsible Entity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><a href="collection.qmd">Collection</a></th>
+<td>Collect data and document approved protocols, metadata, and field quality assurance and quality control practices.</td>
+<td><span class="responsible-entity data-producers">Data Producers</span></td>
+</tr>
+<tr>
+<th scope="row"><a href="static-publication.qmd">Static Publication</a></th>
+<td>Publish cleaned datasets with metadata packages and DOIs through the HRL GitHub + EDI workflow.</td>
+<td><span class="responsible-entity data-producers">Data Producers</span></td>
+</tr>
+<tr>
+<th scope="row"><a href="ingestion-standardization.qmd">Ingestion and Standardization</a></th>
+<td>Harmonize static data releases, incorporate external datasets, align schemas and vocabularies, conduct program-level quality control, and capture provenance.</td>
+<td><span class="responsible-entity central-data-team">Central Data Team</span></td>
+</tr>
+<tr>
+<th scope="row"><a href="storage-serving.qmd">Storage and Serving</a></th>
+<td>Keep curated datasets durable, discoverable, and accessible via catalogs, APIs, and SDKs.</td>
+<td><span class="responsible-entity central-data-team">Central Data Team</span></td>
+</tr>
+<tr>
+<th scope="row"><a href="analysis-synthesis.qmd">Analysis and Synthesis</a></th>
+<td>Run reproducible analyses, create models and indicators, and return models derived data products to the Central Data Team for curation.</td>
+<td><span class="responsible-entity synthesis-teams">Synthesis Teams</span></td>
+</tr>
+<tr>
+<th scope="row"><a href="reporting-communication.qmd">Reporting and Communication</a></th>
+<td>Translate findings into synthesis reports, decision support tools, visualization applications, and other science communication products that guide adaptive management and make HRL science outcomes accessible.</td>
+<td><span class="responsible-entity central-data-team">Central Data Team</span><br /><span class="responsible-entity synthesis-teams">Synthesis Teams</span></td>
+</tr>
+</tbody>
+</table>
