@@ -8,7 +8,7 @@ The HRL Science Program relies on a Science Committee, which is a distributed, m
 ### Defining Data Governance
 Data governance is a set of processes that ensures that data assets are formally managed throughout an enterprise. A data governance model establishes authority and management and decision-making parameters related to the data produced or managed by the enterprise.
 
-_Definition drawn from the [National Institute of Standards and Technology]((https://csrc.nist.gov/glossary/term/data_governance))._
+_Definition drawn from the [National Institute of Standards and Technology](https://csrc.nist.gov/glossary/term/data_governance)._
 :::
 
 The HRL data governance model balances the independence of Data Producers with shared program-wide standards, centralized data engineering capacity, and strategic oversight from the HRL Science Committee.
