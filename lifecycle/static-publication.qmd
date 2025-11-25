@@ -1,23 +1,84 @@
 ---
-title: "Static Publication"
+title: "Static publication"
 ---
 
-## Purpose
-- Describe how HRL releases cleaned, versioned datasets through GitHub repositories and EDI.
-- Reinforce that static datasets must be reproducible, citable, and accompanied by complete metadata.
+::: {.callout-tip title="Static publication at a glance"}
+- Data Producers finalize cleaned datasets into tidy, version-controlled releases with DOIs, complete metadata, and links to source code that follows the conventions described in the [HRL Style and Development Guide](../standards/style-dev-guide.qmd).
+- Datasets are published to the [Environmental Data Initiative (EDI)](https://edirepository.org) in open, non-proprietary formats with complete provenance metadata and open licenses.
+- Releases posted to GitHub and EDI become the trusted inputs for data ingestion, cataloging, and downstream analyses.
+:::
 
-## Workflow components
-- Repository setup aligned with the HRL Style & Development Guide (structure, naming, README, licensing).
-- Data cleaning and QA scripts, automation, and continuous integration checks prior to release.
-- Metadata authoring (EML, data dictionaries, plain-language summaries, provenance statements).
-- Submission steps for EDI, DOI minting, and coordination with curators.
+**Description:**  
+
+In the static publication step, **Data Producers finalize cleaned datasets into tidy, versioned data packages;** run automated quality control checks that ensure that data meet HRL and EDI publication standards; and publish data packages through HRL GitHub repositories and [EDI](https://edirepository.org) with complete metadata and DOIs. Metadata are assembled using the tools in the `hrlpub` R package, which wrap [`EMLassemblyline`](https://ediorg.github.io/EMLassemblyline/index.html) and [EDI APIs](https://edirepository.org/resources/rest-api) to ensure that metadata and data packages pass EDI's evaluation checks.
+
+_Note: HRL Data Producers are expected to publish most datasets to EDI. However, very large or complex datasets—such as high-resolution imagery collections, climate model outputs, or large geospatial files—may exceed EDI’s size and storage constraints. These datasets will be hosted and published by the Central Data Team using HRL program infrastructure, with EDI metadata records and landing pages cross-linking to the hosted assets when appropriate._
+
+**Outcome:**  
+
+The output of this data lifecycle step is a **citable, reproducible data package released on EDI** in open formats with complete metadata, structured data dictionaries, provenance notes, quality control logs, and source code pinned to an immutable GitHub release. Metadata are written in [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org) to ensure machine readability, human readability, and interoperability with other data systems and to facilitate discovery, reuse, and integration with HRL data catalogs and search tools.
+
+**Benefit:**  
+
+Publishing static datasets creates **trusted, FAIR- and CARE-aligned data assets** that downstream ingestion, cataloging, and analysis workflows can rely on, while also making HRL data discoverable, transparent, and reusable by partners, collaborators, and the public.
+
+## Workflow steps
+
+For each dataset publication, Data Producers should complete the following steps. A step-by-step guide that illustrates this process with sample code is provided in the quickstart guide on [publishing a static dataset to EDI](../quickstart/publish-to-edi.qmd).
+
+::: {.bold-ol}
+1. **Set up a dataset publication repository** by forking the HRL data publication template repository. This ensures that all data publications follow a consistent, version-controlled structure with standardized directories required by HRL and EDI tooling.
+
+2. **Build** [**reproducible**](../principles/reproducibility.qmd) **cleaning and quality control pipelines** that produce tidy, analysis-ready data; validate key fields; and run continuous integration checks that must pass before tagging a release.
+
+3. **Create structured metadata** using the `hrlpub` R package. These functions assemble EML using `EMLassemblyline` templates for attributes, personnel, geographic coverage, temporal coverage, provenance, and custom units. Metadata must pass the EDI evaluator before publication.
+
+4. **Prepare the release package** by compiling:
+   - Tidy data tables in open formats
+   - Data dictionaries
+   - A README file
+   - Quality control logs
+   - Release notes that map inputs, parameters, and code to the tagged commit using HRL style conventions
+
+5. **Upload the package to EDI** using staged submission: publish first to the *staging* environment to review the EDI evaluation report, resolve any issues, and then publish to *production* to mint a DOI. The GitHub tag for the release should be included in the EML provenance. Notify the Central Data Team once publication is complete.
+:::
 
 ## Publication package checklist
-- Required files in open formats plus metadata XML/JSON, README, QA logs, and changelog/NEWS entries.
-- Documentation of Tribal agreements or special access notes when applicable.
-- Sign-off process (project team review, approval routing, notification to the Central Data Team).
+
+### What goes to EDI
+
+- Tidy data files in open, non-proprietary formats (e.g., CSV, Parquet, GeoJSON) with a clear version identifier
+- Complete EML metadata for the release, including:
+  - Data dictionaries (attributes files)
+  - README describing the dataset, scope, and intended use
+  - Personnel and contact information
+  - License statement
+  - Temporal and geographic coverage
+  - Provenance (source DOIs, commit hash of the tagged release, parameters, external datasets)
+  - Quality control report or summary
+- Documentation of data sharing agreements, use constraints, access notes, or sensitive-data handling instructions (including Tribal agreements when applicable)
+- A check that the package passes EDI’s automated evaluation in staging before production publication
+
+### What stays in the GitHub repository
+
+- Tagged GitHub release with the exact code, configuration, parameters, and dependencies used to produce the published data
+- Release notes in a `NEWS` entry for the tagged version that summarize changes since the prior release, if relevant
+- Continuous integration workflows validating data quality and code functionality
 
 ## Outputs and handoffs
-- DOI-minted dataset and tagged GitHub release with reproducible code.
-- Communication package for the ingestion team (release notes, schema summary, contact info).
-- Guidance for transferring large/complex files directly to the Central Data Team when needed.
+
+Publishing data following the HRL static publication workflow results in the following reproducible, well-documented outputs:
+
+- A versioned dataset published on EDI with complete EML metadata and a DOI
+- A tagged GitHub release containing the exact code, configuration, and parameters used to produce the published data, linked in the EML provenance
+
+After publishing data on EDI, Data Producers should notify the Central Data Team and provide a link to the EDI landing page and GitHub release. The Central Data Team will then ingest the dataset into HRL data catalogs and downstream analysis pipelines as appropriate.
+
+If datasets are potentially too large or complex to publish on EDI, Data Producers should instead work directly with the Central Data Team on hosting and publication plans.
+
+## Resources
+
+- [HRL Style and Development Guide](../standards/style-dev-guide.qmd) – repository structure, code style, naming conventions, continuous integration, dependencies management, and release practices for publication projects
+- HRL data publication template repository – fork to start new dataset releases with prescribed directories, scripts, and GitHub Actions for continuous integration
+- [Publish a Static Dataset to EDI](../quickstart/publish-to-edi.qmd) – step-by-step quickstart with code snippets and an example dataset
+- `hrlpub` R package – wraps `EMLassemblyline` and EDI APIs to build and publish EML and validate data packages before release
