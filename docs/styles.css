@@ -69,6 +69,11 @@ main p + ol {
   margin-top: 1rem;
 }
 
+/* Bold ordered list markers when explicitly requested with a helper class */
+.bold-ol ol > li::marker {
+  font-weight: 700;
+}
+
 /* Optional: more space between headings and the list that follows */
 main h2 + ul,
 main h2 + ol,

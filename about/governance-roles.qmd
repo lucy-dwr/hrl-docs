@@ -1,11 +1,11 @@
 ---
-title: "Data Governance and Roles"
+title: "Data governance and roles"
 ---
 
 The HRL Science Program relies on a Science Committee, which is a distributed, multi-agency governance structure designed to support high-quality, management-relevant science  across the Sacramento River watershed and Bay-Delta estuary over the program’s eight-year duration. Part of the HRL Science Committee's governance structure addresses data governance---defining who does what in data collection, publication, and analysis; how data move through the program; and how decisions are made at each stage of the HRL data lifecycle.
 
 ::: callout-tip
-### Defining Data Governance
+### Defining data governance
 Data governance is a set of processes that ensures that data assets are formally managed throughout an enterprise. A data governance model establishes authority and management and decision-making parameters related to the data produced or managed by the enterprise.
 
 _Definition drawn from the [National Institute of Standards and Technology](https://csrc.nist.gov/glossary/term/data_governance)._
@@ -15,7 +15,7 @@ The HRL data governance model balances the independence of Data Producers with s
 
 For a description of how data move from collection to analysis and reporting, see the **[HRL Data Lifecycle](../lifecycle/overview.qmd)** section of this site.
 
-## Why Governance Matters
+## Why governance matters
 
 HRL is evaluating dozens of hypotheses across multiple spatial scales, habitat types, and time periods. The HRL Science Program will last at least eight years. The complexity and duration of this collaborative research program necessitates:
 
@@ -27,7 +27,7 @@ HRL is evaluating dozens of hypotheses across multiple spatial scales, habitat t
 
 Well-defined governance ensures that HRL’s annual and triennial synthesis products are generated collaboratively and are scientifically defensible, reproducible, and comparable across years, tributaries, and agencies.
 
-## Governance Structure Overview
+## Governance structure overview
 
 ::: callout-tip
 ### Governance groups at a glance
@@ -53,7 +53,7 @@ The figure below illustrates how these roles interact across the HRL data lifecy
   HRL data lifecycle diagram
 </object>
 
-# Roles and Responsibilities
+# Roles and responsibilities
 
 ## Data Producers
 
@@ -65,11 +65,11 @@ The figure below illustrates how these roles interact across the HRL data lifecy
 - **Data lifecycle focus:** collection, static publication
 :::
 
-**Who they are**
+**Who they are:**
 
 System governance entities, HRL signatories, consultants, and partner organizations responsible for creating original data under the HRL program.
 
-**Core responsibilities**
+**Core responsibilities:**
 
 - Collect or generate raw data using standardized protocols approved by the HRL Science Committee through system science plan review
 - Capture complete metadata at the point of collection  
@@ -77,12 +77,12 @@ System governance entities, HRL signatories, consultants, and partner organizati
 - Prepare and publish static datasets and metadata in trusted HRL program repositories (e.g., EDI) using reproducible code hosted under the HRL GitHub organization
 - Notify the Central Data Team of new data publications and updates  
 
-**Data lifecycle phases**
+**Data lifecycle phases:**
 
 - [Collection](../lifecycle/collection.qmd)
 - [Static publication](../lifecycle/static-publication.qmd)
 
-**Decision authority**
+**Decision authority:**
 
 - Select data collection methods within agreed-upon protocols  
 - Determine timing of dataset release within governance rules (typically within one year of data collection) 
@@ -99,11 +99,11 @@ System governance entities, HRL signatories, consultants, and partner organizati
 - **Lifecycle focus:** ingestion and standardization, storage and serving, analysis and synthesis (support), reporting and communication
 :::
 
-**Who they are**
+**Who they are:**
 
 Interagency technical experts (data engineers and data scientists) who design and operate the program’s shared data, analysis, and technology infrastructure.
 
-**Core responsibilities**
+**Core responsibilities:**
 
 - Develop and maintain the central data and technology architecture  
 - Maintain the HRL Style and Development Guide and program-wide coding standards  
@@ -114,14 +114,14 @@ Interagency technical experts (data engineers and data scientists) who design an
 - Support synthesis teams with modeling infrastructure, workflows, and technical assistance  
 - Facilitate feedback cycles across HRL parties to improve data quality, usability, and documentation  
 
-**Lifecycle phases**
+**Lifecycle phases:**
 
 - [Ingestion and standardization](../lifecycle/ingestion-standardization.qmd)
 - [Storage and serving](../lifecycle/storage-serving.qmd)
 - [Analysis and synthesis](../lifecycle/analysis-synthesis.qmd) (in support role)
 - [Reporting and communication](../lifecycle/reporting-communication.qmd)
 
-**Decision authority**
+**Decision authority:**
 
 - Set technical standards for metadata, schema consistency, coding and development practices, and program-level quality management  
 - Manage curated dataset updates and semantic versioning on a reasonable timeline 
@@ -139,11 +139,11 @@ Interagency technical experts (data engineers and data scientists) who design an
 - **Lifecycle focus:** analysis and synthesis, reporting and communication (support)
 :::
 
-**Who they are**
+**Who they are:**
 
 Interdisciplinary scientists working on HRL hypotheses and synthesis products.
 
-**Core responsibilities**
+**Core responsibilities:**
 
 - Synthesize curated, analysis-ready datasets provided by the Central Data Team  
 - Conduct reproducible analyses and modeling in accordance with the HRL Style and Development Guide  
@@ -152,12 +152,12 @@ Interdisciplinary scientists working on HRL hypotheses and synthesis products.
 - Suggest adaptive management actions to the HRL Science Committee based on synthesis findings and research needs
 - Identify future data and analysis priorities based on synthesis findings  
 
-**Lifecycle phase**
+**Lifecycle phase:**
 
 - [Analysis and synthesis](../lifecycle/analysis-synthesis.qmd)
 - [Reporting and communication](../lifecycle/reporting-communication.qmd) (in support role)
 
-**Decision authority**
+**Decision authority:**
 
 - Influence prioritization through documented feedback  
 - Propose new data needs and analytical directions
@@ -175,28 +175,28 @@ Interdisciplinary scientists working on HRL hypotheses and synthesis products.
 - **Lifecycle focus:** cross-cutting oversight across all phases
 :::
 
-**Who they are**
+**Who they are:**
 
 HRL Science Committee members who ensure that HRL’s science, data practices, and investments remain aligned with program goals and charter commitments.
 
-**Core responsibilities**
+**Core responsibilities:**
 
 - Oversee resource allocation and prioritization across HRL science workstreams  
 - Resolve tensions between data producer independence and program-wide standardization  
 - Identify and support capacity and training needs related to data, modeling, and open science  
 - Request decision support tools, dashboards, and frontend products from the Central Data Team
 
-**Lifecycle phases**
+**Lifecycle phases:**
 
 - Cross-cutting across the entire lifecycle, with particular focus on major program decisions and trade-offs  
 
-**Decision authority**
+**Decision authority:**
 
 - Allocate financial and human resources  
 - Approve or revise major governance policies and standards  
 - Escalate critical unresolved issues to the HRL Systemwide Governance Committee  
 
-# How These Roles Work Together
+# How these roles work together
 
 Across the data lifecycle, governance mechanisms and data product quality gates ensure that:
 

@@ -1,5 +1,5 @@
 ---
-title: "Program Overview"
+title: "HRL program overview"
 ---
 
 The [**Healthy Rivers and Landscapes (HRL) program**](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page) is an eight-year, multi-agency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems across the **Sacramento River watershed and the Bay-Delta estuary**. HRL aims to improve ecological conditions for native fishes by coordinating habitat restoration and flow actions at a watershed scale.
@@ -18,7 +18,7 @@ Scientific evaluation will occur through:
 - **Triennial synthesis reports** that integrate results across projects, special studies, and geographic scales every three years
 - **Ecological Outcomes and Analysis report** at the end of the program that assesses the cumulative effectiveness of HRL actions
 
-## Data Program Structure and Collaboration
+## HRL data program structure and collaboration
 
 HRL science and implementation are organized through an interagency governance structure. For HRL data engineering and data science work, key program roles include:
 
@@ -29,7 +29,7 @@ HRL science and implementation are organized through an interagency governance s
 
 These groups work together to support scientific research and adaptive management and ensure that HRL decisions are informed by rigorous, transparent, and reproducible science.
 
-## A Whole-Watershed Approach
+## A whole-watershed approach
 
 A core feature of HRL is its emphasis on **integrated, system-wide science**. The program links actions and outcomes across rivers, floodplains, and estuarine habitats, enabling coordinated research on:
 

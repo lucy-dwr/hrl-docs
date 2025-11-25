@@ -1,5 +1,5 @@
 ---
-title: "HRL Data Lifecycle Overview"
+title: "HRL data lifecycle overview"
 ---
 
 HRL structures data governance and reproducible, collaborative practices around a program-specific data lifecycle. The data lifecycle outlines key phases that data pass through from initial collection in the field to final reporting and communication of results. Each phase includes defined activities, responsible parties, and governance touchpoints to ensure integrity, transparency, and usability of data and analyses throughout the HRL program.
@@ -50,7 +50,7 @@ HRL structures data governance and reproducible, collaborative practices around 
 }
 </style>
 
-## Lifecycle Phases at a Glance
+## Lifecycle phases at a glance
 <table class="table lifecycle-table">
 <colgroup>
 <col class="phase-col" />
@@ -59,9 +59,9 @@ HRL structures data governance and reproducible, collaborative practices around 
 </colgroup>
 <thead>
 <tr>
-<th>Lifecycle Phase</th>
+<th>Lifecycle phase</th>
 <th>Summary</th>
-<th>Responsible Entity</th>
+<th>Responsible entity</th>
 </tr>
 </thead>
 <tbody>

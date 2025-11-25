@@ -23,6 +23,7 @@ $dwr-charcoal:    #333333;
 $dwr-grey:        #777777;
 $dwr-grey-light:  #DADADA;
 $dwr-bg:          #F7F7F7;
+$dwr-white:       #FFFFFF;
 
 /* ------- Bootstrap Variable Overrides ------- */
 
@@ -43,7 +44,7 @@ $info:               $dwr-blue;
 /* Neutrals */
 $body-color:         $dwr-charcoal;
 $headings-color:     $dwr-green-dark; 
-$body-bg:            #ffffff;
+$body-bg:            $dwr-white;
 $border-color:       $dwr-grey-light;
 
 /* Links */
@@ -137,7 +138,7 @@ footer.footer .nav-footer a:hover,
 .btn-outline-primary.active {
   background-color: $primary-dark !important;
   border-color: $primary-dark !important;
-  color: #ffffff !important;
+  color: $dwr-white !important;
 }
 
 /* Ensure button group/stack spacing displays correctly */

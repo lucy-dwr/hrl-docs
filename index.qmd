@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the HRL Documentation Hub"
+title: "Welcome to the HRL documentation hub"
 ---
 
 The [Healthy Rivers and Landscapes program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page) (HRL) is an eight-year interagency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems in the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fish populations and is proposed as part of the program of implementation for the State Water Resources Control Board’s [Bay-Delta Water Quality Control Plan](https://waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/comp_review.html).
@@ -8,7 +8,7 @@ HRL implementation and adaptive management are guided by a comprehensive [Scienc
 
 **This website serves as the central hub for documentation, standards, and learning materials that support the data engineering and data science components of the HRL Science Program.**
 
-## Purpose of This Site
+## Purpose of this site
 
 This documentation website provides:
 
@@ -20,7 +20,7 @@ This documentation website provides:
 
 This site focuses on high-level program governance, structures, and workflows. Technical implementations, reproducible templates, and workflow code live in companion HRL GitHub repositories and other documentation sites and are linked throughout this documentation hub.
 
-## Getting Started
+## Getting started
 
 If you are new to the HRL Science Program, particularly the data engineering and data science enterprise, start with:
 
@@ -31,7 +31,7 @@ If you are new to the HRL Science Program, particularly the data engineering and
 
 As HRL evolves, keystone science documents, such as the [HRL Science Plan](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Voluntary-Watershed-Agreements/Draft_VA_Science_Plan.pdf), will also be made available as interactive web documents.
 
-## Learn More
+## Learn more
 
 Use the navigation sidebar to explore documentation on this site.
 

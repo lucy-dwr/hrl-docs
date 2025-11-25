@@ -1,5 +1,5 @@
 ---
-title: "Reproducible Science"
+title: "Reproducible science"
 ---
 
 **Reproducibility is the ability for another person to understand, repeat, and validate scientific results.** In practice, this means that people can see the data, methods, assumptions, and decisions that produced a result and can rerun the same steps (or adapt them) with confidence and minimal effort. This page explains HRL-wide expectations for reproducibility at a high level; detailed “how-to” guidance lives in the [HRL Style and Development Guide](../standards/style-dev-guide.qmd) and related resources.
@@ -11,7 +11,7 @@ title: "Reproducible Science"
 - HRL-specific templates and GitHub workflows are provided to support reproducibility; see quickstarts and resources for more detail.
 :::
 
-## Reproducibility Essentials
+## Reproducibility essentials
 
 To promote reproducible science, the HRL Science Program:
 
@@ -23,7 +23,7 @@ To promote reproducible science, the HRL Science Program:
 - **Honors data sharing agreements** by carrying forward access notes and restrictions for governed data.
 - **Documents workflows, checkpoints, and artifacts** so they can be audited and improved over the life of the program.
 
-## Why Reproducibility Matters
+## Why reproducibility matters
 
 By making our scientific work rigorously reproducible, HRL parties:
 
@@ -34,7 +34,7 @@ By making our scientific work rigorously reproducible, HRL parties:
 - **Align with HRL commitments** to FAIR, CARE, and open science.
 - **Empower the broader scientific community** to validate, build on, and extend HRL research.
 
-## Reproducible Code and Software Practices
+## Reproducible code and software practices
 
 Detailed implementation standards, such as repository structures, naming conventions, dependency and environment management, testing, and automation, are provided in the [HRL Style and Development Guide](../standards/style-dev-guide.qmd) and related resources. At a minimum:
 
@@ -45,7 +45,7 @@ Detailed implementation standards, such as repository structures, naming convent
 - **Run automated checks** where available in a CI/CD framework (e.g., style, tests, and schema validation) before releasing datasets or analysis results.
 - **Track decisions and issues** in repository issue trackers so future users understand why changes were made.
 
-## Support and Resources
+## Support and resources
 
 - [Data Lifecycle Overview](../lifecycle/overview.qmd) – How collection, publication, ingestion, storage, analysis, and reporting connect across the HRL Science Program.
 - [Governance and Roles](../about/governance-roles.qmd) – Responsibilities across Data Producers, the Central Data Team, Synthesis Teams, and the HRL Science Committee.

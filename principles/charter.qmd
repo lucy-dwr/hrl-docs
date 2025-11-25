@@ -1,14 +1,14 @@
 ---
-title: "Science Charter Commitments"
+title: "Science charter commitments"
 ---
 
 The [HRL Science Committee Charter](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Support-Healthy-Rivers-and-Landscape/VASciProgramDraftCharter.pdf), particularly Appendix D, describes the commitments that guide data collection, publication, and analysis activities under the [HRL Science Program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page/Science). This page summarizes those commitments so that HRL Program partners understand the expectations that underpin the rest of this documentation hub. Use it as a quick refresher before diving into detailed guidance on the data lifecycle, standards, or common activities.
 
-## Core Charter Commitments
+## Core charter commitments
 
 The HRL Science Committee charter expresses principles that support open, reproducible, ethical science. The principles are operationalized through common practices across the full data lifecycle.
 
-### Data Collection
+### Data collection
 
 - HRL parties collect data using **approved protocols** documented in system-level science plans.
 - Data Producers capture **complete metadata** at the point of collection, including metadata describing who collected the data, when and where the data were collected, equipment settings, and calibration routines.
@@ -22,7 +22,7 @@ More information:
 <a class="btn btn-outline-primary" role="button" href="../about/governance-roles.qmd">Governance and Roles</a>
 :::
 
-### Data Management
+### Data management
 
 - Datasets are stored in **machine-readable, non-proprietary formats** and structured according to [**tidy data principles**](https://r4ds.had.co.nz/tidy-data.html) where practical.
 - **Quality control steps** are scripted, version-controlled, and documented through validation logs.
@@ -38,7 +38,7 @@ More information:
 <a class="btn btn-outline-primary" role="button" href="../standards/metadata.qmd">Metadata Standards</a>
 :::
 
-### Data Access
+### Data access
 
 - Static HRL **datasets receive DOIs** (e.g., via EDI) and **are discoverable** through the HRL data catalog, search, and APIs.
 - **Metadata packages** provide plain-language summaries, schema information, keywords, and access notes.
@@ -51,7 +51,7 @@ More information:
 <a class="btn btn-outline-primary" role="button" href="../reference/resources.qmd">Reference Resources</a>
 :::
 
-### Integration and Analysis
+### Integration and analysis
 
 - All analyses are implemented through **structured R or Python workflows** managed in HRL **GitHub repositories** that follow the [HRL Style and Development Guide](../standards/style-dev-guide.qmd).
 - **Continuous integration** tests verify that code runs, schemas match expectations, and outputs reproduce.
@@ -66,23 +66,23 @@ More information:
 <a class="btn btn-outline-primary" role="button" href="../lifecycle/reporting-communication.qmd">Reporting and Communication</a>
 :::
 
-## Program-Wide Priorities
+## Program-wide priorities
 
 HRL data governance and management emphasizes three cross-cutting priorities that help HRL meet its commitments.
 
-### Efficiency and Responsiveness
+### Efficiency and responsiveness
 
 - **Modular pipelines and reusable templates** reduce duplication and support repeatable annual and triennial reporting.
 - **Thorough documentation and coding standards** enable rapid onboarding of new collaborators and contractors and coherence of data and code products across the entire program.
 - **Feedback loops** between Data Producers, the Central Data Team, and Synthesis Teams surface issues quickly, allow the data and analysis enterprise to evolve to meet program needs, and inform adaptive management decisions.
 
-### Scalable, Future-proof Infrastructure
+### Scalable, future-proof infrastructure
 
 - **Cloud-native, open, and standards-based technologies** allow HRL to ingest increasing data volumes and adopt new tools as needed.
 - **Storage, compute, and orchestration platforms** are selected for durability and portability over the eight-year program horizon.
 - **Large or complex datasets** (e.g., imagery, LiDAR, and modeling outputs) are handled with architectures that support efficient storage, retrieval, and processing.
 
-### Program-Wide Learning
+### Program-wide learning
 
 - Shared templates, training curricula, office hours, and documentation keep **practices aligned across agencies.**
 - **Lessons from synthesis and reporting cycles** feed updates into protocols, standards, and governance decisions.

@@ -1,4 +1,4 @@
-# Healthy Rivers and Landscapes Documentation Website
+# Healthy Rivers and Landscapes documentation website
 
 _Disclaimer: this site is currently published in draft form, aligned with HRL's commitment to open source work, and should not be cited as authoritative HRL policy. It is released with an [MIT license](LICENSE.md)._
 
@@ -11,7 +11,7 @@ For more information, visit:
 -   [HRL program website](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page)
 -   [HRL science website](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page/Science)
 
-## This Repository
+## This repository
 
 This repository contains code to render an overarching [**HRL science documentation website**](https://lucy-dwr.github.io/hrl-docs/). The website is currently geared toward the data engineering and data science components of the HRL science program. Eventually, keystone HRL science documents, [such as the HRL science plan](https://resources.ca.gov/-/media/CNRA-Website/Files/Initiatives/Voluntary-Watershed-Agreements/Draft_VA_Science_Plan.pdf), will also be provided as interactive web documents.
 
@@ -24,11 +24,11 @@ The HRL science documentation website contains information about:
 -   Onboarding and learning materials
 -   Links to other HRL program resources
 
-### Technical Details
+### Technical details
 
 This website is built using Quarto, a scientific and technical publishing system built on Pandoc. The website is rendered using GitHub Pages. We welcome suggestions for how this documentation website can be improved. Visit our [contributing guidelines](.github/CONTRIBUTING.md) for more information on improving the HRL documentation website, and please note that contributors are expected to follow our [code of conduct](.github/CODE_OF_CONDUCT.md).
 
-#### Rendering, Freezing, and Dependencies
+#### Rendering, freezing, and dependencies
 
 - Quarto execution freezing is enabled globally (`execute.freeze: auto` in `_quarto.yml`). On render, Quarto saves cached computations for executable documents in the `_freeze/` directory. Commit those cached outputs whenever you update rendered content so GitHub Actions can publish without re-running code.
 - When you edit a `.qmd` file with executable code, re-run `quarto render` locally to refresh its `_freeze` artifacts. Quarto automatically re-executes any page whose source changed; untouched pages keep their cached results.
@@ -37,7 +37,7 @@ This website is built using Quarto, a scientific and technical publishing system
 
 With this workflow, everyday commits render locally with frozen outputs, and GitHub Actions simply republishes the already-computed site while remaining ready for future, more rigorous dependency management.
 
-#### Agentic LLM Usage for Code Generation
+#### Agentic LLM usage for code generation
 
 If you choose to use LLMs to assist with code generation for this repository, please be aware of the following:
 

@@ -1,5 +1,5 @@
 ---
-title: "FAIR and CARE Principles"
+title: "FAIR and CARE principles"
 ---
 
 **The HRL Science Program commits to creating data assets that are open, reusable, and respectful of Tribal sovereignty and community priorities.** The FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) frameworks serve as the shared language for those commitments. This page translates the FAIR and CARE frameworks into practical expectations that [Data Producers, the Central Data Team, and Synthesis Teams](../about/governance-roles.qmd) can apply across every phase of the [HRL Data Lifecycle](../lifecycle/overview.qmd).
@@ -44,7 +44,7 @@ title: "FAIR and CARE Principles"
 }
 </style>
 
-## FAIR and CARE at a Glance
+## FAIR and CARE at a glance
 
 ### FAIR
 
@@ -60,7 +60,7 @@ The [FAIR Guiding Principles](https://www.go-fair.org/fair-principles/) for scie
 <tr>
 <th>Principle</th>
 <th>Definition</th>
-<th>HRL Expectation</th>
+<th>HRL expectation</th>
 </tr>
 </thead>
 <tbody>
@@ -124,7 +124,7 @@ The [CARE Principles for Indigenous Data Governance](https://www.gida-global.org
 <tr>
 <th>Principle</th>
 <th>Definition</th>
-<th>HRL Expectation</th>
+<th>HRL expectation</th>
 </tr>
 </thead>
 <tbody>
@@ -178,7 +178,7 @@ The [CARE Principles for Indigenous Data Governance](https://www.gida-global.org
 - **CARE ensures ethical science and reciprocity.** Sensitive observations, Indigenous Knowledge, and Tribal and community agreements are honored in metadata, management, access controls, and communications so that benefits and decision-making authority remain with source communities in order to redress harmful histories and counteract extractive tendencies that persist in public agencies and Western science.
 - **Both frameworks travel together.** Collection protocols, static publication packages, ingestion pipelines, and synthesis reports must document how FAIR and CARE requirements were met and where exceptions were negotiated.
 
-## Implementation References
+## Implementation references
 
 Use this table as a quick crosswalk for what FAIR and CARE look like at each point in the HRL data lifecycle and which artifacts demonstrate that the requirements were addressed. **Program-level resources for HRL parties to develop overarching knowledge, capacity, and practices for upholding FAIR and CARE commitments will be developed by the HRL Science Committee and the Central Data Team.**
 
@@ -192,9 +192,9 @@ Use this table as a quick crosswalk for what FAIR and CARE look like at each poi
 <thead>
 <tr>
 <th>Lifecycle stage</th>
-<th>FAIR Emphasis</th>
-<th>CARE Emphasis</th>
-<th>Key Artifacts</th>
+<th>FAIR emphasis</th>
+<th>CARE emphasis</th>
+<th>Key artifacts</th>
 </tr>
 </thead>
 <tbody>
