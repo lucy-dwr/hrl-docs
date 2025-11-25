@@ -1162,61 +1162,61 @@
   {
     "objectID": "lifecycle/static-publication.html",
     "href": "lifecycle/static-publication.html",
-    "title": "Static Publication",
+    "title": "Static publication",
     "section": "",
-    "text": "Describe how HRL releases cleaned, versioned datasets through GitHub repositories and EDI.\nReinforce that static datasets must be reproducible, citable, and accompanied by complete metadata.",
+    "text": "TipStatic publication at a glance\n\n\n\n\nData Producers finalize cleaned datasets into tidy, version-controlled releases with DOIs, complete metadata, and links to source code that follows the conventions described in the HRL Style and Development Guide.\nDatasets are published to the Environmental Data Initiative (EDI) in open, non-proprietary formats with complete provenance metadata and open licenses.\nReleases posted to GitHub and EDI become the trusted inputs for data ingestion, cataloging, and downstream analyses.\nDescription:\nIn the static publication step, Data Producers finalize cleaned datasets into tidy, versioned data packages; run automated quality control checks that ensure that data meet HRL and EDI publication standards; and publish data packages through HRL GitHub repositories and EDI with complete metadata and DOIs. Metadata are assembled using the tools in the hrlpub R package, which wrap EMLassemblyline and EDI APIs to ensure that metadata and data packages pass EDI’s evaluation checks.\nNote: HRL Data Producers are expected to publish most datasets to EDI. However, very large or complex datasets—such as high-resolution imagery collections, climate model outputs, or large geospatial files—may exceed EDI’s size and storage constraints. These datasets will be hosted and published by the Central Data Team using HRL program infrastructure, with EDI metadata records and landing pages cross-linking to the hosted assets when appropriate.\nOutcome:\nThe output of this data lifecycle step is a citable, reproducible data package released on EDI in open formats with complete metadata, structured data dictionaries, provenance notes, quality control logs, and source code pinned to an immutable GitHub release. Metadata are written in Ecological Metadata Language (EML) to ensure machine readability, human readability, and interoperability with other data systems and to facilitate discovery, reuse, and integration with HRL data catalogs and search tools.\nBenefit:\nPublishing static datasets creates trusted, FAIR- and CARE-aligned data assets that downstream ingestion, cataloging, and analysis workflows can rely on, while also making HRL data discoverable, transparent, and reusable by partners, collaborators, and the public.",
     "crumbs": [
       "Home",
       "HRL Data Lifecycle",
-      "Static Publication"
+      "Static publication"
     ]
   },
   {
-    "objectID": "lifecycle/static-publication.html#purpose",
-    "href": "lifecycle/static-publication.html#purpose",
-    "title": "Static Publication",
-    "section": "",
-    "text": "Describe how HRL releases cleaned, versioned datasets through GitHub repositories and EDI.\nReinforce that static datasets must be reproducible, citable, and accompanied by complete metadata.",
+    "objectID": "lifecycle/static-publication.html#workflow-steps",
+    "href": "lifecycle/static-publication.html#workflow-steps",
+    "title": "Static publication",
+    "section": "Workflow steps",
+    "text": "Workflow steps\nFor each dataset publication, Data Producers should complete the following steps. A step-by-step guide that illustrates this process with sample code is provided in the quickstart guide on publishing a static dataset to EDI.\n\n\nSet up a dataset publication repository by forking the HRL data publication template repository. This ensures that all data publications follow a consistent, version-controlled structure with standardized directories required by HRL and EDI tooling.\nBuild reproducible cleaning and quality control pipelines that produce tidy, analysis-ready data; validate key fields; and run continuous integration checks that must pass before tagging a release.\nCreate structured metadata using the hrlpub R package. These functions assemble EML using EMLassemblyline templates for attributes, personnel, geographic coverage, temporal coverage, provenance, and custom units. Metadata must pass the EDI evaluator before publication.\nPrepare the release package by compiling:\n\nTidy data tables in open formats\nData dictionaries\nA README file\nQuality control logs\nRelease notes that map inputs, parameters, and code to the tagged commit using HRL style conventions\n\nUpload the package to EDI using staged submission: publish first to the staging environment to review the EDI evaluation report, resolve any issues, and then publish to production to mint a DOI. The GitHub tag for the release should be included in the EML provenance. Notify the Central Data Team once publication is complete.",
     "crumbs": [
       "Home",
       "HRL Data Lifecycle",
-      "Static Publication"
-    ]
-  },
-  {
-    "objectID": "lifecycle/static-publication.html#workflow-components",
-    "href": "lifecycle/static-publication.html#workflow-components",
-    "title": "Static Publication",
-    "section": "Workflow components",
-    "text": "Workflow components\n\nRepository setup aligned with the HRL Style & Development Guide (structure, naming, README, licensing).\nData cleaning and QA scripts, automation, and continuous integration checks prior to release.\nMetadata authoring (EML, data dictionaries, plain-language summaries, provenance statements).\nSubmission steps for EDI, DOI minting, and coordination with curators.",
-    "crumbs": [
-      "Home",
-      "HRL Data Lifecycle",
-      "Static Publication"
+      "Static publication"
     ]
   },
   {
     "objectID": "lifecycle/static-publication.html#publication-package-checklist",
     "href": "lifecycle/static-publication.html#publication-package-checklist",
-    "title": "Static Publication",
+    "title": "Static publication",
     "section": "Publication package checklist",
-    "text": "Publication package checklist\n\nRequired files in open formats plus metadata XML/JSON, README, QA logs, and changelog/NEWS entries.\nDocumentation of Tribal agreements or special access notes when applicable.\nSign-off process (project team review, approval routing, notification to the Central Data Team).",
+    "text": "Publication package checklist\n\nWhat goes to EDI\n\nTidy data files in open, non-proprietary formats (e.g., CSV, Parquet, GeoJSON) with a clear version identifier\nComplete EML metadata for the release, including:\n\nData dictionaries (attributes files)\nREADME describing the dataset, scope, and intended use\nPersonnel and contact information\nLicense statement\nTemporal and geographic coverage\nProvenance (source DOIs, commit hash of the tagged release, parameters, external datasets)\nQuality control report or summary\n\nDocumentation of data sharing agreements, use constraints, access notes, or sensitive-data handling instructions (including Tribal agreements when applicable)\nA check that the package passes EDI’s automated evaluation in staging before production publication\n\n\n\nWhat stays in the GitHub repository\n\nTagged GitHub release with the exact code, configuration, parameters, and dependencies used to produce the published data\nRelease notes in a NEWS entry for the tagged version that summarize changes since the prior release, if relevant\nContinuous integration workflows validating data quality and code functionality",
     "crumbs": [
       "Home",
       "HRL Data Lifecycle",
-      "Static Publication"
+      "Static publication"
     ]
   },
   {
     "objectID": "lifecycle/static-publication.html#outputs-and-handoffs",
     "href": "lifecycle/static-publication.html#outputs-and-handoffs",
-    "title": "Static Publication",
+    "title": "Static publication",
     "section": "Outputs and handoffs",
-    "text": "Outputs and handoffs\n\nDOI-minted dataset and tagged GitHub release with reproducible code.\nCommunication package for the ingestion team (release notes, schema summary, contact info).\nGuidance for transferring large/complex files directly to the Central Data Team when needed.",
+    "text": "Outputs and handoffs\nPublishing data following the HRL static publication workflow results in the following reproducible, well-documented outputs:\n\nA versioned dataset published on EDI with complete EML metadata and a DOI\nA tagged GitHub release containing the exact code, configuration, and parameters used to produce the published data, linked in the EML provenance\n\nAfter publishing data on EDI, Data Producers should notify the Central Data Team and provide a link to the EDI landing page and GitHub release. The Central Data Team will then ingest the dataset into HRL data catalogs and downstream analysis pipelines as appropriate.\nIf datasets are potentially too large or complex to publish on EDI, Data Producers should instead work directly with the Central Data Team on hosting and publication plans.",
     "crumbs": [
       "Home",
       "HRL Data Lifecycle",
-      "Static Publication"
+      "Static publication"
+    ]
+  },
+  {
+    "objectID": "lifecycle/static-publication.html#resources",
+    "href": "lifecycle/static-publication.html#resources",
+    "title": "Static publication",
+    "section": "Resources",
+    "text": "Resources\n\nHRL Style and Development Guide – repository structure, code style, naming conventions, continuous integration, dependencies management, and release practices for publication projects\nHRL data publication template repository – fork to start new dataset releases with prescribed directories, scripts, and GitHub Actions for continuous integration\nPublish a Static Dataset to EDI – step-by-step quickstart with code snippets and an example dataset\nhrlpub R package – wraps EMLassemblyline and EDI APIs to build and publish EML and validate data packages before release",
+    "crumbs": [
+      "Home",
+      "HRL Data Lifecycle",
+      "Static publication"
     ]
   },
   {

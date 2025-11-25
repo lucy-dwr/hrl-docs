@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Static Publication – HRL Docs</title>
+<title>Static publication – HRL Docs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Static Publication</h1>
+          <h1 class="quarto-secondary-nav-title">Static publication</h1>
         </a>     
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -217,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lifecycle/static-publication.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Static Publication</span></a>
+ <span class="menu-text">Static publication</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -361,10 +361,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#workflow-components" id="toc-workflow-components" class="nav-link" data-scroll-target="#workflow-components">Workflow components</a></li>
-  <li><a href="#publication-package-checklist" id="toc-publication-package-checklist" class="nav-link" data-scroll-target="#publication-package-checklist">Publication package checklist</a></li>
+  <li><a href="#workflow-steps" id="toc-workflow-steps" class="nav-link active" data-scroll-target="#workflow-steps">Workflow steps</a></li>
+  <li><a href="#publication-package-checklist" id="toc-publication-package-checklist" class="nav-link" data-scroll-target="#publication-package-checklist">Publication package checklist</a>
+  <ul class="collapse">
+  <li><a href="#what-goes-to-edi" id="toc-what-goes-to-edi" class="nav-link" data-scroll-target="#what-goes-to-edi">What goes to EDI</a></li>
+  <li><a href="#what-stays-in-the-github-repository" id="toc-what-stays-in-the-github-repository" class="nav-link" data-scroll-target="#what-stays-in-the-github-repository">What stays in the GitHub repository</a></li>
+  </ul></li>
   <li><a href="#outputs-and-handoffs" id="toc-outputs-and-handoffs" class="nav-link" data-scroll-target="#outputs-and-handoffs">Outputs and handoffs</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -373,7 +377,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Static Publication</h1>
+<h1 class="title d-none d-lg-block">Static publication</h1>
 </div>
 
 
@@ -390,36 +394,96 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<div class="callout callout-style-default callout-tip callout-titled" title="Static publication at a glance">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Static publication at a glance
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>Describe how HRL releases cleaned, versioned datasets through GitHub repositories and EDI.</li>
-<li>Reinforce that static datasets must be reproducible, citable, and accompanied by complete metadata.</li>
+<li>Data Producers finalize cleaned datasets into tidy, version-controlled releases with DOIs, complete metadata, and links to source code that follows the conventions described in the <a href="../standards/style-dev-guide.html">HRL Style and Development Guide</a>.</li>
+<li>Datasets are published to the <a href="https://edirepository.org">Environmental Data Initiative (EDI)</a> in open, non-proprietary formats with complete provenance metadata and open licenses.</li>
+<li>Releases posted to GitHub and EDI become the trusted inputs for data ingestion, cataloging, and downstream analyses.</li>
 </ul>
-</section>
-<section id="workflow-components" class="level2">
-<h2 class="anchored" data-anchor-id="workflow-components">Workflow components</h2>
+</div>
+</div>
+<p><strong>Description:</strong></p>
+<p>In the static publication step, <strong>Data Producers finalize cleaned datasets into tidy, versioned data packages;</strong> run automated quality control checks that ensure that data meet HRL and EDI publication standards; and publish data packages through HRL GitHub repositories and <a href="https://edirepository.org">EDI</a> with complete metadata and DOIs. Metadata are assembled using the tools in the <code>hrlpub</code> R package, which wrap <a href="https://ediorg.github.io/EMLassemblyline/index.html"><code>EMLassemblyline</code></a> and <a href="https://edirepository.org/resources/rest-api">EDI APIs</a> to ensure that metadata and data packages pass EDI’s evaluation checks.</p>
+<p><em>Note: HRL Data Producers are expected to publish most datasets to EDI. However, very large or complex datasets—such as high-resolution imagery collections, climate model outputs, or large geospatial files—may exceed EDI’s size and storage constraints. These datasets will be hosted and published by the Central Data Team using HRL program infrastructure, with EDI metadata records and landing pages cross-linking to the hosted assets when appropriate.</em></p>
+<p><strong>Outcome:</strong></p>
+<p>The output of this data lifecycle step is a <strong>citable, reproducible data package released on EDI</strong> in open formats with complete metadata, structured data dictionaries, provenance notes, quality control logs, and source code pinned to an immutable GitHub release. Metadata are written in <a href="https://eml.ecoinformatics.org">Ecological Metadata Language (EML)</a> to ensure machine readability, human readability, and interoperability with other data systems and to facilitate discovery, reuse, and integration with HRL data catalogs and search tools.</p>
+<p><strong>Benefit:</strong></p>
+<p>Publishing static datasets creates <strong>trusted, FAIR- and CARE-aligned data assets</strong> that downstream ingestion, cataloging, and analysis workflows can rely on, while also making HRL data discoverable, transparent, and reusable by partners, collaborators, and the public.</p>
+<section id="workflow-steps" class="level2">
+<h2 class="anchored" data-anchor-id="workflow-steps">Workflow steps</h2>
+<p>For each dataset publication, Data Producers should complete the following steps. A step-by-step guide that illustrates this process with sample code is provided in the quickstart guide on <a href="../quickstart/publish-to-edi.html">publishing a static dataset to EDI</a>.</p>
+<div class="bold-ol">
+<ol type="1">
+<li><p><strong>Set up a dataset publication repository</strong> by forking the HRL data publication template repository. This ensures that all data publications follow a consistent, version-controlled structure with standardized directories required by HRL and EDI tooling.</p></li>
+<li><p><strong>Build</strong> <a href="../principles/reproducibility.html"><strong>reproducible</strong></a> <strong>cleaning and quality control pipelines</strong> that produce tidy, analysis-ready data; validate key fields; and run continuous integration checks that must pass before tagging a release.</p></li>
+<li><p><strong>Create structured metadata</strong> using the <code>hrlpub</code> R package. These functions assemble EML using <code>EMLassemblyline</code> templates for attributes, personnel, geographic coverage, temporal coverage, provenance, and custom units. Metadata must pass the EDI evaluator before publication.</p></li>
+<li><p><strong>Prepare the release package</strong> by compiling:</p>
 <ul>
-<li>Repository setup aligned with the HRL Style &amp; Development Guide (structure, naming, README, licensing).</li>
-<li>Data cleaning and QA scripts, automation, and continuous integration checks prior to release.</li>
-<li>Metadata authoring (EML, data dictionaries, plain-language summaries, provenance statements).</li>
-<li>Submission steps for EDI, DOI minting, and coordination with curators.</li>
-</ul>
+<li>Tidy data tables in open formats</li>
+<li>Data dictionaries</li>
+<li>A README file</li>
+<li>Quality control logs</li>
+<li>Release notes that map inputs, parameters, and code to the tagged commit using HRL style conventions</li>
+</ul></li>
+<li><p><strong>Upload the package to EDI</strong> using staged submission: publish first to the <em>staging</em> environment to review the EDI evaluation report, resolve any issues, and then publish to <em>production</em> to mint a DOI. The GitHub tag for the release should be included in the EML provenance. Notify the Central Data Team once publication is complete.</p></li>
+</ol>
+</div>
 </section>
 <section id="publication-package-checklist" class="level2">
 <h2 class="anchored" data-anchor-id="publication-package-checklist">Publication package checklist</h2>
+<section id="what-goes-to-edi" class="level3">
+<h3 class="anchored" data-anchor-id="what-goes-to-edi">What goes to EDI</h3>
 <ul>
-<li>Required files in open formats plus metadata XML/JSON, README, QA logs, and changelog/NEWS entries.</li>
-<li>Documentation of Tribal agreements or special access notes when applicable.</li>
-<li>Sign-off process (project team review, approval routing, notification to the Central Data Team).</li>
+<li>Tidy data files in open, non-proprietary formats (e.g., CSV, Parquet, GeoJSON) with a clear version identifier</li>
+<li>Complete EML metadata for the release, including:
+<ul>
+<li>Data dictionaries (attributes files)</li>
+<li>README describing the dataset, scope, and intended use</li>
+<li>Personnel and contact information</li>
+<li>License statement</li>
+<li>Temporal and geographic coverage</li>
+<li>Provenance (source DOIs, commit hash of the tagged release, parameters, external datasets)</li>
+<li>Quality control report or summary</li>
+</ul></li>
+<li>Documentation of data sharing agreements, use constraints, access notes, or sensitive-data handling instructions (including Tribal agreements when applicable)</li>
+<li>A check that the package passes EDI’s automated evaluation in staging before production publication</li>
 </ul>
+</section>
+<section id="what-stays-in-the-github-repository" class="level3">
+<h3 class="anchored" data-anchor-id="what-stays-in-the-github-repository">What stays in the GitHub repository</h3>
+<ul>
+<li>Tagged GitHub release with the exact code, configuration, parameters, and dependencies used to produce the published data</li>
+<li>Release notes in a <code>NEWS</code> entry for the tagged version that summarize changes since the prior release, if relevant</li>
+<li>Continuous integration workflows validating data quality and code functionality</li>
+</ul>
+</section>
 </section>
 <section id="outputs-and-handoffs" class="level2">
 <h2 class="anchored" data-anchor-id="outputs-and-handoffs">Outputs and handoffs</h2>
+<p>Publishing data following the HRL static publication workflow results in the following reproducible, well-documented outputs:</p>
 <ul>
-<li>DOI-minted dataset and tagged GitHub release with reproducible code.</li>
-<li>Communication package for the ingestion team (release notes, schema summary, contact info).</li>
-<li>Guidance for transferring large/complex files directly to the Central Data Team when needed.</li>
+<li>A versioned dataset published on EDI with complete EML metadata and a DOI</li>
+<li>A tagged GitHub release containing the exact code, configuration, and parameters used to produce the published data, linked in the EML provenance</li>
+</ul>
+<p>After publishing data on EDI, Data Producers should notify the Central Data Team and provide a link to the EDI landing page and GitHub release. The Central Data Team will then ingest the dataset into HRL data catalogs and downstream analysis pipelines as appropriate.</p>
+<p>If datasets are potentially too large or complex to publish on EDI, Data Producers should instead work directly with the Central Data Team on hosting and publication plans.</p>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<ul>
+<li><a href="../standards/style-dev-guide.html">HRL Style and Development Guide</a> – repository structure, code style, naming conventions, continuous integration, dependencies management, and release practices for publication projects</li>
+<li>HRL data publication template repository – fork to start new dataset releases with prescribed directories, scripts, and GitHub Actions for continuous integration</li>
+<li><a href="../quickstart/publish-to-edi.html">Publish a Static Dataset to EDI</a> – step-by-step quickstart with code snippets and an example dataset</li>
+<li><code>hrlpub</code> R package – wraps <code>EMLassemblyline</code> and EDI APIs to build and publish EML and validate data packages before release</li>
 </ul>
 
 
