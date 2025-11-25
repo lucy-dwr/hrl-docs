@@ -746,115 +746,115 @@
   {
     "objectID": "principles/fair-care.html",
     "href": "principles/fair-care.html",
-    "title": "FAIR and CARE Principles",
+    "title": "FAIR and CARE principles",
     "section": "",
     "text": "The HRL Science Program commits to creating data assets that are open, reusable, and respectful of Tribal sovereignty and community priorities. The FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) frameworks serve as the shared language for those commitments. This page translates the FAIR and CARE frameworks into practical expectations that Data Producers, the Central Data Team, and Synthesis Teams can apply across every phase of the HRL Data Lifecycle.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "FAIR and CARE Principles"
+      "FAIR and CARE principles"
     ]
   },
   {
     "objectID": "principles/fair-care.html#fair-and-care-at-a-glance",
     "href": "principles/fair-care.html#fair-and-care-at-a-glance",
-    "title": "FAIR and CARE Principles",
-    "section": "FAIR and CARE at a Glance",
-    "text": "FAIR and CARE at a Glance\n\nFAIR\nThe FAIR Guiding Principles for scientific data management and stewardship were published in 2016 to improve the ability of both humans and machines to find, access, interoperate, and reuse scientific data.\n\n\n\n\n\n\n\n\n\nPrinciple\n\n\nDefinition\n\n\nHRL Expectation\n\n\n\n\n\n\nFindable\n\n\nData and metadata carry persistent identifiers and can be discovered through catalogs and search.\n\n\n\n\nRegister DOIs and expose them through the HRL data catalog and common repositories.\n\n\nProvide structured inventories and keyword-rich, semantically-meaningful metadata (e.g., spatial/temporal coverage, parameters, and data dictionaries) so catalogs, APIs, and portals harvest records automatically.\n\n\n\n\n\n\nAccessible\n\n\nUsers can retrieve data via standard protocols with transparent documentation and notice of any limits.\n\n\n\n\nHost datasets on repositories with stable API endpoints and open download options that serve users with varied levels of technical sophistication.\n\n\nWhere relevant, document authentication steps and contact points and maintain access notes, embargoes with renewal dates, and Tribal review requirements.\n\n\nUpdate metadata when access pathways or restrictions change so downstream users and catalogs stay accurate.\n\n\n\n\n\n\nInteroperable\n\n\nData use shared languages, vocabularies, and formats to integrate with other systems.\n\n\n\n\nPublish tidy data using HRL-approved schemas, controlled vocabularies, and consistent spatial references.\n\n\nDistribute data dictionaries, JSON schemas, and frictionless packages so ingestion workflows can validate inputs.\n\n\nEncode units, qualifiers, and missing-value conventions in machine-readable formats aligned with HRL standards to avoid ambiguity.\n\n\n\n\n\n\nReusable\n\n\nData include clear provenance, licensing, and quality statements so others can reuse them responsibly.\n\n\n\n\nBundle QA/QC logs, provenance code, and uncertainty and use notes with each data publication package and synthesis release.\n\n\nSpecify licenses and citation instructions so downstream users understand reuse terms.\n\n\nRecord provenance (raw inputs, code versions, DOIs) and a contact for questions or clarifications.\n\n\n\n\n\n\n\n\nCARE\nThe CARE Principles for Indigenous Data Governance were published in 2020 to ensure that scientific data practices respect Indigenous sovereignty and promote equitable benefits for Indigenous Peoples and local communities. The CARE Principles are motivated by the recognition that data about Indigenous Peoples and collected by them are frequently suppressed, stolen, misused, and mishandled in ways that perpetuate harm and extractive relationships.\n\n\n\n\n\n\n\n\n\nPrinciple\n\n\nDefinition\n\n\nHRL Expectation\n\n\n\n\n\n\nCollective Benefit\n\n\nData activities should generate measurable value for Indigenous Peoples and affected communities.\n\n\n\n\nCo-design monitoring objectives and document expected Tribal and community outcomes in metadata and other research materials.\n\n\nDescribe feedback loops (e.g., shared interpretation, co-developed indicators) before distributing data.\n\n\n\n\n\n\nAuthority to Control\n\n\nIndigenous Peoples retain rights to govern the creation, stewardship, dissemination, and use of data about them and/or collected by them.\n\n\n\n\nCapture formal data sharing and management agreements and archive them with publication packages.\n\n\nApply sovereignty flags at collection and downstream processing steps so that storage, catalog, and reporting workflows enforce access controls.\n\n\n\n\n\n\nResponsibility\n\n\nThose working with Indigenous data have a responsibility to transparently uphold Indigenous Peoples’ self-determination and collective benefit.\n\n\n\n\nAssign contacts responsible for stewardship, data sharing and management agreement renewal, and incident response.\n\n\nLog training requirements and provide channels for Tribes and communities to audit usage or request updates.\n\n\nCo-create mechanisms for determining and tracking Tribal benefits and programmatic adherence to CARE principles.\n\n\n\n\n\n\nEthics\n\n\nData practices must minimize harm, maximize Tribal benefits, and respect cultural protocols and context.\n\n\n\n\nRequire co-developed Tribal or community review checkpoints before publication or synthesis, in alignment with data sharing and management agreements.\n\n\nAdopt respectful language in metadata, dashboards, and reports and archive approvals with the dataset record.",
+    "title": "FAIR and CARE principles",
+    "section": "FAIR and CARE at a glance",
+    "text": "FAIR and CARE at a glance\n\nFAIR\nThe FAIR Guiding Principles for scientific data management and stewardship were published in 2016 to improve the ability of both humans and machines to find, access, interoperate, and reuse scientific data.\n\n\n\n\n\n\n\n\n\nPrinciple\n\n\nDefinition\n\n\nHRL expectation\n\n\n\n\n\n\nFindable\n\n\nData and metadata carry persistent identifiers and can be discovered through catalogs and search.\n\n\n\n\nRegister DOIs and expose them through the HRL data catalog and common repositories.\n\n\nProvide structured inventories and keyword-rich, semantically-meaningful metadata (e.g., spatial/temporal coverage, parameters, and data dictionaries) so catalogs, APIs, and portals harvest records automatically.\n\n\n\n\n\n\nAccessible\n\n\nUsers can retrieve data via standard protocols with transparent documentation and notice of any limits.\n\n\n\n\nHost datasets on repositories with stable API endpoints and open download options that serve users with varied levels of technical sophistication.\n\n\nWhere relevant, document authentication steps and contact points and maintain access notes, embargoes with renewal dates, and Tribal review requirements.\n\n\nUpdate metadata when access pathways or restrictions change so downstream users and catalogs stay accurate.\n\n\n\n\n\n\nInteroperable\n\n\nData use shared languages, vocabularies, and formats to integrate with other systems.\n\n\n\n\nPublish tidy data using HRL-approved schemas, controlled vocabularies, and consistent spatial references.\n\n\nDistribute data dictionaries, JSON schemas, and frictionless packages so ingestion workflows can validate inputs.\n\n\nEncode units, qualifiers, and missing-value conventions in machine-readable formats aligned with HRL standards to avoid ambiguity.\n\n\n\n\n\n\nReusable\n\n\nData include clear provenance, licensing, and quality statements so others can reuse them responsibly.\n\n\n\n\nBundle QA/QC logs, provenance code, and uncertainty and use notes with each data publication package and synthesis release.\n\n\nSpecify licenses and citation instructions so downstream users understand reuse terms.\n\n\nRecord provenance (raw inputs, code versions, DOIs) and a contact for questions or clarifications.\n\n\n\n\n\n\n\n\nCARE\nThe CARE Principles for Indigenous Data Governance were published in 2020 to ensure that scientific data practices respect Indigenous sovereignty and promote equitable benefits for Indigenous Peoples and local communities. The CARE Principles are motivated by the recognition that data about Indigenous Peoples and collected by them are frequently suppressed, stolen, misused, and mishandled in ways that perpetuate harm and extractive relationships.\n\n\n\n\n\n\n\n\n\nPrinciple\n\n\nDefinition\n\n\nHRL expectation\n\n\n\n\n\n\nCollective Benefit\n\n\nData activities should generate measurable value for Indigenous Peoples and affected communities.\n\n\n\n\nCo-design monitoring objectives and document expected Tribal and community outcomes in metadata and other research materials.\n\n\nDescribe feedback loops (e.g., shared interpretation, co-developed indicators) before distributing data.\n\n\n\n\n\n\nAuthority to Control\n\n\nIndigenous Peoples retain rights to govern the creation, stewardship, dissemination, and use of data about them and/or collected by them.\n\n\n\n\nCapture formal data sharing and management agreements and archive them with publication packages.\n\n\nApply sovereignty flags at collection and downstream processing steps so that storage, catalog, and reporting workflows enforce access controls.\n\n\n\n\n\n\nResponsibility\n\n\nThose working with Indigenous data have a responsibility to transparently uphold Indigenous Peoples’ self-determination and collective benefit.\n\n\n\n\nAssign contacts responsible for stewardship, data sharing and management agreement renewal, and incident response.\n\n\nLog training requirements and provide channels for Tribes and communities to audit usage or request updates.\n\n\nCo-create mechanisms for determining and tracking Tribal benefits and programmatic adherence to CARE principles.\n\n\n\n\n\n\nEthics\n\n\nData practices must minimize harm, maximize Tribal benefits, and respect cultural protocols and context.\n\n\n\n\nRequire co-developed Tribal or community review checkpoints before publication or synthesis, in alignment with data sharing and management agreements.\n\n\nAdopt respectful language in metadata, dashboards, and reports and archive approvals with the dataset record.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "FAIR and CARE Principles"
+      "FAIR and CARE principles"
     ]
   },
   {
     "objectID": "principles/fair-care.html#importance-of-fair-and-care",
     "href": "principles/fair-care.html#importance-of-fair-and-care",
-    "title": "FAIR and CARE Principles",
+    "title": "FAIR and CARE principles",
     "section": "Importance of FAIR and CARE",
     "text": "Importance of FAIR and CARE\n\nFAIR ensures scientific utility. Metadata rigor, persistent identifiers, and open formats allow HRL data to be discovered, cited, and reused across agencies and the broader research community.\nCARE ensures ethical science and reciprocity. Sensitive observations, Indigenous Knowledge, and Tribal and community agreements are honored in metadata, management, access controls, and communications so that benefits and decision-making authority remain with source communities in order to redress harmful histories and counteract extractive tendencies that persist in public agencies and Western science.\nBoth frameworks travel together. Collection protocols, static publication packages, ingestion pipelines, and synthesis reports must document how FAIR and CARE requirements were met and where exceptions were negotiated.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "FAIR and CARE Principles"
+      "FAIR and CARE principles"
     ]
   },
   {
     "objectID": "principles/fair-care.html#implementation-references",
     "href": "principles/fair-care.html#implementation-references",
-    "title": "FAIR and CARE Principles",
-    "section": "Implementation References",
-    "text": "Implementation References\nUse this table as a quick crosswalk for what FAIR and CARE look like at each point in the HRL data lifecycle and which artifacts demonstrate that the requirements were addressed. Program-level resources for HRL parties to develop overarching knowledge, capacity, and practices for upholding FAIR and CARE commitments will be developed by the HRL Science Committee and the Central Data Team.\n\n\n\n\n\n\n\n\n\n\nLifecycle stage\n\n\nFAIR Emphasis\n\n\nCARE Emphasis\n\n\nKey Artifacts\n\n\n\n\n\n\nCollection\n\n\n\n\nField metadata\n\n\nInstrument calibration logs\n\n\nQuality assurance\n\n\n\n\n\n\nConsent terms\n\n\nSensitivity flags\n\n\nContact points\n\n\n\n\n\n\nProtocols\n\n\nField forms\n\n\nAgreements\n\n\n\n\n\n\nStatic Publication\n\n\n\n\nDOI registration\n\n\nTidy data packages\n\n\nComplete metadata\n\n\n\n\n\n\nEmbargo tracking\n\n\nAccess notes\n\n\nBenefit statements\n\n\n\n\n\n\nMetadata XML/EML/JSON\n\n\nCARE publication checklist\n\n\nLicense text\n\n\n\n\n\n\nIngestion and Standardization\n\n\n\n\nSchema validation tests\n\n\nControlled vocabularies\n\n\nProvenance scripts\n\n\n\n\n\n\nPropagation of restriction flags\n\n\nAudit logs for access requests\n\n\n\n\n\n\nValidation pipelines\n\n\nConfiguration files\n\n\n\n\n\n\nStorage and Serving\n\n\n\n\nAccess/API documentation\n\n\nData dictionaries\n\n\nMonitoring of uptime/download metrics\n\n\n\n\n\n\nRole-based access controls\n\n\nUser agreements\n\n\n\n\n\n\nCatalog entries\n\n\nAccess logs\n\n\n\n\n\n\nAnalysis and Synthesis\n\n\n\n\nWorkflow documentation\n\n\nReproducible notebooks\n\n\nCitation of inputs\n\n\n\n\n\n\nRequired attribution of Tribal contributions\n\n\nReview gates before release\n\n\n\n\n\n\nScientific reports\n\n\nRelease notes\n\n\n\n\n\n\nReporting and Communication\n\n\n\n\nPublic-friendly metadata\n\n\nLinks from reporting products to data products\n\n\n\n\n\n\nCo-developed messaging\n\n\nAcknowledgement statements\n\n\n\n\n\n\nFact sheets\n\n\nPresentation decks\n\n\nVisualization tools",
+    "title": "FAIR and CARE principles",
+    "section": "Implementation references",
+    "text": "Implementation references\nUse this table as a quick crosswalk for what FAIR and CARE look like at each point in the HRL data lifecycle and which artifacts demonstrate that the requirements were addressed. Program-level resources for HRL parties to develop overarching knowledge, capacity, and practices for upholding FAIR and CARE commitments will be developed by the HRL Science Committee and the Central Data Team.\n\n\n\n\n\n\n\n\n\n\nLifecycle stage\n\n\nFAIR emphasis\n\n\nCARE emphasis\n\n\nKey artifacts\n\n\n\n\n\n\nCollection\n\n\n\n\nField metadata\n\n\nInstrument calibration logs\n\n\nQuality assurance\n\n\n\n\n\n\nConsent terms\n\n\nSensitivity flags\n\n\nContact points\n\n\n\n\n\n\nProtocols\n\n\nField forms\n\n\nAgreements\n\n\n\n\n\n\nStatic Publication\n\n\n\n\nDOI registration\n\n\nTidy data packages\n\n\nComplete metadata\n\n\n\n\n\n\nEmbargo tracking\n\n\nAccess notes\n\n\nBenefit statements\n\n\n\n\n\n\nMetadata XML/EML/JSON\n\n\nCARE publication checklist\n\n\nLicense text\n\n\n\n\n\n\nIngestion and Standardization\n\n\n\n\nSchema validation tests\n\n\nControlled vocabularies\n\n\nProvenance scripts\n\n\n\n\n\n\nPropagation of restriction flags\n\n\nAudit logs for access requests\n\n\n\n\n\n\nValidation pipelines\n\n\nConfiguration files\n\n\n\n\n\n\nStorage and Serving\n\n\n\n\nAccess/API documentation\n\n\nData dictionaries\n\n\nMonitoring of uptime/download metrics\n\n\n\n\n\n\nRole-based access controls\n\n\nUser agreements\n\n\n\n\n\n\nCatalog entries\n\n\nAccess logs\n\n\n\n\n\n\nAnalysis and Synthesis\n\n\n\n\nWorkflow documentation\n\n\nReproducible notebooks\n\n\nCitation of inputs\n\n\n\n\n\n\nRequired attribution of Tribal contributions\n\n\nReview gates before release\n\n\n\n\n\n\nScientific reports\n\n\nRelease notes\n\n\n\n\n\n\nReporting and Communication\n\n\n\n\nPublic-friendly metadata\n\n\nLinks from reporting products to data products\n\n\n\n\n\n\nCo-developed messaging\n\n\nAcknowledgement statements\n\n\n\n\n\n\nFact sheets\n\n\nPresentation decks\n\n\nVisualization tools",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "FAIR and CARE Principles"
+      "FAIR and CARE principles"
     ]
   },
   {
     "objectID": "principles/fair-care.html#resources",
     "href": "principles/fair-care.html#resources",
-    "title": "FAIR and CARE Principles",
+    "title": "FAIR and CARE principles",
     "section": "Resources",
     "text": "Resources\n\nHRL Science Committee Charter Commitments – Overarching governance statements that FAIR and CARE workflows implement.\nData Governance and Roles – Descriptions of Data Producers, Central Data Team, and Synthesis Teams.\nMetadata Standards – Templates and vocabularies for recording FAIR and CARE metadata fields.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "FAIR and CARE Principles"
+      "FAIR and CARE principles"
     ]
   },
   {
     "objectID": "about/overview.html",
     "href": "about/overview.html",
-    "title": "Program Overview",
+    "title": "HRL program overview",
     "section": "",
     "text": "The Healthy Rivers and Landscapes (HRL) program is an eight-year, multi-agency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems across the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fishes by coordinating habitat restoration and flow actions at a watershed scale.\nHRL is proposed as part of the program of implementation for the State Water Resources Control Board’s Bay-Delta Water Quality Control Plan and reflects a broad partnership among state, federal, and local entities.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Program Overview"
+      "HRL program overview"
     ]
   },
   {
     "objectID": "about/overview.html#hrl-science-program",
     "href": "about/overview.html#hrl-science-program",
-    "title": "Program Overview",
+    "title": "HRL program overview",
     "section": "HRL Science Program",
     "text": "HRL Science Program\nThe HRL Science Program provides the scientific foundation for implementing and evaluating HRL. It investigates how restoration actions and environmental flows influence ecosystem processes, habitat conditions, and biological responses across diverse riverine and estuarine environments.\nThe Science Program is structured around 55 hypotheses that span tributary habitats, the mainstem Sacramento River, bypass floodplains, and tidal wetlands. These hypotheses are articulated in the overarching HRL Science Plan. Mechanisms for collecting necessary data and evaluating these hypotheses are further detailed in system- and project-level science plans.\nScientific evaluation will occur through:\n\nAnnual reporting on data collection and early insights\nTriennial synthesis reports that integrate results across projects, special studies, and geographic scales every three years\nEcological Outcomes and Analysis report at the end of the program that assesses the cumulative effectiveness of HRL actions",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Program Overview"
+      "HRL program overview"
     ]
   },
   {
-    "objectID": "about/overview.html#data-program-structure-and-collaboration",
-    "href": "about/overview.html#data-program-structure-and-collaboration",
-    "title": "Program Overview",
-    "section": "Data Program Structure and Collaboration",
-    "text": "Data Program Structure and Collaboration\nHRL science and implementation are organized through an interagency governance structure. For HRL data engineering and data science work, key program roles include:\n\nData Producers – Collect and publish datasets and metadata following shared protocols\nCentral Data Team – Maintain program-level data systems, standards, and tools for analysis, modeling, visualization, and communication\nSynthesis Teams – Analyze curated data to evaluate hypotheses and generate synthesis products\nHRL Science Committee – Provide scientific oversight, prioritization, and guidance\n\nThese groups work together to support scientific research and adaptive management and ensure that HRL decisions are informed by rigorous, transparent, and reproducible science.",
+    "objectID": "about/overview.html#hrl-data-program-structure-and-collaboration",
+    "href": "about/overview.html#hrl-data-program-structure-and-collaboration",
+    "title": "HRL program overview",
+    "section": "HRL data program structure and collaboration",
+    "text": "HRL data program structure and collaboration\nHRL science and implementation are organized through an interagency governance structure. For HRL data engineering and data science work, key program roles include:\n\nData Producers – Collect and publish datasets and metadata following shared protocols\nCentral Data Team – Maintain program-level data systems, standards, and tools for analysis, modeling, visualization, and communication\nSynthesis Teams – Analyze curated data to evaluate hypotheses and generate synthesis products\nHRL Science Committee – Provide scientific oversight, prioritization, and guidance\n\nThese groups work together to support scientific research and adaptive management and ensure that HRL decisions are informed by rigorous, transparent, and reproducible science.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Program Overview"
+      "HRL program overview"
     ]
   },
   {
     "objectID": "about/overview.html#a-whole-watershed-approach",
     "href": "about/overview.html#a-whole-watershed-approach",
-    "title": "Program Overview",
-    "section": "A Whole-Watershed Approach",
-    "text": "A Whole-Watershed Approach\nA core feature of HRL is its emphasis on integrated, system-wide science. The program links actions and outcomes across rivers, floodplains, and estuarine habitats, enabling coordinated research on:\n\nHabitat restoration effectiveness at multiple spatial scales\nEnvironmental flow benefits in individual tributaries and integrated across the whole watershed\nSpecies responses across life stages\nWatershed-scale ecological patterns\n\nBy uniting restoration, flow management, and interdisciplinary science, HRL seeks to develop knowledge that improves adaptive management for ecosystem resilience and supports long-term stewardship of California’s rivers and landscapes.",
+    "title": "HRL program overview",
+    "section": "A whole-watershed approach",
+    "text": "A whole-watershed approach\nA core feature of HRL is its emphasis on integrated, system-wide science. The program links actions and outcomes across rivers, floodplains, and estuarine habitats, enabling coordinated research on:\n\nHabitat restoration effectiveness at multiple spatial scales\nEnvironmental flow benefits in individual tributaries and integrated across the whole watershed\nSpecies responses across life stages\nWatershed-scale ecological patterns\n\nBy uniting restoration, flow management, and interdisciplinary science, HRL seeks to develop knowledge that improves adaptive management for ecosystem resilience and supports long-term stewardship of California’s rivers and landscapes.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Program Overview"
+      "HRL program overview"
     ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to the HRL Documentation Hub",
+    "title": "Welcome to the HRL documentation hub",
     "section": "",
     "text": "The Healthy Rivers and Landscapes program (HRL) is an eight-year interagency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems in the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fish populations and is proposed as part of the program of implementation for the State Water Resources Control Board’s Bay-Delta Water Quality Control Plan.\nHRL implementation and adaptive management are guided by a comprehensive Science Program that investigates how coordinated restoration and environmental flows influence ecological processes and native aquatic species from Sacramento tributary systems to the Bay-Delta estuary. The program is governed by a Science Committee composed of representatives from HRL signatory entities and technical experts.\nThis website serves as the central hub for documentation, standards, and learning materials that support the data engineering and data science components of the HRL Science Program.",
     "crumbs": [
@@ -865,9 +865,9 @@
   {
     "objectID": "index.html#purpose-of-this-site",
     "href": "index.html#purpose-of-this-site",
-    "title": "Welcome to the HRL Documentation Hub",
-    "section": "Purpose of This Site",
-    "text": "Purpose of This Site\nThis documentation website provides:\n\nData governance and data management standards\nCore program-wide commitments related to reproducible science, FAIR and CARE principles, metadata, and versioning\nHigh-level, conceptual workflows for data publication, ingestion, storage, and synthesis\nGuidance and onboarding materials for data producers, analysts, and synthesis teams\nLinks to templates, examples, tools, and other HRL resources for synthesis science, communication, and adaptive management\n\nThis site focuses on high-level program governance, structures, and workflows. Technical implementations, reproducible templates, and workflow code live in companion HRL GitHub repositories and other documentation sites and are linked throughout this documentation hub.",
+    "title": "Welcome to the HRL documentation hub",
+    "section": "Purpose of this site",
+    "text": "Purpose of this site\nThis documentation website provides:\n\nData governance and data management standards\nCore program-wide commitments related to reproducible science, FAIR and CARE principles, metadata, and versioning\nHigh-level, conceptual workflows for data publication, ingestion, storage, and synthesis\nGuidance and onboarding materials for data producers, analysts, and synthesis teams\nLinks to templates, examples, tools, and other HRL resources for synthesis science, communication, and adaptive management\n\nThis site focuses on high-level program governance, structures, and workflows. Technical implementations, reproducible templates, and workflow code live in companion HRL GitHub repositories and other documentation sites and are linked throughout this documentation hub.",
     "crumbs": [
       "Home",
       "Welcome"
@@ -876,9 +876,9 @@
   {
     "objectID": "index.html#getting-started",
     "href": "index.html#getting-started",
-    "title": "Welcome to the HRL Documentation Hub",
-    "section": "Getting Started",
-    "text": "Getting Started\nIf you are new to the HRL Science Program, particularly the data engineering and data science enterprise, start with:\n\nHRL Program Overview – HRL Program overview, governance structure, and roles\nProgram Commitments – HRL program commitments to open, ethical, and reproducible science\nData Governance – How HRL entities move data and analyses through HRL’s data lifecycle to produce open scientific insights\nQuickstarts – Step-by-step guides to common tasks (e.g., publishing static datasets and metadata on EDI, getting help with HRL data science)\n\nAs HRL evolves, keystone science documents, such as the HRL Science Plan, will also be made available as interactive web documents.",
+    "title": "Welcome to the HRL documentation hub",
+    "section": "Getting started",
+    "text": "Getting started\nIf you are new to the HRL Science Program, particularly the data engineering and data science enterprise, start with:\n\nHRL Program Overview – HRL Program overview, governance structure, and roles\nProgram Commitments – HRL program commitments to open, ethical, and reproducible science\nData Governance – How HRL entities move data and analyses through HRL’s data lifecycle to produce open scientific insights\nQuickstarts – Step-by-step guides to common tasks (e.g., publishing static datasets and metadata on EDI, getting help with HRL data science)\n\nAs HRL evolves, keystone science documents, such as the HRL Science Plan, will also be made available as interactive web documents.",
     "crumbs": [
       "Home",
       "Welcome"
@@ -887,9 +887,9 @@
   {
     "objectID": "index.html#learn-more",
     "href": "index.html#learn-more",
-    "title": "Welcome to the HRL Documentation Hub",
-    "section": "Learn More",
-    "text": "Learn More\nUse the navigation sidebar to explore documentation on this site.\nFor information about HRL more broadly, visit:\n\nHRL Program website\nHRL Science website\n\nFor questions or suggestions regarding this documentation, please contact Lucy Andrews at lucy.andrews@water.ca.gov.",
+    "title": "Welcome to the HRL documentation hub",
+    "section": "Learn more",
+    "text": "Learn more\nUse the navigation sidebar to explore documentation on this site.\nFor information about HRL more broadly, visit:\n\nHRL Program website\nHRL Science website\n\nFor questions or suggestions regarding this documentation, please contact Lucy Andrews at lucy.andrews@water.ca.gov.",
     "crumbs": [
       "Home",
       "Welcome"
@@ -898,181 +898,181 @@
   {
     "objectID": "about/governance-roles.html",
     "href": "about/governance-roles.html",
-    "title": "Data Governance and Roles",
+    "title": "Data governance and roles",
     "section": "",
     "text": "The HRL Science Program relies on a Science Committee, which is a distributed, multi-agency governance structure designed to support high-quality, management-relevant science across the Sacramento River watershed and Bay-Delta estuary over the program’s eight-year duration. Part of the HRL Science Committee’s governance structure addresses data governance—defining who does what in data collection, publication, and analysis; how data move through the program; and how decisions are made at each stage of the HRL data lifecycle.\nThe HRL data governance model balances the independence of Data Producers with shared program-wide standards, centralized data engineering capacity, and strategic oversight from the HRL Science Committee.\nFor a description of how data move from collection to analysis and reporting, see the HRL Data Lifecycle section of this site.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Data Governance and Roles"
+      "Data governance and roles"
     ]
   },
   {
     "objectID": "about/governance-roles.html#why-governance-matters",
     "href": "about/governance-roles.html#why-governance-matters",
-    "title": "Data Governance and Roles",
-    "section": "Why Governance Matters",
-    "text": "Why Governance Matters\nHRL is evaluating dozens of hypotheses across multiple spatial scales, habitat types, and time periods. The HRL Science Program will last at least eight years. The complexity and duration of this collaborative research program necessitates:\n\nClear accountability for data collection and stewardship\n\nDocumented standards for data collection, management, publication, and analysis\n\nTrusted data repositories and open, reproducible workflows for cleaning, publishing, and synthesizing data\nFeedback loops that allow HRL to learn and adapt\n\nTransparent decision-making around priorities, resources, and changes to standards\n\nWell-defined governance ensures that HRL’s annual and triennial synthesis products are generated collaboratively and are scientifically defensible, reproducible, and comparable across years, tributaries, and agencies.",
+    "title": "Data governance and roles",
+    "section": "Why governance matters",
+    "text": "Why governance matters\nHRL is evaluating dozens of hypotheses across multiple spatial scales, habitat types, and time periods. The HRL Science Program will last at least eight years. The complexity and duration of this collaborative research program necessitates:\n\nClear accountability for data collection and stewardship\n\nDocumented standards for data collection, management, publication, and analysis\n\nTrusted data repositories and open, reproducible workflows for cleaning, publishing, and synthesizing data\nFeedback loops that allow HRL to learn and adapt\n\nTransparent decision-making around priorities, resources, and changes to standards\n\nWell-defined governance ensures that HRL’s annual and triennial synthesis products are generated collaboratively and are scientifically defensible, reproducible, and comparable across years, tributaries, and agencies.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Data Governance and Roles"
+      "Data governance and roles"
     ]
   },
   {
     "objectID": "about/governance-roles.html#governance-structure-overview",
     "href": "about/governance-roles.html#governance-structure-overview",
-    "title": "Data Governance and Roles",
-    "section": "Governance Structure Overview",
-    "text": "Governance Structure Overview\n\n\n\n\n\n\nTipGovernance groups at a glance\n\n\n\n\nData Producers generate and publish data.\n\nThe Central Data Team curates, standardizes, and serves data.\n\nSynthesis Teams analyze curated data and generate synthesis products.\n\nThe HRL Science Committee provides program-level oversight and prioritization.\n\n\n\nThe HRL data governance framework is built around four interacting groups:\n\nData Producers\n\nThe Central Data Team\n\nSynthesis Teams\n\nThe HRL Science Committee\n\nEach group plays a distinct role in guiding data from collection to static publication, ingestion, storage, analysis, synthesis, and reporting and communication, with clearly defined decision authorities and responsibilities.\nThe figure below illustrates how these roles interact across the HRL data lifecycle. The HRL Science Committee plays an oversight role for the entire data lifecycle but does not directly implement any phase of the data lifecycle.\n\nHRL data lifecycle diagram",
+    "title": "Data governance and roles",
+    "section": "Governance structure overview",
+    "text": "Governance structure overview\n\n\n\n\n\n\nTipGovernance groups at a glance\n\n\n\n\nData Producers generate and publish data.\n\nThe Central Data Team curates, standardizes, and serves data.\n\nSynthesis Teams analyze curated data and generate synthesis products.\n\nThe HRL Science Committee provides program-level oversight and prioritization.\n\n\n\nThe HRL data governance framework is built around four interacting groups:\n\nData Producers\n\nThe Central Data Team\n\nSynthesis Teams\n\nThe HRL Science Committee\n\nEach group plays a distinct role in guiding data from collection to static publication, ingestion, storage, analysis, synthesis, and reporting and communication, with clearly defined decision authorities and responsibilities.\nThe figure below illustrates how these roles interact across the HRL data lifecycle. The HRL Science Committee plays an oversight role for the entire data lifecycle but does not directly implement any phase of the data lifecycle.\n\nHRL data lifecycle diagram",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Data Governance and Roles"
+      "Data governance and roles"
     ]
   },
   {
     "objectID": "about/governance-roles.html#data-producers",
     "href": "about/governance-roles.html#data-producers",
-    "title": "Data Governance and Roles",
+    "title": "Data governance and roles",
     "section": "Data Producers",
-    "text": "Data Producers\n\n\n\n\n\n\nTipData Producers at a glance\n\n\n\n\nPrimary domain: field, lab, and model-based data collection\n\nKey outputs: quality-controlled and published datasets and metadata\nData lifecycle focus: collection, static publication\n\n\n\nWho they are\nSystem governance entities, HRL signatories, consultants, and partner organizations responsible for creating original data under the HRL program.\nCore responsibilities\n\nCollect or generate raw data using standardized protocols approved by the HRL Science Committee through system science plan review\nCapture complete metadata at the point of collection\n\nApply quality management (QA/QC) practices\nPrepare and publish static datasets and metadata in trusted HRL program repositories (e.g., EDI) using reproducible code hosted under the HRL GitHub organization\nNotify the Central Data Team of new data publications and updates\n\nData lifecycle phases\n\nCollection\nStatic publication\n\nDecision authority\n\nSelect data collection methods within agreed-upon protocols\n\nDetermine timing of dataset release within governance rules (typically within one year of data collection)",
+    "text": "Data Producers\n\n\n\n\n\n\nTipData Producers at a glance\n\n\n\n\nPrimary domain: field, lab, and model-based data collection\n\nKey outputs: quality-controlled and published datasets and metadata\nData lifecycle focus: collection, static publication\n\n\n\nWho they are:\nSystem governance entities, HRL signatories, consultants, and partner organizations responsible for creating original data under the HRL program.\nCore responsibilities:\n\nCollect or generate raw data using standardized protocols approved by the HRL Science Committee through system science plan review\nCapture complete metadata at the point of collection\n\nApply quality management (QA/QC) practices\nPrepare and publish static datasets and metadata in trusted HRL program repositories (e.g., EDI) using reproducible code hosted under the HRL GitHub organization\nNotify the Central Data Team of new data publications and updates\n\nData lifecycle phases:\n\nCollection\nStatic publication\n\nDecision authority:\n\nSelect data collection methods within agreed-upon protocols\n\nDetermine timing of dataset release within governance rules (typically within one year of data collection)",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Data Governance and Roles"
+      "Data governance and roles"
     ]
   },
   {
     "objectID": "about/governance-roles.html#central-data-team",
     "href": "about/governance-roles.html#central-data-team",
-    "title": "Data Governance and Roles",
+    "title": "Data governance and roles",
     "section": "Central Data Team",
-    "text": "Central Data Team\n\n\n\n\n\n\nTipCentral Data Team at a glance\n\n\n\n\nPrimary domain: data engineering, architecture, and shared analysis and visualization tools\n\nKey outputs: curated datasets, data catalogs, APIs, software development kits (SDKs), dashboards, decision support tools, and standards\n\nLifecycle focus: ingestion and standardization, storage and serving, analysis and synthesis (support), reporting and communication\n\n\n\nWho they are\nInteragency technical experts (data engineers and data scientists) who design and operate the program’s shared data, analysis, and technology infrastructure.\nCore responsibilities\n\nDevelop and maintain the central data and technology architecture\n\nMaintain the HRL Style and Development Guide and program-wide coding standards\n\nIngest, harmonize, and standardize datasets (ETL/ELT), including HRL-produced and relevant external datasets\n\nMaintain databases, catalogs, APIs, and SDKs for accessing HRL data\n\nProvide documentation, tools, dashboards, and automated reporting\n\nGuide policies and implementations for sensitive data management, including CARE-aligned practices for Tribal data\n\nSupport synthesis teams with modeling infrastructure, workflows, and technical assistance\n\nFacilitate feedback cycles across HRL parties to improve data quality, usability, and documentation\n\nLifecycle phases\n\nIngestion and standardization\nStorage and serving\nAnalysis and synthesis (in support role)\nReporting and communication\n\nDecision authority\n\nSet technical standards for metadata, schema consistency, coding and development practices, and program-level quality management\n\nManage curated dataset updates and semantic versioning on a reasonable timeline\nRecommend resourcing, staffing, and prioritization to the HRL Science Committee",
+    "text": "Central Data Team\n\n\n\n\n\n\nTipCentral Data Team at a glance\n\n\n\n\nPrimary domain: data engineering, architecture, and shared analysis and visualization tools\n\nKey outputs: curated datasets, data catalogs, APIs, software development kits (SDKs), dashboards, decision support tools, and standards\n\nLifecycle focus: ingestion and standardization, storage and serving, analysis and synthesis (support), reporting and communication\n\n\n\nWho they are:\nInteragency technical experts (data engineers and data scientists) who design and operate the program’s shared data, analysis, and technology infrastructure.\nCore responsibilities:\n\nDevelop and maintain the central data and technology architecture\n\nMaintain the HRL Style and Development Guide and program-wide coding standards\n\nIngest, harmonize, and standardize datasets (ETL/ELT), including HRL-produced and relevant external datasets\n\nMaintain databases, catalogs, APIs, and SDKs for accessing HRL data\n\nProvide documentation, tools, dashboards, and automated reporting\n\nGuide policies and implementations for sensitive data management, including CARE-aligned practices for Tribal data\n\nSupport synthesis teams with modeling infrastructure, workflows, and technical assistance\n\nFacilitate feedback cycles across HRL parties to improve data quality, usability, and documentation\n\nLifecycle phases:\n\nIngestion and standardization\nStorage and serving\nAnalysis and synthesis (in support role)\nReporting and communication\n\nDecision authority:\n\nSet technical standards for metadata, schema consistency, coding and development practices, and program-level quality management\n\nManage curated dataset updates and semantic versioning on a reasonable timeline\nRecommend resourcing, staffing, and prioritization to the HRL Science Committee",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Data Governance and Roles"
+      "Data governance and roles"
     ]
   },
   {
     "objectID": "about/governance-roles.html#synthesis-teams",
     "href": "about/governance-roles.html#synthesis-teams",
-    "title": "Data Governance and Roles",
+    "title": "Data governance and roles",
     "section": "Synthesis Teams",
-    "text": "Synthesis Teams\n\n\n\n\n\n\nTipSynthesis Teams at a glance\n\n\n\n\nPrimary domain: modeling, analysis, and interpretation\n\nKey outputs: synthesis datasets, indicators, models, and reports\n\nLifecycle focus: analysis and synthesis, reporting and communication (support)\n\n\n\nWho they are\nInterdisciplinary scientists working on HRL hypotheses and synthesis products.\nCore responsibilities\n\nSynthesize curated, analysis-ready datasets provided by the Central Data Team\n\nConduct reproducible analyses and modeling in accordance with the HRL Style and Development Guide\n\nProduce synthesis datasets, indicators, models, and reports using version-controlled workflows\n\nProvide structured feedback on data quality, usability, and gaps to Data Producers and the Central Data Team\nSuggest adaptive management actions to the HRL Science Committee based on synthesis findings and research needs\nIdentify future data and analysis priorities based on synthesis findings\n\nLifecycle phase\n\nAnalysis and synthesis\nReporting and communication (in support role)\n\nDecision authority\n\nInfluence prioritization through documented feedback\n\nPropose new data needs and analytical directions\nDetermine best statistical and modeling methods to investigate HRL hypotheses",
+    "text": "Synthesis Teams\n\n\n\n\n\n\nTipSynthesis Teams at a glance\n\n\n\n\nPrimary domain: modeling, analysis, and interpretation\n\nKey outputs: synthesis datasets, indicators, models, and reports\n\nLifecycle focus: analysis and synthesis, reporting and communication (support)\n\n\n\nWho they are:\nInterdisciplinary scientists working on HRL hypotheses and synthesis products.\nCore responsibilities:\n\nSynthesize curated, analysis-ready datasets provided by the Central Data Team\n\nConduct reproducible analyses and modeling in accordance with the HRL Style and Development Guide\n\nProduce synthesis datasets, indicators, models, and reports using version-controlled workflows\n\nProvide structured feedback on data quality, usability, and gaps to Data Producers and the Central Data Team\nSuggest adaptive management actions to the HRL Science Committee based on synthesis findings and research needs\nIdentify future data and analysis priorities based on synthesis findings\n\nLifecycle phase:\n\nAnalysis and synthesis\nReporting and communication (in support role)\n\nDecision authority:\n\nInfluence prioritization through documented feedback\n\nPropose new data needs and analytical directions\nDetermine best statistical and modeling methods to investigate HRL hypotheses",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Data Governance and Roles"
+      "Data governance and roles"
     ]
   },
   {
     "objectID": "about/governance-roles.html#hrl-science-committee",
     "href": "about/governance-roles.html#hrl-science-committee",
-    "title": "Data Governance and Roles",
+    "title": "Data governance and roles",
     "section": "HRL Science Committee",
-    "text": "HRL Science Committee\n\n\n\n\n\n\nTipHRL Science Committee at a glance\n\n\n\n\nPrimary domain: program-level governance and prioritization\n\nKey outputs: resourcing decisions, policy guidance, and governance approvals\n\nLifecycle focus: cross-cutting oversight across all phases\n\n\n\nWho they are\nHRL Science Committee members who ensure that HRL’s science, data practices, and investments remain aligned with program goals and charter commitments.\nCore responsibilities\n\nOversee resource allocation and prioritization across HRL science workstreams\n\nResolve tensions between data producer independence and program-wide standardization\n\nIdentify and support capacity and training needs related to data, modeling, and open science\n\nRequest decision support tools, dashboards, and frontend products from the Central Data Team\n\nLifecycle phases\n\nCross-cutting across the entire lifecycle, with particular focus on major program decisions and trade-offs\n\nDecision authority\n\nAllocate financial and human resources\n\nApprove or revise major governance policies and standards\n\nEscalate critical unresolved issues to the HRL Systemwide Governance Committee",
+    "text": "HRL Science Committee\n\n\n\n\n\n\nTipHRL Science Committee at a glance\n\n\n\n\nPrimary domain: program-level governance and prioritization\n\nKey outputs: resourcing decisions, policy guidance, and governance approvals\n\nLifecycle focus: cross-cutting oversight across all phases\n\n\n\nWho they are:\nHRL Science Committee members who ensure that HRL’s science, data practices, and investments remain aligned with program goals and charter commitments.\nCore responsibilities:\n\nOversee resource allocation and prioritization across HRL science workstreams\n\nResolve tensions between data producer independence and program-wide standardization\n\nIdentify and support capacity and training needs related to data, modeling, and open science\n\nRequest decision support tools, dashboards, and frontend products from the Central Data Team\n\nLifecycle phases:\n\nCross-cutting across the entire lifecycle, with particular focus on major program decisions and trade-offs\n\nDecision authority:\n\nAllocate financial and human resources\n\nApprove or revise major governance policies and standards\n\nEscalate critical unresolved issues to the HRL Systemwide Governance Committee",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Data Governance and Roles"
+      "Data governance and roles"
     ]
   },
   {
     "objectID": "principles/charter.html",
     "href": "principles/charter.html",
-    "title": "Science Charter Commitments",
+    "title": "Science charter commitments",
     "section": "",
     "text": "The HRL Science Committee Charter, particularly Appendix D, describes the commitments that guide data collection, publication, and analysis activities under the HRL Science Program. This page summarizes those commitments so that HRL Program partners understand the expectations that underpin the rest of this documentation hub. Use it as a quick refresher before diving into detailed guidance on the data lifecycle, standards, or common activities.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Science Charter Commitments"
+      "Science charter commitments"
     ]
   },
   {
     "objectID": "principles/charter.html#core-charter-commitments",
     "href": "principles/charter.html#core-charter-commitments",
-    "title": "Science Charter Commitments",
-    "section": "Core Charter Commitments",
-    "text": "Core Charter Commitments\nThe HRL Science Committee charter expresses principles that support open, reproducible, ethical science. The principles are operationalized through common practices across the full data lifecycle.\n\nData Collection\n\nHRL parties collect data using approved protocols documented in system-level science plans.\nData Producers capture complete metadata at the point of collection, including metadata describing who collected the data, when and where the data were collected, equipment settings, and calibration routines.\nField quality assurance and quality control activities (e.g., duplicates, blanks, environmental notes, and calibration logs) are recorded and carried forward into publication packages.\nSensitive or Tribal sovereignty-linked observations are identified early and handled under agreements co-developed with Tribes and partner entities.\n\nMore information:\n\nData Collection Governance and Roles\n\n\n\nData Management\n\nDatasets are stored in machine-readable, non-proprietary formats and structured according to tidy data principles where practical.\nQuality control steps are scripted, version-controlled, and documented through validation logs.\nProvenance is preserved from raw inputs through static data publication, ingestion, and synthesis; every workflow records source DOIs, code versions, and processing parameters.\nCARE-aligned data handling requirements are embedded in metadata, storage locations, and access controls.\n\nMore information:\n\nFAIR and CARE Data Static Data Publication Data Ingestion and Standardization Metadata Standards\n\n\n\nData Access\n\nStatic HRL datasets receive DOIs (e.g., via EDI) and are discoverable through the HRL data catalog, search, and APIs.\nMetadata packages provide plain-language summaries, schema information, keywords, and access notes.\nProgrammatic access routes (bulk download, APIs, SDKs) are maintained so analysts and partners can use the data without manual, one-off transfers.\n\nMore information:\n\nData Storage and Serving Reference Resources\n\n\n\nIntegration and Analysis\n\nAll analyses are implemented through structured R or Python workflows managed in HRL GitHub repositories that follow the HRL Style and Development Guide.\nContinuous integration tests verify that code runs, schemas match expectations, and outputs reproduce.\nDerived synthesis datasets, indicators, and models are versioned, documented, and returned to the Central Data Team for curation and publication.\nAnalytical workflows include diagnostics, uncertainty statements, and clear linkage to input datasets so results can be validated and reused.\n\nMore information:\n\nData Ingestion and Standardization Analysis and Synthesis Reporting and Communication",
+    "title": "Science charter commitments",
+    "section": "Core charter commitments",
+    "text": "Core charter commitments\nThe HRL Science Committee charter expresses principles that support open, reproducible, ethical science. The principles are operationalized through common practices across the full data lifecycle.\n\nData collection\n\nHRL parties collect data using approved protocols documented in system-level science plans.\nData Producers capture complete metadata at the point of collection, including metadata describing who collected the data, when and where the data were collected, equipment settings, and calibration routines.\nField quality assurance and quality control activities (e.g., duplicates, blanks, environmental notes, and calibration logs) are recorded and carried forward into publication packages.\nSensitive or Tribal sovereignty-linked observations are identified early and handled under agreements co-developed with Tribes and partner entities.\n\nMore information:\n\nData Collection Governance and Roles\n\n\n\nData management\n\nDatasets are stored in machine-readable, non-proprietary formats and structured according to tidy data principles where practical.\nQuality control steps are scripted, version-controlled, and documented through validation logs.\nProvenance is preserved from raw inputs through static data publication, ingestion, and synthesis; every workflow records source DOIs, code versions, and processing parameters.\nCARE-aligned data handling requirements are embedded in metadata, storage locations, and access controls.\n\nMore information:\n\nFAIR and CARE Data Static Data Publication Data Ingestion and Standardization Metadata Standards\n\n\n\nData access\n\nStatic HRL datasets receive DOIs (e.g., via EDI) and are discoverable through the HRL data catalog, search, and APIs.\nMetadata packages provide plain-language summaries, schema information, keywords, and access notes.\nProgrammatic access routes (bulk download, APIs, SDKs) are maintained so analysts and partners can use the data without manual, one-off transfers.\n\nMore information:\n\nData Storage and Serving Reference Resources\n\n\n\nIntegration and analysis\n\nAll analyses are implemented through structured R or Python workflows managed in HRL GitHub repositories that follow the HRL Style and Development Guide.\nContinuous integration tests verify that code runs, schemas match expectations, and outputs reproduce.\nDerived synthesis datasets, indicators, and models are versioned, documented, and returned to the Central Data Team for curation and publication.\nAnalytical workflows include diagnostics, uncertainty statements, and clear linkage to input datasets so results can be validated and reused.\n\nMore information:\n\nData Ingestion and Standardization Analysis and Synthesis Reporting and Communication",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Science Charter Commitments"
+      "Science charter commitments"
     ]
   },
   {
     "objectID": "principles/charter.html#program-wide-priorities",
     "href": "principles/charter.html#program-wide-priorities",
-    "title": "Science Charter Commitments",
-    "section": "Program-Wide Priorities",
-    "text": "Program-Wide Priorities\nHRL data governance and management emphasizes three cross-cutting priorities that help HRL meet its commitments.\n\nEfficiency and Responsiveness\n\nModular pipelines and reusable templates reduce duplication and support repeatable annual and triennial reporting.\nThorough documentation and coding standards enable rapid onboarding of new collaborators and contractors and coherence of data and code products across the entire program.\nFeedback loops between Data Producers, the Central Data Team, and Synthesis Teams surface issues quickly, allow the data and analysis enterprise to evolve to meet program needs, and inform adaptive management decisions.\n\n\n\nScalable, Future-proof Infrastructure\n\nCloud-native, open, and standards-based technologies allow HRL to ingest increasing data volumes and adopt new tools as needed.\nStorage, compute, and orchestration platforms are selected for durability and portability over the eight-year program horizon.\nLarge or complex datasets (e.g., imagery, LiDAR, and modeling outputs) are handled with architectures that support efficient storage, retrieval, and processing.\n\n\n\nProgram-Wide Learning\n\nShared templates, training curricula, office hours, and documentation keep practices aligned across agencies.\nLessons from synthesis and reporting cycles feed updates into protocols, standards, and governance decisions.\nKnowledge is captured in repositories, catalogs, and documentation sites so it persists beyond individual personnel changes.",
+    "title": "Science charter commitments",
+    "section": "Program-wide priorities",
+    "text": "Program-wide priorities\nHRL data governance and management emphasizes three cross-cutting priorities that help HRL meet its commitments.\n\nEfficiency and responsiveness\n\nModular pipelines and reusable templates reduce duplication and support repeatable annual and triennial reporting.\nThorough documentation and coding standards enable rapid onboarding of new collaborators and contractors and coherence of data and code products across the entire program.\nFeedback loops between Data Producers, the Central Data Team, and Synthesis Teams surface issues quickly, allow the data and analysis enterprise to evolve to meet program needs, and inform adaptive management decisions.\n\n\n\nScalable, future-proof infrastructure\n\nCloud-native, open, and standards-based technologies allow HRL to ingest increasing data volumes and adopt new tools as needed.\nStorage, compute, and orchestration platforms are selected for durability and portability over the eight-year program horizon.\nLarge or complex datasets (e.g., imagery, LiDAR, and modeling outputs) are handled with architectures that support efficient storage, retrieval, and processing.\n\n\n\nProgram-wide learning\n\nShared templates, training curricula, office hours, and documentation keep practices aligned across agencies.\nLessons from synthesis and reporting cycles feed updates into protocols, standards, and governance decisions.\nKnowledge is captured in repositories, catalogs, and documentation sites so it persists beyond individual personnel changes.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Science Charter Commitments"
+      "Science charter commitments"
     ]
   },
   {
     "objectID": "principles/reproducibility.html",
     "href": "principles/reproducibility.html",
-    "title": "Reproducible Science",
+    "title": "Reproducible science",
     "section": "",
     "text": "Reproducibility is the ability for another person to understand, repeat, and validate scientific results. In practice, this means that people can see the data, methods, assumptions, and decisions that produced a result and can rerun the same steps (or adapt them) with confidence and minimal effort. This page explains HRL-wide expectations for reproducibility at a high level; detailed “how-to” guidance lives in the HRL Style and Development Guide and related resources.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Reproducible Science"
+      "Reproducible science"
     ]
   },
   {
     "objectID": "principles/reproducibility.html#reproducibility-essentials",
     "href": "principles/reproducibility.html#reproducibility-essentials",
-    "title": "Reproducible Science",
-    "section": "Reproducibility Essentials",
-    "text": "Reproducibility Essentials\nTo promote reproducible science, the HRL Science Program:\n\nDefines the purpose and scope of data products and analyses so others understand what each dataset or analysis represents and answers.\nKeeps data, metadata, and documentation in stable, accessible locations with persistent identifiers (e.g., DOIs).\nRecords every step from raw data to reported findings in executable workflows with quality checks, decisions, assumptions, and environment and dependencies management.\nUses automated tests and continuous integration/continuous deployment to catch regressions early and keep workflows reproducible with every release.\nMaintains version control using common tools (e.g., git and GitHub) so that data products and results always trace back to the exact inputs, versions, and parameters used and important changes can be easily identified.\nHonors data sharing agreements by carrying forward access notes and restrictions for governed data.\nDocuments workflows, checkpoints, and artifacts so they can be audited and improved over the life of the program.",
+    "title": "Reproducible science",
+    "section": "Reproducibility essentials",
+    "text": "Reproducibility essentials\nTo promote reproducible science, the HRL Science Program:\n\nDefines the purpose and scope of data products and analyses so others understand what each dataset or analysis represents and answers.\nKeeps data, metadata, and documentation in stable, accessible locations with persistent identifiers (e.g., DOIs).\nRecords every step from raw data to reported findings in executable workflows with quality checks, decisions, assumptions, and environment and dependencies management.\nUses automated tests and continuous integration/continuous deployment to catch regressions early and keep workflows reproducible with every release.\nMaintains version control using common tools (e.g., git and GitHub) so that data products and results always trace back to the exact inputs, versions, and parameters used and important changes can be easily identified.\nHonors data sharing agreements by carrying forward access notes and restrictions for governed data.\nDocuments workflows, checkpoints, and artifacts so they can be audited and improved over the life of the program.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Reproducible Science"
+      "Reproducible science"
     ]
   },
   {
     "objectID": "principles/reproducibility.html#why-reproducibility-matters",
     "href": "principles/reproducibility.html#why-reproducibility-matters",
-    "title": "Reproducible Science",
-    "section": "Why Reproducibility Matters",
-    "text": "Why Reproducibility Matters\nBy making our scientific work rigorously reproducible, HRL parties:\n\nBuild trust in program decisions by showing how evidence was produced.\nSpeed onboarding and collaboration across agencies, contractors, and partners.\nReduce duplicated effort and inefficiency by turning one-off analyses into repeatable workflows for annual and triennial reporting.\nProtect continuity when staff change, ensuring that knowledge and processes are retained and auditable.\nAlign with HRL commitments to FAIR, CARE, and open science.\nEmpower the broader scientific community to validate, build on, and extend HRL research.",
+    "title": "Reproducible science",
+    "section": "Why reproducibility matters",
+    "text": "Why reproducibility matters\nBy making our scientific work rigorously reproducible, HRL parties:\n\nBuild trust in program decisions by showing how evidence was produced.\nSpeed onboarding and collaboration across agencies, contractors, and partners.\nReduce duplicated effort and inefficiency by turning one-off analyses into repeatable workflows for annual and triennial reporting.\nProtect continuity when staff change, ensuring that knowledge and processes are retained and auditable.\nAlign with HRL commitments to FAIR, CARE, and open science.\nEmpower the broader scientific community to validate, build on, and extend HRL research.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Reproducible Science"
+      "Reproducible science"
     ]
   },
   {
     "objectID": "principles/reproducibility.html#reproducible-code-and-software-practices",
     "href": "principles/reproducibility.html#reproducible-code-and-software-practices",
-    "title": "Reproducible Science",
-    "section": "Reproducible Code and Software Practices",
-    "text": "Reproducible Code and Software Practices\nDetailed implementation standards, such as repository structures, naming conventions, dependency and environment management, testing, and automation, are provided in the HRL Style and Development Guide and related resources. At a minimum:\n\nKeep work in HRL-managed GitHub repositories with clear commit histories, branches, pull requests, documentation, and tags for releases.\nUse the provided templates for static data publication, ingestion, and analysis repositories instead of ad hoc folder structures.\nCapture environment details (e.g., software versions, parameters, and configuration files) so workflows run consistently on local machines and in automated checks.\nUse deterministic processes, such as random seed specification, where possible to ensure the same inputs always yield the same outputs.\nRun automated checks where available in a CI/CD framework (e.g., style, tests, and schema validation) before releasing datasets or analysis results.\nTrack decisions and issues in repository issue trackers so future users understand why changes were made.",
+    "title": "Reproducible science",
+    "section": "Reproducible code and software practices",
+    "text": "Reproducible code and software practices\nDetailed implementation standards, such as repository structures, naming conventions, dependency and environment management, testing, and automation, are provided in the HRL Style and Development Guide and related resources. At a minimum:\n\nKeep work in HRL-managed GitHub repositories with clear commit histories, branches, pull requests, documentation, and tags for releases.\nUse the provided templates for static data publication, ingestion, and analysis repositories instead of ad hoc folder structures.\nCapture environment details (e.g., software versions, parameters, and configuration files) so workflows run consistently on local machines and in automated checks.\nUse deterministic processes, such as random seed specification, where possible to ensure the same inputs always yield the same outputs.\nRun automated checks where available in a CI/CD framework (e.g., style, tests, and schema validation) before releasing datasets or analysis results.\nTrack decisions and issues in repository issue trackers so future users understand why changes were made.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Reproducible Science"
+      "Reproducible science"
     ]
   },
   {
     "objectID": "principles/reproducibility.html#support-and-resources",
     "href": "principles/reproducibility.html#support-and-resources",
-    "title": "Reproducible Science",
-    "section": "Support and Resources",
-    "text": "Support and Resources\n\nData Lifecycle Overview – How collection, publication, ingestion, storage, analysis, and reporting connect across the HRL Science Program.\nGovernance and Roles – Responsibilities across Data Producers, the Central Data Team, Synthesis Teams, and the HRL Science Committee.\nQuickstarts:\n\nPublish a Static Dataset to EDI\nIngest Data into the HRL Platform\nLaunch an HRL Analysis\nGetting Help\n\nHRL Style and Development Guide – Source of detailed practices, code style, templates, and automation.\nReproducibility and Replicability in Science – National Academies publication that defines and discusses best practices for reproducibility and replicability in science.",
+    "title": "Reproducible science",
+    "section": "Support and resources",
+    "text": "Support and resources\n\nData Lifecycle Overview – How collection, publication, ingestion, storage, analysis, and reporting connect across the HRL Science Program.\nGovernance and Roles – Responsibilities across Data Producers, the Central Data Team, Synthesis Teams, and the HRL Science Committee.\nQuickstarts:\n\nPublish a Static Dataset to EDI\nIngest Data into the HRL Platform\nLaunch an HRL Analysis\nGetting Help\n\nHRL Style and Development Guide – Source of detailed practices, code style, templates, and automation.\nReproducibility and Replicability in Science – National Academies publication that defines and discusses best practices for reproducibility and replicability in science.",
     "crumbs": [
       "Home",
       "Program Foundations",
-      "Reproducible Science"
+      "Reproducible science"
     ]
   },
   {
@@ -1138,25 +1138,25 @@
   {
     "objectID": "lifecycle/overview.html",
     "href": "lifecycle/overview.html",
-    "title": "HRL Data Lifecycle Overview",
+    "title": "HRL data lifecycle overview",
     "section": "",
     "text": "HRL structures data governance and reproducible, collaborative practices around a program-specific data lifecycle. The data lifecycle outlines key phases that data pass through from initial collection in the field to final reporting and communication of results. Each phase includes defined activities, responsible parties, and governance touchpoints to ensure integrity, transparency, and usability of data and analyses throughout the HRL program.\nThe HRL Science Committee oversees the data lifecycle and governance model but does not directly implement any phases of the HRL data lifecycle. The HRL Science Committee provides strategic direction, prioritization, and oversight to ensure that Data Producers, the Central Data Team, and Synthesis Teams are equipped to uphold HRL Science Program commitments and collaborate effectively.",
     "crumbs": [
       "Home",
       "HRL Data Lifecycle",
-      "HRL Data Lifecycle Overview"
+      "HRL data lifecycle overview"
     ]
   },
   {
     "objectID": "lifecycle/overview.html#lifecycle-phases-at-a-glance",
     "href": "lifecycle/overview.html#lifecycle-phases-at-a-glance",
-    "title": "HRL Data Lifecycle Overview",
-    "section": "Lifecycle Phases at a Glance",
-    "text": "Lifecycle Phases at a Glance\n\n\n\n\n\n\n\n\n\nLifecycle Phase\n\n\nSummary\n\n\nResponsible Entity\n\n\n\n\n\n\nCollection\n\n\nCollect data and document approved protocols, metadata, and field quality assurance and quality control practices.\n\n\nData Producers\n\n\n\n\nStatic Publication\n\n\nPublish cleaned datasets with metadata packages and DOIs through the HRL GitHub + EDI workflow.\n\n\nData Producers\n\n\n\n\nIngestion and Standardization\n\n\nHarmonize static data releases, incorporate external datasets, align schemas and vocabularies, conduct program-level quality control, and capture provenance.\n\n\nCentral Data Team\n\n\n\n\nStorage and Serving\n\n\nKeep curated datasets durable, discoverable, and accessible via catalogs, APIs, and SDKs.\n\n\nCentral Data Team\n\n\n\n\nAnalysis and Synthesis\n\n\nRun reproducible analyses, create models and indicators, and return models derived data products to the Central Data Team for curation.\n\n\nSynthesis Teams\n\n\n\n\nReporting and Communication\n\n\nTranslate findings into synthesis reports, decision support tools, visualization applications, and other science communication products that guide adaptive management and make HRL science outcomes accessible.\n\n\nCentral Data TeamSynthesis Teams",
+    "title": "HRL data lifecycle overview",
+    "section": "Lifecycle phases at a glance",
+    "text": "Lifecycle phases at a glance\n\n\n\n\n\n\n\n\n\nLifecycle phase\n\n\nSummary\n\n\nResponsible entity\n\n\n\n\n\n\nCollection\n\n\nCollect data and document approved protocols, metadata, and field quality assurance and quality control practices.\n\n\nData Producers\n\n\n\n\nStatic Publication\n\n\nPublish cleaned datasets with metadata packages and DOIs through the HRL GitHub + EDI workflow.\n\n\nData Producers\n\n\n\n\nIngestion and Standardization\n\n\nHarmonize static data releases, incorporate external datasets, align schemas and vocabularies, conduct program-level quality control, and capture provenance.\n\n\nCentral Data Team\n\n\n\n\nStorage and Serving\n\n\nKeep curated datasets durable, discoverable, and accessible via catalogs, APIs, and SDKs.\n\n\nCentral Data Team\n\n\n\n\nAnalysis and Synthesis\n\n\nRun reproducible analyses, create models and indicators, and return models derived data products to the Central Data Team for curation.\n\n\nSynthesis Teams\n\n\n\n\nReporting and Communication\n\n\nTranslate findings into synthesis reports, decision support tools, visualization applications, and other science communication products that guide adaptive management and make HRL science outcomes accessible.\n\n\nCentral Data TeamSynthesis Teams",
     "crumbs": [
       "Home",
       "HRL Data Lifecycle",
-      "HRL Data Lifecycle Overview"
+      "HRL data lifecycle overview"
     ]
   },
   {
