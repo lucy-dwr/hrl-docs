@@ -1,5 +1,5 @@
 ---
-title: "Storage and Serving"
+title: "Storage and serving"
 ---
 
 ## Objectives

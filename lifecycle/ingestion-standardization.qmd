@@ -1,5 +1,5 @@
 ---
-title: "Ingestion and Standardization"
+title: "Ingestion and standardization"
 ---
 
 ## Purpose

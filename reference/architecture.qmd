@@ -1,5 +1,5 @@
 ---
-title: "Data Architecture Reference"
+title: "Data architecture reference"
 ---
 
 ## Purpose

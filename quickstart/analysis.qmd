@@ -1,5 +1,5 @@
 ---
-title: "Launch an HRL Analysis"
+title: "Launch an HRL analysis"
 ---
 
 ## Goal

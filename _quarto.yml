@@ -26,12 +26,12 @@ website:
         href: index.qmd
       - text: "About HRL"
         menu:
-          - text: "Program Overview"
+          - text: "Program overview"
             href: about/overview.qmd
-          - text: "Governance & Roles"
+          - text: "Governance and roles"
             href: about/governance-roles.qmd
-      - text: "Docs"
-        href: lifecycle/overview.qmd
+          - text: "Data lifecycle"
+            href: lifecycle/overview.qmd
 
   sidebar:
     style: docked
@@ -41,7 +41,7 @@ website:
       - text: "Welcome"
         href: index.qmd
 
-      - section: "Program Foundations"
+      - section: "Program foundations"
         contents:
           - about/overview.qmd
           - about/governance-roles.qmd
@@ -49,7 +49,7 @@ website:
           - principles/fair-care.qmd
           - principles/reproducibility.qmd
 
-      - section: "HRL Data Lifecycle"
+      - section: "Data lifecycle"
         contents:
           - lifecycle/overview.qmd
           - lifecycle/collection.qmd
@@ -59,7 +59,7 @@ website:
           - lifecycle/analysis-synthesis.qmd
           - lifecycle/reporting-communication.qmd
 
-      - section: "Quickstart Guides"
+      - section: "Quickstart guides"
         contents:
           - quickstart/quickstart-catalog.qmd
           - quickstart/publish-to-edi.qmd
@@ -67,7 +67,7 @@ website:
           - quickstart/analysis.qmd
           - quickstart/getting-help.qmd
 
-      - section: "Standards & Templates"
+      - section: "Standards and templates"
         contents:
           - standards/style-dev-guide.qmd
           - standards/metadata.qmd
@@ -90,6 +90,8 @@ website:
 
 format:
   html:
+    grid:
+      sidebar-width: 300px
     theme:
       - sandstone
       - theme/dwr-overrides.scss

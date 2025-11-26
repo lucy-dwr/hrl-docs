@@ -1,5 +1,5 @@
 ---
-title: "Publish a Static Dataset to EDI"
+title: "Publish a static dataset to EDI"
 ---
 
 ## Goal

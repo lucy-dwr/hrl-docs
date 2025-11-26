@@ -1,5 +1,5 @@
 ---
-title: "Metadata Standards"
+title: "Metadata standards"
 ---
 
 ## Purpose

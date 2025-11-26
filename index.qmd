@@ -1,5 +1,6 @@
 ---
 title: "Welcome to the HRL documentation hub"
+pagetitle: "Welcome"
 ---
 
 The [Healthy Rivers and Landscapes program](https://resources.ca.gov/Initiatives/Voluntary-Agreements-Page) (HRL) is an eight-year interagency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems in the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fish populations and is proposed as part of the program of implementation for the State Water Resources Control Board’s [Bay-Delta Water Quality Control Plan](https://waterboards.ca.gov/waterrights/water_issues/programs/bay_delta/comp_review.html).

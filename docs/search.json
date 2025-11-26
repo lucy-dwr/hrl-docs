@@ -74,673 +74,673 @@
   {
     "objectID": "reference/architecture.html",
     "href": "reference/architecture.html",
-    "title": "Data Architecture Reference",
+    "title": "Data architecture reference",
     "section": "",
     "text": "Document the technical architecture that enables HRL data collection, publication, ingestion, storage, analysis, and reporting.",
     "crumbs": [
       "Home",
       "Reference",
-      "Data Architecture Reference"
+      "Data architecture reference"
     ]
   },
   {
     "objectID": "reference/architecture.html#purpose",
     "href": "reference/architecture.html#purpose",
-    "title": "Data Architecture Reference",
+    "title": "Data architecture reference",
     "section": "",
     "text": "Document the technical architecture that enables HRL data collection, publication, ingestion, storage, analysis, and reporting.",
     "crumbs": [
       "Home",
       "Reference",
-      "Data Architecture Reference"
+      "Data architecture reference"
     ]
   },
   {
     "objectID": "reference/architecture.html#layers-to-describe",
     "href": "reference/architecture.html#layers-to-describe",
-    "title": "Data Architecture Reference",
+    "title": "Data architecture reference",
     "section": "Layers to describe",
     "text": "Layers to describe\n\nSource systems – Field/lab systems and static publication repositories such as EDI.\nIngestion & processing – R/Python pipelines, containers, orchestration, and CI/CD services.\nStorage & serving – Cloud object storage, databases, catalogs, APIs, and SDKs.\nAccess & application – Dashboards, decision-support tools, reporting pipelines, and user interfaces.",
     "crumbs": [
       "Home",
       "Reference",
-      "Data Architecture Reference"
+      "Data architecture reference"
     ]
   },
   {
     "objectID": "reference/architecture.html#cross-cutting-concerns",
     "href": "reference/architecture.html#cross-cutting-concerns",
-    "title": "Data Architecture Reference",
+    "title": "Data architecture reference",
     "section": "Cross-cutting concerns",
     "text": "Cross-cutting concerns\n\nAuthentication/authorization, segmentation of sensitive data, and compliance with CARE agreements.\nObservability, logging, monitoring, and incident response procedures.\nCost management, scalability, and sustainability over the eight-year program.",
     "crumbs": [
       "Home",
       "Reference",
-      "Data Architecture Reference"
+      "Data architecture reference"
     ]
   },
   {
     "objectID": "reference/architecture.html#artifacts-to-include",
     "href": "reference/architecture.html#artifacts-to-include",
-    "title": "Data Architecture Reference",
+    "title": "Data architecture reference",
     "section": "Artifacts to include",
     "text": "Artifacts to include\n\nArchitecture diagrams, sequence flows, infrastructure inventories, and dependency lists.\nReferences to backup/disaster-recovery strategies and large-file management plans.",
     "crumbs": [
       "Home",
       "Reference",
-      "Data Architecture Reference"
+      "Data architecture reference"
     ]
   },
   {
     "objectID": "reference/architecture.html#ownership-and-evolution",
     "href": "reference/architecture.html#ownership-and-evolution",
-    "title": "Data Architecture Reference",
+    "title": "Data architecture reference",
     "section": "Ownership and evolution",
     "text": "Ownership and evolution\n\nCentral Data Team roles in maintaining the architecture and proposing enhancements.\nChange management process for approving new platforms, tools, or integrations via HRL governance bodies.",
     "crumbs": [
       "Home",
       "Reference",
-      "Data Architecture Reference"
+      "Data architecture reference"
     ]
   },
   {
     "objectID": "standards/style-dev-guide.html",
     "href": "standards/style-dev-guide.html",
-    "title": "HRL Style & Development Guide",
+    "title": "Style and development guide",
     "section": "",
     "text": "Provide uniform coding, repository, and documentation practices for HRL data publication, ingestion, and analysis projects.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "HRL Style & Development Guide"
+      "Standards and templates",
+      "Style and development guide"
     ]
   },
   {
     "objectID": "standards/style-dev-guide.html#purpose",
     "href": "standards/style-dev-guide.html#purpose",
-    "title": "HRL Style & Development Guide",
+    "title": "Style and development guide",
     "section": "",
     "text": "Provide uniform coding, repository, and documentation practices for HRL data publication, ingestion, and analysis projects.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "HRL Style & Development Guide"
+      "Standards and templates",
+      "Style and development guide"
     ]
   },
   {
     "objectID": "standards/style-dev-guide.html#repository-scaffolding",
     "href": "standards/style-dev-guide.html#repository-scaffolding",
-    "title": "HRL Style & Development Guide",
+    "title": "Style and development guide",
     "section": "Repository scaffolding",
     "text": "Repository scaffolding\n\nRequired folder layout (data-raw, data, scripts, metadata), configuration files, and dependency management (renv, virtual environments).\nMandatory files such as README, LICENSE, CONTRIBUTING, CODEOWNERS, and NEWS/changelog.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "HRL Style & Development Guide"
+      "Standards and templates",
+      "Style and development guide"
     ]
   },
   {
     "objectID": "standards/style-dev-guide.html#coding-standards",
     "href": "standards/style-dev-guide.html#coding-standards",
-    "title": "HRL Style & Development Guide",
+    "title": "Style and development guide",
     "section": "Coding standards",
     "text": "Coding standards\n\nNaming conventions, linting/formatting rules, and expectations for logging and error handling.\nR and Python guidance (use of package::function(), base pipe, modularized scripts, parameterization).",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "HRL Style & Development Guide"
+      "Standards and templates",
+      "Style and development guide"
     ]
   },
   {
     "objectID": "standards/style-dev-guide.html#testing-and-cicd",
     "href": "standards/style-dev-guide.html#testing-and-cicd",
-    "title": "HRL Style & Development Guide",
+    "title": "Style and development guide",
     "section": "Testing and CI/CD",
     "text": "Testing and CI/CD\n\nRequired automated checks (unit tests, schema validation, reproducibility tests) for each repository type.\nRecommended GitHub Actions/workflow snippets and badges for demonstrating compliance.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "HRL Style & Development Guide"
+      "Standards and templates",
+      "Style and development guide"
     ]
   },
   {
     "objectID": "standards/style-dev-guide.html#versioning-and-release-management",
     "href": "standards/style-dev-guide.html#versioning-and-release-management",
-    "title": "HRL Style & Development Guide",
+    "title": "Style and development guide",
     "section": "Versioning and release management",
     "text": "Versioning and release management\n\nSemantic versioning rules, tagging strategy, changelog conventions, and linkage to dataset DOIs.\nProcedures for coordinating releases with EDI submissions or catalog updates.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "HRL Style & Development Guide"
+      "Standards and templates",
+      "Style and development guide"
     ]
   },
   {
     "objectID": "standards/style-dev-guide.html#collaboration-practices",
     "href": "standards/style-dev-guide.html#collaboration-practices",
-    "title": "HRL Style & Development Guide",
+    "title": "Style and development guide",
     "section": "Collaboration practices",
     "text": "Collaboration practices\n\nBranching workflows, pull-request reviews, issue templates, and documentation of governance decisions.\nExpectations for code review participation by Central Data Team or synthesis leads.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "HRL Style & Development Guide"
+      "Standards and templates",
+      "Style and development guide"
     ]
   },
   {
     "objectID": "standards/metadata.html",
     "href": "standards/metadata.html",
-    "title": "Metadata Standards",
+    "title": "Metadata standards",
     "section": "",
     "text": "Ensure every HRL dataset is accompanied by complete, machine-readable metadata aligned with FAIR and CARE commitments.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Metadata Standards"
+      "Standards and templates",
+      "Metadata standards"
     ]
   },
   {
     "objectID": "standards/metadata.html#purpose",
     "href": "standards/metadata.html#purpose",
-    "title": "Metadata Standards",
+    "title": "Metadata standards",
     "section": "",
     "text": "Ensure every HRL dataset is accompanied by complete, machine-readable metadata aligned with FAIR and CARE commitments.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Metadata Standards"
+      "Standards and templates",
+      "Metadata standards"
     ]
   },
   {
     "objectID": "standards/metadata.html#metadata-package-components",
     "href": "standards/metadata.html#metadata-package-components",
-    "title": "Metadata Standards",
+    "title": "Metadata standards",
     "section": "Metadata package components",
     "text": "Metadata package components\n\nPlain-language summaries, contacts, temporal/spatial coverage, methods, QA/QC descriptions, and licensing.\nData dictionaries describing variables, units, types, allowed values, and file relationships.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Metadata Standards"
+      "Standards and templates",
+      "Metadata standards"
     ]
   },
   {
     "objectID": "standards/metadata.html#standards-to-cite",
     "href": "standards/metadata.html#standards-to-cite",
-    "title": "Metadata Standards",
+    "title": "Metadata standards",
     "section": "Standards to cite",
     "text": "Standards to cite\n\nEcological Metadata Language (EML) for EDI submissions, plus JSON/CSV metadata for curated datasets and catalog entries.\nAlignment with HRL schema/vocabulary registries and provenance expectations.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Metadata Standards"
+      "Standards and templates",
+      "Metadata standards"
     ]
   },
   {
     "objectID": "standards/metadata.html#authoring-workflow",
     "href": "standards/metadata.html#authoring-workflow",
-    "title": "Metadata Standards",
+    "title": "Metadata standards",
     "section": "Authoring workflow",
     "text": "Authoring workflow\n\nCapture metadata at collection, refine during static publication, verify during ingestion/storage, and keep catalog entries synchronized.\nTools/templates (Quarto forms, scripts) for building metadata packages efficiently.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Metadata Standards"
+      "Standards and templates",
+      "Metadata standards"
     ]
   },
   {
     "objectID": "standards/metadata.html#validation-and-stewardship",
     "href": "standards/metadata.html#validation-and-stewardship",
-    "title": "Metadata Standards",
+    "title": "Metadata standards",
     "section": "Validation and stewardship",
     "text": "Validation and stewardship\n\nAutomated linting/validation, metadata review gates, and linkage to QA/QC evidence.\nProcedures for updating metadata when datasets change versions, including changelog references.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Metadata Standards"
+      "Standards and templates",
+      "Metadata standards"
     ]
   },
   {
     "objectID": "standards/metadata.html#sensitive-data-considerations",
     "href": "standards/metadata.html#sensitive-data-considerations",
-    "title": "Metadata Standards",
+    "title": "Metadata standards",
     "section": "Sensitive data considerations",
     "text": "Sensitive data considerations\n\nDocument CARE-aligned restrictions, access notes, and embargo policies directly in metadata records.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Metadata Standards"
+      "Standards and templates",
+      "Metadata standards"
     ]
   },
   {
     "objectID": "quickstart/publish-to-edi.html",
     "href": "quickstart/publish-to-edi.html",
-    "title": "Publish a Static Dataset to EDI",
+    "title": "Publish a static dataset to EDI",
     "section": "",
     "text": "Provide a repeatable recipe for preparing, documenting, and releasing HRL datasets through the GitHub + EDI workflow.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Publish a Static Dataset to EDI"
+      "Quickstart guides",
+      "Publish a static dataset to EDI"
     ]
   },
   {
     "objectID": "quickstart/publish-to-edi.html#goal",
     "href": "quickstart/publish-to-edi.html#goal",
-    "title": "Publish a Static Dataset to EDI",
+    "title": "Publish a static dataset to EDI",
     "section": "",
     "text": "Provide a repeatable recipe for preparing, documenting, and releasing HRL datasets through the GitHub + EDI workflow.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Publish a Static Dataset to EDI"
+      "Quickstart guides",
+      "Publish a static dataset to EDI"
     ]
   },
   {
     "objectID": "quickstart/publish-to-edi.html#before-you-start",
     "href": "quickstart/publish-to-edi.html#before-you-start",
-    "title": "Publish a Static Dataset to EDI",
+    "title": "Publish a static dataset to EDI",
     "section": "Before you start",
     "text": "Before you start\n\nConfirm approved protocols, quality-controlled data, and HRL GitHub repository scaffolding are in place.\nGather metadata inputs (contacts, methods, spatial/temporal coverage, keywords, Tribal agreements).",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Publish a Static Dataset to EDI"
+      "Quickstart guides",
+      "Publish a static dataset to EDI"
     ]
   },
   {
     "objectID": "quickstart/publish-to-edi.html#step-by-step-outline",
     "href": "quickstart/publish-to-edi.html#step-by-step-outline",
-    "title": "Publish a Static Dataset to EDI",
+    "title": "Publish a static dataset to EDI",
     "section": "Step-by-step outline",
     "text": "Step-by-step outline\n\nScaffold a repository from the HRL publication template, configure dependencies, and set up CI.\nScript data cleaning, QA, and validation; capture logs and evidence in the repo.\nAuthor EML metadata, data dictionaries, README, and provenance notes.\nRun automated checks, perform peer review, and tag a release candidate.\nSubmit the package to EDI, address curator feedback, and mint a DOI.\nAnnounce the release to the Central Data Team with schema highlights and contact info.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Publish a Static Dataset to EDI"
+      "Quickstart guides",
+      "Publish a static dataset to EDI"
     ]
   },
   {
     "objectID": "quickstart/publish-to-edi.html#deliverables",
     "href": "quickstart/publish-to-edi.html#deliverables",
-    "title": "Publish a Static Dataset to EDI",
+    "title": "Publish a static dataset to EDI",
     "section": "Deliverables",
     "text": "Deliverables\n\nDOI-linked dataset in open formats plus metadata artifacts, QA logs, and changelog entries.\nCommunication template for ingestion and catalog updates.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Publish a Static Dataset to EDI"
+      "Quickstart guides",
+      "Publish a static dataset to EDI"
     ]
   },
   {
     "objectID": "quickstart/publish-to-edi.html#support",
     "href": "quickstart/publish-to-edi.html#support",
-    "title": "Publish a Static Dataset to EDI",
+    "title": "Publish a static dataset to EDI",
     "section": "Support",
     "text": "Support\n\nPoint to metadata leads, Central Data Team contacts, and office hours for troubleshooting publication steps.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Publish a Static Dataset to EDI"
+      "Quickstart guides",
+      "Publish a static dataset to EDI"
     ]
   },
   {
     "objectID": "quickstart/getting-help.html",
     "href": "quickstart/getting-help.html",
-    "title": "Getting Help",
+    "title": "Getting help",
     "section": "",
     "text": "During onboarding, when interpreting standards, troubleshooting pipelines, or handling sensitive/Tribal data questions.\nAny time timelines or reporting commitments are at risk because of data or tooling blockers.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Getting Help"
+      "Quickstart guides",
+      "Getting help"
     ]
   },
   {
     "objectID": "quickstart/getting-help.html#when-to-reach-out",
     "href": "quickstart/getting-help.html#when-to-reach-out",
-    "title": "Getting Help",
+    "title": "Getting help",
     "section": "",
     "text": "During onboarding, when interpreting standards, troubleshooting pipelines, or handling sensitive/Tribal data questions.\nAny time timelines or reporting commitments are at risk because of data or tooling blockers.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Getting Help"
+      "Quickstart guides",
+      "Getting help"
     ]
   },
   {
     "objectID": "quickstart/getting-help.html#primary-support-channels",
     "href": "quickstart/getting-help.html#primary-support-channels",
-    "title": "Getting Help",
+    "title": "Getting help",
     "section": "Primary support channels",
     "text": "Primary support channels\n\nCentral Data Team for data engineering, ingestion, catalog, and infrastructure topics.\nMetadata/FAIR-CARE leads for publication, documentation, and access control questions.\nHRL Science Committee liaisons or governance representatives for prioritization and policy issues.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Getting Help"
+      "Quickstart guides",
+      "Getting help"
     ]
   },
   {
     "objectID": "quickstart/getting-help.html#what-to-prepare",
     "href": "quickstart/getting-help.html#what-to-prepare",
-    "title": "Getting Help",
+    "title": "Getting help",
     "section": "What to prepare",
     "text": "What to prepare\n\nConcise problem statement, relevant repository links, dataset DOIs/versions, and log files/screenshots.\nSummary of actions already taken and decision deadlines to inform triage.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Getting Help"
+      "Quickstart guides",
+      "Getting help"
     ]
   },
   {
     "objectID": "quickstart/getting-help.html#feedback-and-learning-loops",
     "href": "quickstart/getting-help.html#feedback-and-learning-loops",
-    "title": "Getting Help",
+    "title": "Getting help",
     "section": "Feedback and learning loops",
     "text": "Feedback and learning loops\n\nDocument resolved issues in GitHub or knowledge bases so others can reference them.\nCapture suggestions for improving templates, standards, or training and route them to the Central Data Team.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Getting Help"
+      "Quickstart guides",
+      "Getting help"
     ]
   },
   {
     "objectID": "quickstart/getting-help.html#escalation",
     "href": "quickstart/getting-help.html#escalation",
-    "title": "Getting Help",
+    "title": "Getting help",
     "section": "Escalation",
     "text": "Escalation\n\nCriteria for elevating issues to HRL program leadership or the Science Committee when standards changes or additional resources are required.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Getting Help"
+      "Quickstart guides",
+      "Getting help"
     ]
   },
   {
     "objectID": "lifecycle/storage-serving.html",
     "href": "lifecycle/storage-serving.html",
-    "title": "Storage and Serving",
+    "title": "Storage and serving",
     "section": "",
     "text": "Maintain curated datasets securely while keeping them discoverable for synthesis teams and the public.\nDocument durability, backup, and segregation strategies for diverse data types.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Storage and Serving"
+      "Data lifecycle",
+      "Storage and serving"
     ]
   },
   {
     "objectID": "lifecycle/storage-serving.html#objectives",
     "href": "lifecycle/storage-serving.html#objectives",
-    "title": "Storage and Serving",
+    "title": "Storage and serving",
     "section": "",
     "text": "Maintain curated datasets securely while keeping them discoverable for synthesis teams and the public.\nDocument durability, backup, and segregation strategies for diverse data types.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Storage and Serving"
+      "Data lifecycle",
+      "Storage and serving"
     ]
   },
   {
     "objectID": "lifecycle/storage-serving.html#architecture-topics",
     "href": "lifecycle/storage-serving.html#architecture-topics",
-    "title": "Storage and Serving",
+    "title": "Storage and serving",
     "section": "Architecture topics",
     "text": "Architecture topics\n\nPreferred storage formats (Parquet, GeoParquet, CSV, GeoPackage, GeoTIFF) and redundancy requirements.\nBackup/restore patterns, lifecycle policies, and management of large/object datasets.\nSegregation of sensitive or embargoed data with appropriate authentication and authorization controls.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Storage and Serving"
+      "Data lifecycle",
+      "Storage and serving"
     ]
   },
   {
     "objectID": "lifecycle/storage-serving.html#access-and-discovery",
     "href": "lifecycle/storage-serving.html#access-and-discovery",
-    "title": "Storage and Serving",
+    "title": "Storage and serving",
     "section": "Access and discovery",
     "text": "Access and discovery\n\nHRL data catalog expectations (search facets, spatial/temporal filters, metadata sync).\nProgrammatic access paths (APIs, SQL/query services, SDKs/helper functions) and bulk download options.\nSurfacing version history, changelog notices, and deprecation warnings.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Storage and Serving"
+      "Data lifecycle",
+      "Storage and serving"
     ]
   },
   {
     "objectID": "lifecycle/storage-serving.html#metadata-and-documentation",
     "href": "lifecycle/storage-serving.html#metadata-and-documentation",
-    "title": "Storage and Serving",
+    "title": "Storage and serving",
     "section": "Metadata and documentation",
     "text": "Metadata and documentation\n\nKeeping machine-readable metadata, READMEs, and DOIs synchronized with repository releases.\nLinking catalog entries back to provenance captured during ingestion and publication.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Storage and Serving"
+      "Data lifecycle",
+      "Storage and serving"
     ]
   },
   {
     "objectID": "lifecycle/storage-serving.html#monitoring-and-notifications",
     "href": "lifecycle/storage-serving.html#monitoring-and-notifications",
-    "title": "Storage and Serving",
+    "title": "Storage and serving",
     "section": "Monitoring and notifications",
     "text": "Monitoring and notifications\n\nAvailability/performance monitoring, logging, and alerting.\nCommunication plans when curated datasets update or access methods change.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Storage and Serving"
+      "Data lifecycle",
+      "Storage and serving"
     ]
   },
   {
     "objectID": "lifecycle/reporting-communication.html",
     "href": "lifecycle/reporting-communication.html",
-    "title": "Reporting and Communication",
+    "title": "Reporting and communication",
     "section": "",
     "text": "Explain how HRL communicates findings through annual activity reports, triennial synthesis products, and the final Ecological Outcomes and Analysis report.\nConnect lifecycle outputs to adaptive management decisions and public accountability.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Reporting and Communication"
+      "Data lifecycle",
+      "Reporting and communication"
     ]
   },
   {
     "objectID": "lifecycle/reporting-communication.html#purpose",
     "href": "lifecycle/reporting-communication.html#purpose",
-    "title": "Reporting and Communication",
+    "title": "Reporting and communication",
     "section": "",
     "text": "Explain how HRL communicates findings through annual activity reports, triennial synthesis products, and the final Ecological Outcomes and Analysis report.\nConnect lifecycle outputs to adaptive management decisions and public accountability.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Reporting and Communication"
+      "Data lifecycle",
+      "Reporting and communication"
     ]
   },
   {
     "objectID": "lifecycle/reporting-communication.html#reporting-cadence",
     "href": "lifecycle/reporting-communication.html#reporting-cadence",
-    "title": "Reporting and Communication",
+    "title": "Reporting and communication",
     "section": "Reporting cadence",
     "text": "Reporting cadence\n\nAnnual reports summarizing data collection progress, QA status, and early findings.\nTriennial synthesis reports that integrate results across hypotheses, tributaries, and habitats.\nFinal program-scale outcomes assessment that informs continuation, modification, or termination decisions.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Reporting and Communication"
+      "Data lifecycle",
+      "Reporting and communication"
     ]
   },
   {
     "objectID": "lifecycle/reporting-communication.html#content-planning",
     "href": "lifecycle/reporting-communication.html#content-planning",
-    "title": "Reporting and Communication",
+    "title": "Reporting and communication",
     "section": "Content planning",
     "text": "Content planning\n\nSections on ecological findings, uncertainties, decision-support tools, and resource needs.\nIntegration of graphics/dashboards supported by storage-serving systems and analysis outputs.\nTreatment of sensitive/Tribal information consistent with CARE-aligned agreements.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Reporting and Communication"
+      "Data lifecycle",
+      "Reporting and communication"
     ]
   },
   {
     "objectID": "lifecycle/reporting-communication.html#workflow-and-approvals",
     "href": "lifecycle/reporting-communication.html#workflow-and-approvals",
-    "title": "Reporting and Communication",
+    "title": "Reporting and communication",
     "section": "Workflow and approvals",
     "text": "Workflow and approvals\n\nRoles for Synthesis Teams (analytical narratives), Central Data Team (figures, data services), and the HRL Science Committee (review/prioritization).\nTimelines for locking datasets, drafting chapters, review cycles, and public release.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Reporting and Communication"
+      "Data lifecycle",
+      "Reporting and communication"
     ]
   },
   {
     "objectID": "lifecycle/reporting-communication.html#dissemination-and-feedback",
     "href": "lifecycle/reporting-communication.html#dissemination-and-feedback",
-    "title": "Reporting and Communication",
+    "title": "Reporting and communication",
     "section": "Dissemination and feedback",
     "text": "Dissemination and feedback\n\nChannels for sharing with agencies, Tribes, and the public (website updates, briefings, data catalog highlights).\nMechanisms for collecting feedback that feeds back into protocols, standards, and future lifecycle iterations.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Reporting and Communication"
+      "Data lifecycle",
+      "Reporting and communication"
     ]
   },
   {
     "objectID": "lifecycle/ingestion-standardization.html",
     "href": "lifecycle/ingestion-standardization.html",
-    "title": "Ingestion and Standardization",
+    "title": "Ingestion and standardization",
     "section": "",
     "text": "Explain how the Central Data Team harvests HRL and external datasets and converts them into interoperable program assets.\nShow how ingestion supports timely analysis, catalog updates, and downstream reporting.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Ingestion and Standardization"
+      "Data lifecycle",
+      "Ingestion and standardization"
     ]
   },
   {
     "objectID": "lifecycle/ingestion-standardization.html#purpose",
     "href": "lifecycle/ingestion-standardization.html#purpose",
-    "title": "Ingestion and Standardization",
+    "title": "Ingestion and standardization",
     "section": "",
     "text": "Explain how the Central Data Team harvests HRL and external datasets and converts them into interoperable program assets.\nShow how ingestion supports timely analysis, catalog updates, and downstream reporting.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Ingestion and Standardization"
+      "Data lifecycle",
+      "Ingestion and standardization"
     ]
   },
   {
     "objectID": "lifecycle/ingestion-standardization.html#pipeline-requirements",
     "href": "lifecycle/ingestion-standardization.html#pipeline-requirements",
-    "title": "Ingestion and Standardization",
+    "title": "Ingestion and standardization",
     "section": "Pipeline requirements",
     "text": "Pipeline requirements\n\nVersion-controlled R/Python pipelines with containers, automation, and CI/CD checks.\nProvenance capture (source DOI, source version, commit hashes, processing parameters).\nAbility to ingest static publication releases and synthesis products.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Ingestion and Standardization"
+      "Data lifecycle",
+      "Ingestion and standardization"
     ]
   },
   {
     "objectID": "lifecycle/ingestion-standardization.html#harmonization-standards",
     "href": "lifecycle/ingestion-standardization.html#harmonization-standards",
-    "title": "Ingestion and Standardization",
+    "title": "Ingestion and standardization",
     "section": "Harmonization standards",
     "text": "Harmonization standards\n\nSchema alignment (column names, units, data types) and tidy data expectations.\nControlled vocabularies for species, habitats, locations, and QA codes.\nMissing-value conventions and spatial reference requirements.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Ingestion and Standardization"
+      "Data lifecycle",
+      "Ingestion and standardization"
     ]
   },
   {
     "objectID": "lifecycle/ingestion-standardization.html#quality-management",
     "href": "lifecycle/ingestion-standardization.html#quality-management",
-    "title": "Ingestion and Standardization",
+    "title": "Ingestion and standardization",
     "section": "Quality management",
     "text": "Quality management\n\nAutomated schema validation, cross-dataset consistency checks, and program-level gates (row counts, uniqueness, bounding boxes).\nError logging stored with datasets plus remediation workflow.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Ingestion and Standardization"
+      "Data lifecycle",
+      "Ingestion and standardization"
     ]
   },
   {
     "objectID": "lifecycle/ingestion-standardization.html#infrastructure-and-access",
     "href": "lifecycle/ingestion-standardization.html#infrastructure-and-access",
-    "title": "Ingestion and Standardization",
+    "title": "Ingestion and standardization",
     "section": "Infrastructure and access",
     "text": "Infrastructure and access\n\nCloud-native deployment guidance, container registries, and scheduling/orchestration patterns.\nFlagging and routing sensitive datasets for special handling during storage and serving.\nDeliverables for downstream teams (harmonized dataset, machine-readable schema, QA reports).",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Ingestion and Standardization"
+      "Data lifecycle",
+      "Ingestion and standardization"
     ]
   },
   {
     "objectID": "lifecycle/analysis-synthesis.html",
     "href": "lifecycle/analysis-synthesis.html",
-    "title": "Analysis and Synthesis",
+    "title": "Analysis and synthesis",
     "section": "",
     "text": "Describe how synthesis teams transform curated datasets into indicators, models, and reports that address HRL hypotheses.\nEmphasize reproducibility, documentation, and reintegration of derived products.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Analysis and Synthesis"
+      "Data lifecycle",
+      "Analysis and synthesis"
     ]
   },
   {
     "objectID": "lifecycle/analysis-synthesis.html#purpose",
     "href": "lifecycle/analysis-synthesis.html#purpose",
-    "title": "Analysis and Synthesis",
+    "title": "Analysis and synthesis",
     "section": "",
     "text": "Describe how synthesis teams transform curated datasets into indicators, models, and reports that address HRL hypotheses.\nEmphasize reproducibility, documentation, and reintegration of derived products.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Analysis and Synthesis"
+      "Data lifecycle",
+      "Analysis and synthesis"
     ]
   },
   {
     "objectID": "lifecycle/analysis-synthesis.html#workflow-expectations",
     "href": "lifecycle/analysis-synthesis.html#workflow-expectations",
-    "title": "Analysis and Synthesis",
+    "title": "Analysis and synthesis",
     "section": "Workflow expectations",
     "text": "Workflow expectations\n\nRepository conventions per the Style & Development Guide (Quarto scaffolding, dependency management, folder structure).\nUse of scripted R/Python workflows, parameterized notebooks, and automation for reruns.\nIntegration of curated datasets via the HRL catalog, APIs, or SDKs.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Analysis and Synthesis"
+      "Data lifecycle",
+      "Analysis and synthesis"
     ]
   },
   {
     "objectID": "lifecycle/analysis-synthesis.html#documentation-requirements",
     "href": "lifecycle/analysis-synthesis.html#documentation-requirements",
-    "title": "Analysis and Synthesis",
+    "title": "Analysis and synthesis",
     "section": "Documentation requirements",
     "text": "Documentation requirements\n\nREADMEs with scope/methods, metadata for derived datasets, and references to input DOIs/versions.\nTracking of assumptions, modeling decisions, and analytical diagnostics.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Analysis and Synthesis"
+      "Data lifecycle",
+      "Analysis and synthesis"
     ]
   },
   {
     "objectID": "lifecycle/analysis-synthesis.html#quality-assurance",
     "href": "lifecycle/analysis-synthesis.html#quality-assurance",
-    "title": "Analysis and Synthesis",
+    "title": "Analysis and synthesis",
     "section": "Quality assurance",
     "text": "Quality assurance\n\nContinuous integration for linting, tests, and reproducibility checks; peer/code review expectations.\nStorage of validation artifacts (model fit summaries, residual analyses, etc.).",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Analysis and Synthesis"
+      "Data lifecycle",
+      "Analysis and synthesis"
     ]
   },
   {
     "objectID": "lifecycle/analysis-synthesis.html#outputs-and-reintegration",
     "href": "lifecycle/analysis-synthesis.html#outputs-and-reintegration",
-    "title": "Analysis and Synthesis",
+    "title": "Analysis and synthesis",
     "section": "Outputs and reintegration",
     "text": "Outputs and reintegration\n\nDerived datasets, models, indicators, and decision-support tools returned to the Central Data Team.\nSemantic versioning and DOI assignment for synthesis products plus release communications to reporting teams.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Analysis and Synthesis"
+      "Data lifecycle",
+      "Analysis and synthesis"
     ]
   },
   {
@@ -751,7 +751,7 @@
     "text": "The HRL Science Program commits to creating data assets that are open, reusable, and respectful of Tribal sovereignty and community priorities. The FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) frameworks serve as the shared language for those commitments. This page translates the FAIR and CARE frameworks into practical expectations that Data Producers, the Central Data Team, and Synthesis Teams can apply across every phase of the HRL Data Lifecycle.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "FAIR and CARE principles"
     ]
   },
@@ -763,7 +763,7 @@
     "text": "FAIR and CARE at a glance\n\nFAIR\nThe FAIR Guiding Principles for scientific data management and stewardship were published in 2016 to improve the ability of both humans and machines to find, access, interoperate, and reuse scientific data.\n\n\n\n\n\n\n\n\n\nPrinciple\n\n\nDefinition\n\n\nHRL expectation\n\n\n\n\n\n\nFindable\n\n\nData and metadata carry persistent identifiers and can be discovered through catalogs and search.\n\n\n\n\nRegister DOIs and expose them through the HRL data catalog and common repositories.\n\n\nProvide structured inventories and keyword-rich, semantically-meaningful metadata (e.g., spatial/temporal coverage, parameters, and data dictionaries) so catalogs, APIs, and portals harvest records automatically.\n\n\n\n\n\n\nAccessible\n\n\nUsers can retrieve data via standard protocols with transparent documentation and notice of any limits.\n\n\n\n\nHost datasets on repositories with stable API endpoints and open download options that serve users with varied levels of technical sophistication.\n\n\nWhere relevant, document authentication steps and contact points and maintain access notes, embargoes with renewal dates, and Tribal review requirements.\n\n\nUpdate metadata when access pathways or restrictions change so downstream users and catalogs stay accurate.\n\n\n\n\n\n\nInteroperable\n\n\nData use shared languages, vocabularies, and formats to integrate with other systems.\n\n\n\n\nPublish tidy data using HRL-approved schemas, controlled vocabularies, and consistent spatial references.\n\n\nDistribute data dictionaries, JSON schemas, and frictionless packages so ingestion workflows can validate inputs.\n\n\nEncode units, qualifiers, and missing-value conventions in machine-readable formats aligned with HRL standards to avoid ambiguity.\n\n\n\n\n\n\nReusable\n\n\nData include clear provenance, licensing, and quality statements so others can reuse them responsibly.\n\n\n\n\nBundle QA/QC logs, provenance code, and uncertainty and use notes with each data publication package and synthesis release.\n\n\nSpecify licenses and citation instructions so downstream users understand reuse terms.\n\n\nRecord provenance (raw inputs, code versions, DOIs) and a contact for questions or clarifications.\n\n\n\n\n\n\n\n\nCARE\nThe CARE Principles for Indigenous Data Governance were published in 2020 to ensure that scientific data practices respect Indigenous sovereignty and promote equitable benefits for Indigenous Peoples and local communities. The CARE Principles are motivated by the recognition that data about Indigenous Peoples and collected by them are frequently suppressed, stolen, misused, and mishandled in ways that perpetuate harm and extractive relationships.\n\n\n\n\n\n\n\n\n\nPrinciple\n\n\nDefinition\n\n\nHRL expectation\n\n\n\n\n\n\nCollective Benefit\n\n\nData activities should generate measurable value for Indigenous Peoples and affected communities.\n\n\n\n\nCo-design monitoring objectives and document expected Tribal and community outcomes in metadata and other research materials.\n\n\nDescribe feedback loops (e.g., shared interpretation, co-developed indicators) before distributing data.\n\n\n\n\n\n\nAuthority to Control\n\n\nIndigenous Peoples retain rights to govern the creation, stewardship, dissemination, and use of data about them and/or collected by them.\n\n\n\n\nCapture formal data sharing and management agreements and archive them with publication packages.\n\n\nApply sovereignty flags at collection and downstream processing steps so that storage, catalog, and reporting workflows enforce access controls.\n\n\n\n\n\n\nResponsibility\n\n\nThose working with Indigenous data have a responsibility to transparently uphold Indigenous Peoples’ self-determination and collective benefit.\n\n\n\n\nAssign contacts responsible for stewardship, data sharing and management agreement renewal, and incident response.\n\n\nLog training requirements and provide channels for Tribes and communities to audit usage or request updates.\n\n\nCo-create mechanisms for determining and tracking Tribal benefits and programmatic adherence to CARE principles.\n\n\n\n\n\n\nEthics\n\n\nData practices must minimize harm, maximize Tribal benefits, and respect cultural protocols and context.\n\n\n\n\nRequire co-developed Tribal or community review checkpoints before publication or synthesis, in alignment with data sharing and management agreements.\n\n\nAdopt respectful language in metadata, dashboards, and reports and archive approvals with the dataset record.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "FAIR and CARE principles"
     ]
   },
@@ -775,7 +775,7 @@
     "text": "Importance of FAIR and CARE\n\nFAIR ensures scientific utility. Metadata rigor, persistent identifiers, and open formats allow HRL data to be discovered, cited, and reused across agencies and the broader research community.\nCARE ensures ethical science and reciprocity. Sensitive observations, Indigenous Knowledge, and Tribal and community agreements are honored in metadata, management, access controls, and communications so that benefits and decision-making authority remain with source communities in order to redress harmful histories and counteract extractive tendencies that persist in public agencies and Western science.\nBoth frameworks travel together. Collection protocols, static publication packages, ingestion pipelines, and synthesis reports must document how FAIR and CARE requirements were met and where exceptions were negotiated.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "FAIR and CARE principles"
     ]
   },
@@ -787,7 +787,7 @@
     "text": "Implementation references\nUse this table as a quick crosswalk for what FAIR and CARE look like at each point in the HRL data lifecycle and which artifacts demonstrate that the requirements were addressed. Program-level resources for HRL parties to develop overarching knowledge, capacity, and practices for upholding FAIR and CARE commitments will be developed by the HRL Science Committee and the Central Data Team.\n\n\n\n\n\n\n\n\n\n\nLifecycle stage\n\n\nFAIR emphasis\n\n\nCARE emphasis\n\n\nKey artifacts\n\n\n\n\n\n\nCollection\n\n\n\n\nField metadata\n\n\nInstrument calibration logs\n\n\nQuality assurance\n\n\n\n\n\n\nConsent terms\n\n\nSensitivity flags\n\n\nContact points\n\n\n\n\n\n\nProtocols\n\n\nField forms\n\n\nAgreements\n\n\n\n\n\n\nStatic Publication\n\n\n\n\nDOI registration\n\n\nTidy data packages\n\n\nComplete metadata\n\n\n\n\n\n\nEmbargo tracking\n\n\nAccess notes\n\n\nBenefit statements\n\n\n\n\n\n\nMetadata XML/EML/JSON\n\n\nCARE publication checklist\n\n\nLicense text\n\n\n\n\n\n\nIngestion and Standardization\n\n\n\n\nSchema validation tests\n\n\nControlled vocabularies\n\n\nProvenance scripts\n\n\n\n\n\n\nPropagation of restriction flags\n\n\nAudit logs for access requests\n\n\n\n\n\n\nValidation pipelines\n\n\nConfiguration files\n\n\n\n\n\n\nStorage and Serving\n\n\n\n\nAccess/API documentation\n\n\nData dictionaries\n\n\nMonitoring of uptime/download metrics\n\n\n\n\n\n\nRole-based access controls\n\n\nUser agreements\n\n\n\n\n\n\nCatalog entries\n\n\nAccess logs\n\n\n\n\n\n\nAnalysis and Synthesis\n\n\n\n\nWorkflow documentation\n\n\nReproducible notebooks\n\n\nCitation of inputs\n\n\n\n\n\n\nRequired attribution of Tribal contributions\n\n\nReview gates before release\n\n\n\n\n\n\nScientific reports\n\n\nRelease notes\n\n\n\n\n\n\nReporting and Communication\n\n\n\n\nPublic-friendly metadata\n\n\nLinks from reporting products to data products\n\n\n\n\n\n\nCo-developed messaging\n\n\nAcknowledgement statements\n\n\n\n\n\n\nFact sheets\n\n\nPresentation decks\n\n\nVisualization tools",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "FAIR and CARE principles"
     ]
   },
@@ -799,7 +799,7 @@
     "text": "Resources\n\nHRL Science Committee Charter Commitments – Overarching governance statements that FAIR and CARE workflows implement.\nData Governance and Roles – Descriptions of Data Producers, Central Data Team, and Synthesis Teams.\nMetadata Standards – Templates and vocabularies for recording FAIR and CARE metadata fields.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "FAIR and CARE principles"
     ]
   },
@@ -811,7 +811,7 @@
     "text": "The Healthy Rivers and Landscapes (HRL) program is an eight-year, multi-agency effort to restore aquatic habitat, provide environmental flows, and adaptively manage ecosystems across the Sacramento River watershed and the Bay-Delta estuary. HRL aims to improve ecological conditions for native fishes by coordinating habitat restoration and flow actions at a watershed scale.\nHRL is proposed as part of the program of implementation for the State Water Resources Control Board’s Bay-Delta Water Quality Control Plan and reflects a broad partnership among state, federal, and local entities.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "HRL program overview"
     ]
   },
@@ -823,7 +823,7 @@
     "text": "HRL Science Program\nThe HRL Science Program provides the scientific foundation for implementing and evaluating HRL. It investigates how restoration actions and environmental flows influence ecosystem processes, habitat conditions, and biological responses across diverse riverine and estuarine environments.\nThe Science Program is structured around 55 hypotheses that span tributary habitats, the mainstem Sacramento River, bypass floodplains, and tidal wetlands. These hypotheses are articulated in the overarching HRL Science Plan. Mechanisms for collecting necessary data and evaluating these hypotheses are further detailed in system- and project-level science plans.\nScientific evaluation will occur through:\n\nAnnual reporting on data collection and early insights\nTriennial synthesis reports that integrate results across projects, special studies, and geographic scales every three years\nEcological Outcomes and Analysis report at the end of the program that assesses the cumulative effectiveness of HRL actions",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "HRL program overview"
     ]
   },
@@ -835,7 +835,7 @@
     "text": "HRL data program structure and collaboration\nHRL science and implementation are organized through an interagency governance structure. For HRL data engineering and data science work, key program roles include:\n\nData Producers – Collect and publish datasets and metadata following shared protocols\nCentral Data Team – Maintain program-level data systems, standards, and tools for analysis, modeling, visualization, and communication\nSynthesis Teams – Analyze curated data to evaluate hypotheses and generate synthesis products\nHRL Science Committee – Provide scientific oversight, prioritization, and guidance\n\nThese groups work together to support scientific research and adaptive management and ensure that HRL decisions are informed by rigorous, transparent, and reproducible science.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "HRL program overview"
     ]
   },
@@ -847,7 +847,7 @@
     "text": "A whole-watershed approach\nA core feature of HRL is its emphasis on integrated, system-wide science. The program links actions and outcomes across rivers, floodplains, and estuarine habitats, enabling coordinated research on:\n\nHabitat restoration effectiveness at multiple spatial scales\nEnvironmental flow benefits in individual tributaries and integrated across the whole watershed\nSpecies responses across life stages\nWatershed-scale ecological patterns\n\nBy uniting restoration, flow management, and interdisciplinary science, HRL seeks to develop knowledge that improves adaptive management for ecosystem resilience and supports long-term stewardship of California’s rivers and landscapes.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "HRL program overview"
     ]
   },
@@ -903,7 +903,7 @@
     "text": "The HRL Science Program relies on a Science Committee, which is a distributed, multi-agency governance structure designed to support high-quality, management-relevant science across the Sacramento River watershed and Bay-Delta estuary over the program’s eight-year duration. Part of the HRL Science Committee’s governance structure addresses data governance—defining who does what in data collection, publication, and analysis; how data move through the program; and how decisions are made at each stage of the HRL data lifecycle.\nThe HRL data governance model balances the independence of Data Producers with shared program-wide standards, centralized data engineering capacity, and strategic oversight from the HRL Science Committee.\nFor a description of how data move from collection to analysis and reporting, see the HRL Data Lifecycle section of this site.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Data governance and roles"
     ]
   },
@@ -915,7 +915,7 @@
     "text": "Why governance matters\nHRL is evaluating dozens of hypotheses across multiple spatial scales, habitat types, and time periods. The HRL Science Program will last at least eight years. The complexity and duration of this collaborative research program necessitates:\n\nClear accountability for data collection and stewardship\n\nDocumented standards for data collection, management, publication, and analysis\n\nTrusted data repositories and open, reproducible workflows for cleaning, publishing, and synthesizing data\nFeedback loops that allow HRL to learn and adapt\n\nTransparent decision-making around priorities, resources, and changes to standards\n\nWell-defined governance ensures that HRL’s annual and triennial synthesis products are generated collaboratively and are scientifically defensible, reproducible, and comparable across years, tributaries, and agencies.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Data governance and roles"
     ]
   },
@@ -927,7 +927,7 @@
     "text": "Governance structure overview\n\n\n\n\n\n\nGovernance groups at a glance\n\n\n\n\nData Producers generate and publish data.\n\nThe Central Data Team curates, standardizes, and serves data.\n\nSynthesis Teams analyze curated data and generate synthesis products.\n\nThe HRL Science Committee provides program-level oversight and prioritization.\n\n\n\nThe HRL data governance framework is built around four interacting groups:\n\nData Producers\n\nThe Central Data Team\n\nSynthesis Teams\n\nThe HRL Science Committee\n\nEach group plays a distinct role in guiding data from collection to static publication, ingestion, storage, analysis, synthesis, and reporting and communication, with clearly defined decision authorities and responsibilities.\nThe figure below illustrates how these roles interact across the HRL data lifecycle. The HRL Science Committee plays an oversight role for the entire data lifecycle but does not directly implement any phase of the data lifecycle.\n\nHRL data lifecycle diagram",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Data governance and roles"
     ]
   },
@@ -939,7 +939,7 @@
     "text": "Data Producers\n\n\n\n\n\n\nData Producers at a glance\n\n\n\n\nPrimary domain: field, lab, and model-based data collection\n\nKey outputs: quality-controlled and published datasets and metadata\nData lifecycle focus: collection, static publication\n\n\n\nWho they are:\nSystem governance entities, HRL signatories, consultants, and partner organizations responsible for creating original data under the HRL program.\nCore responsibilities:\n\nCollect or generate raw data using standardized protocols approved by the HRL Science Committee through system science plan review\nCapture complete metadata at the point of collection\n\nApply quality management (QA/QC) practices\nPrepare and publish static datasets and metadata in trusted HRL program repositories (e.g., EDI) using reproducible code hosted under the HRL GitHub organization\nNotify the Central Data Team of new data publications and updates\n\nData lifecycle phases:\n\nCollection\nStatic publication\n\nDecision authority:\n\nSelect data collection methods within agreed-upon protocols\n\nDetermine timing of dataset release within governance rules (typically within one year of data collection)",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Data governance and roles"
     ]
   },
@@ -951,7 +951,7 @@
     "text": "Central Data Team\n\n\n\n\n\n\nCentral Data Team at a glance\n\n\n\n\nPrimary domain: data engineering, architecture, and shared analysis and visualization tools\n\nKey outputs: curated datasets, data catalogs, APIs, software development kits (SDKs), dashboards, decision support tools, and standards\n\nLifecycle focus: ingestion and standardization, storage and serving, analysis and synthesis (support), reporting and communication\n\n\n\nWho they are:\nInteragency technical experts (data engineers and data scientists) who design and operate the program’s shared data, analysis, and technology infrastructure.\nCore responsibilities:\n\nDevelop and maintain the central data and technology architecture\n\nMaintain the HRL Style and Development Guide and program-wide coding standards\n\nIngest, harmonize, and standardize datasets (ETL/ELT), including HRL-produced and relevant external datasets\n\nMaintain databases, catalogs, APIs, and SDKs for accessing HRL data\n\nProvide documentation, tools, dashboards, and automated reporting\n\nGuide policies and implementations for sensitive data management, including CARE-aligned practices for Tribal data\n\nSupport synthesis teams with modeling infrastructure, workflows, and technical assistance\n\nFacilitate feedback cycles across HRL parties to improve data quality, usability, and documentation\n\nLifecycle phases:\n\nIngestion and standardization\nStorage and serving\nAnalysis and synthesis (in support role)\nReporting and communication\n\nDecision authority:\n\nSet technical standards for metadata, schema consistency, coding and development practices, and program-level quality management\n\nManage curated dataset updates and semantic versioning on a reasonable timeline\nRecommend resourcing, staffing, and prioritization to the HRL Science Committee",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Data governance and roles"
     ]
   },
@@ -963,7 +963,7 @@
     "text": "Synthesis Teams\n\n\n\n\n\n\nSynthesis Teams at a glance\n\n\n\n\nPrimary domain: modeling, analysis, and interpretation\n\nKey outputs: synthesis datasets, indicators, models, and reports\n\nLifecycle focus: analysis and synthesis, reporting and communication (support)\n\n\n\nWho they are:\nInterdisciplinary scientists working on HRL hypotheses and synthesis products.\nCore responsibilities:\n\nSynthesize curated, analysis-ready datasets provided by the Central Data Team\n\nConduct reproducible analyses and modeling in accordance with the HRL Style and Development Guide\n\nProduce synthesis datasets, indicators, models, and reports using version-controlled workflows\n\nProvide structured feedback on data quality, usability, and gaps to Data Producers and the Central Data Team\nSuggest adaptive management actions to the HRL Science Committee based on synthesis findings and research needs\nIdentify future data and analysis priorities based on synthesis findings\n\nLifecycle phase:\n\nAnalysis and synthesis\nReporting and communication (in support role)\n\nDecision authority:\n\nInfluence prioritization through documented feedback\n\nPropose new data needs and analytical directions\nDetermine best statistical and modeling methods to investigate HRL hypotheses",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Data governance and roles"
     ]
   },
@@ -975,7 +975,7 @@
     "text": "HRL Science Committee\n\n\n\n\n\n\nHRL Science Committee at a glance\n\n\n\n\nPrimary domain: program-level governance and prioritization\n\nKey outputs: resourcing decisions, policy guidance, and governance approvals\n\nLifecycle focus: cross-cutting oversight across all phases\n\n\n\nWho they are:\nHRL Science Committee members who ensure that HRL’s science, data practices, and investments remain aligned with program goals and charter commitments.\nCore responsibilities:\n\nOversee resource allocation and prioritization across HRL science workstreams\n\nResolve tensions between data producer independence and program-wide standardization\n\nIdentify and support capacity and training needs related to data, modeling, and open science\n\nRequest decision support tools, dashboards, and frontend products from the Central Data Team\n\nLifecycle phases:\n\nCross-cutting across the entire lifecycle, with particular focus on major program decisions and trade-offs\n\nDecision authority:\n\nAllocate financial and human resources\n\nApprove or revise major governance policies and standards\n\nEscalate critical unresolved issues to the HRL Systemwide Governance Committee",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Data governance and roles"
     ]
   },
@@ -987,7 +987,7 @@
     "text": "The HRL Science Committee Charter, particularly Appendix D, describes the commitments that guide data collection, publication, and analysis activities under the HRL Science Program. This page summarizes those commitments so that HRL Program partners understand the expectations that underpin the rest of this documentation hub. Use it as a quick refresher before diving into detailed guidance on the data lifecycle, standards, or common activities.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Science charter commitments"
     ]
   },
@@ -999,7 +999,7 @@
     "text": "Core charter commitments\nThe HRL Science Committee charter expresses principles that support open, reproducible, ethical science. The principles are operationalized through common practices across the full data lifecycle.\n\nData collection\n\nHRL parties collect data using approved protocols documented in system-level science plans.\nData Producers capture complete metadata at the point of collection, including metadata describing who collected the data, when and where the data were collected, equipment settings, and calibration routines.\nField quality assurance and quality control activities (e.g., duplicates, blanks, environmental notes, and calibration logs) are recorded and carried forward into publication packages.\nSensitive or Tribal sovereignty-linked observations are identified early and handled under agreements co-developed with Tribes and partner entities.\n\nMore information:\n\nData Collection Governance and Roles\n\n\n\nData management\n\nDatasets are stored in machine-readable, non-proprietary formats and structured according to tidy data principles where practical.\nQuality control steps are scripted, version-controlled, and documented through validation logs.\nProvenance is preserved from raw inputs through static data publication, ingestion, and synthesis; every workflow records source DOIs, code versions, and processing parameters.\nCARE-aligned data handling requirements are embedded in metadata, storage locations, and access controls.\n\nMore information:\n\nFAIR and CARE Data Static Data Publication Data Ingestion and Standardization Metadata Standards\n\n\n\nData access\n\nStatic HRL datasets receive DOIs (e.g., via EDI) and are discoverable through the HRL data catalog, search, and APIs.\nMetadata packages provide plain-language summaries, schema information, keywords, and access notes.\nProgrammatic access routes (bulk download, APIs, SDKs) are maintained so analysts and partners can use the data without manual, one-off transfers.\n\nMore information:\n\nData Storage and Serving Reference Resources\n\n\n\nIntegration and analysis\n\nAll analyses are implemented through structured R or Python workflows managed in HRL GitHub repositories that follow the HRL Style and Development Guide.\nContinuous integration tests verify that code runs, schemas match expectations, and outputs reproduce.\nDerived synthesis datasets, indicators, and models are versioned, documented, and returned to the Central Data Team for curation and publication.\nAnalytical workflows include diagnostics, uncertainty statements, and clear linkage to input datasets so results can be validated and reused.\n\nMore information:\n\nData Ingestion and Standardization Analysis and Synthesis Reporting and Communication",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Science charter commitments"
     ]
   },
@@ -1011,7 +1011,7 @@
     "text": "Program-wide priorities\nHRL data governance and management emphasizes three cross-cutting priorities that help HRL meet its commitments.\n\nEfficiency and responsiveness\n\nModular pipelines and reusable templates reduce duplication and support repeatable annual and triennial reporting.\nThorough documentation and coding standards enable rapid onboarding of new collaborators and contractors and coherence of data and code products across the entire program.\nFeedback loops between Data Producers, the Central Data Team, and Synthesis Teams surface issues quickly, allow the data and analysis enterprise to evolve to meet program needs, and inform adaptive management decisions.\n\n\n\nScalable, future-proof infrastructure\n\nCloud-native, open, and standards-based technologies allow HRL to ingest increasing data volumes and adopt new tools as needed.\nStorage, compute, and orchestration platforms are selected for durability and portability over the eight-year program horizon.\nLarge or complex datasets (e.g., imagery, LiDAR, and modeling outputs) are handled with architectures that support efficient storage, retrieval, and processing.\n\n\n\nProgram-wide learning\n\nShared templates, training curricula, office hours, and documentation keep practices aligned across agencies.\nLessons from synthesis and reporting cycles feed updates into protocols, standards, and governance decisions.\nKnowledge is captured in repositories, catalogs, and documentation sites so it persists beyond individual personnel changes.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Science charter commitments"
     ]
   },
@@ -1023,7 +1023,7 @@
     "text": "Reproducibility is the ability for another person to understand, repeat, and validate scientific results. In practice, this means that people can see the data, methods, assumptions, and decisions that produced a result and can rerun the same steps (or adapt them) with confidence and minimal effort. This page explains HRL-wide expectations for reproducibility at a high level; detailed “how-to” guidance lives in the HRL Style and Development Guide and related resources.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Reproducible science"
     ]
   },
@@ -1035,7 +1035,7 @@
     "text": "Reproducibility essentials\nTo promote reproducible science, the HRL Science Program:\n\nDefines the purpose and scope of data products and analyses so others understand what each dataset or analysis represents and answers.\nKeeps data, metadata, and documentation in stable, accessible locations with persistent identifiers (e.g., DOIs).\nRecords every step from raw data to reported findings in executable workflows with quality checks, decisions, assumptions, and environment and dependencies management.\nUses automated tests and continuous integration/continuous deployment to catch regressions early and keep workflows reproducible with every release.\nMaintains version control using common tools (e.g., git and GitHub) so that data products and results always trace back to the exact inputs, versions, and parameters used and important changes can be easily identified.\nHonors data sharing agreements by carrying forward access notes and restrictions for governed data.\nDocuments workflows, checkpoints, and artifacts so they can be audited and improved over the life of the program.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Reproducible science"
     ]
   },
@@ -1047,7 +1047,7 @@
     "text": "Why reproducibility matters\nBy making our scientific work rigorously reproducible, HRL parties:\n\nBuild trust in program decisions by showing how evidence was produced.\nSpeed onboarding and collaboration across agencies, contractors, and partners.\nReduce duplicated effort and inefficiency by turning one-off analyses into repeatable workflows for annual and triennial reporting.\nProtect continuity when staff change, ensuring that knowledge and processes are retained and auditable.\nAlign with HRL commitments to FAIR, CARE, and open science.\nEmpower the broader scientific community to validate, build on, and extend HRL research.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Reproducible science"
     ]
   },
@@ -1059,7 +1059,7 @@
     "text": "Reproducible code and software practices\nDetailed implementation standards, such as repository structures, naming conventions, dependency and environment management, testing, and automation, are provided in the HRL Style and Development Guide and related resources. At a minimum:\n\nKeep work in HRL-managed GitHub repositories with clear commit histories, branches, pull requests, documentation, and tags for releases.\nUse the provided templates for static data publication, ingestion, and analysis repositories instead of ad hoc folder structures.\nCapture environment details (e.g., software versions, parameters, and configuration files) so workflows run consistently on local machines and in automated checks.\nUse deterministic processes, such as random seed specification, where possible to ensure the same inputs always yield the same outputs.\nRun automated checks where available in a CI/CD framework (e.g., style, tests, and schema validation) before releasing datasets or analysis results.\nTrack decisions and issues in repository issue trackers so future users understand why changes were made.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Reproducible science"
     ]
   },
@@ -1071,68 +1071,68 @@
     "text": "Support and resources\n\nData Lifecycle Overview – How collection, publication, ingestion, storage, analysis, and reporting connect across the HRL Science Program.\nGovernance and Roles – Responsibilities across Data Producers, the Central Data Team, Synthesis Teams, and the HRL Science Committee.\nQuickstarts:\n\nPublish a Static Dataset to EDI\nIngest Data into the HRL Platform\nLaunch an HRL Analysis\nGetting Help\n\nHRL Style and Development Guide – Source of detailed practices, code style, templates, and automation.\nReproducibility and Replicability in Science – National Academies publication that defines and discusses best practices for reproducibility and replicability in science.",
     "crumbs": [
       "Home",
-      "Program Foundations",
+      "Program foundations",
       "Reproducible science"
     ]
   },
   {
     "objectID": "lifecycle/collection.html",
     "href": "lifecycle/collection.html",
-    "title": "Data Collection",
+    "title": "Data collection",
     "section": "",
     "text": "Define what counts as collection (field, lab, and model outputs) across HRL hypotheses.\nEnsure data type documentation and approved protocols appear in system-level science plans.\nEmphasize real-time metadata capture and field QA/QC expectations.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Data Collection"
+      "Data lifecycle",
+      "Data collection"
     ]
   },
   {
     "objectID": "lifecycle/collection.html#objectives",
     "href": "lifecycle/collection.html#objectives",
-    "title": "Data Collection",
+    "title": "Data collection",
     "section": "",
     "text": "Define what counts as collection (field, lab, and model outputs) across HRL hypotheses.\nEnsure data type documentation and approved protocols appear in system-level science plans.\nEmphasize real-time metadata capture and field QA/QC expectations.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Data Collection"
+      "Data lifecycle",
+      "Data collection"
     ]
   },
   {
     "objectID": "lifecycle/collection.html#topics-to-cover",
     "href": "lifecycle/collection.html#topics-to-cover",
-    "title": "Data Collection",
+    "title": "Data collection",
     "section": "Topics to cover",
     "text": "Topics to cover\n\nInventory of common data types plus process for proposing new methods.\nRequired metadata elements (who, when, where, how, equipment, calibration routines).\nField QA/QC practices such as calibration logs, duplicates, controls, and environmental notes.\nRoles for Data Producers and oversight points for the HRL Science Committee/Data Governance Group.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Data Collection"
+      "Data lifecycle",
+      "Data collection"
     ]
   },
   {
     "objectID": "lifecycle/collection.html#inputs-and-outputs",
     "href": "lifecycle/collection.html#inputs-and-outputs",
-    "title": "Data Collection",
+    "title": "Data collection",
     "section": "Inputs and outputs",
     "text": "Inputs and outputs\n\nInputs: approved protocols, instrumentation settings, sampling designs, training materials.\nOutputs: raw data files, field forms, preliminary QA reports ready for static publication workflows.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Data Collection"
+      "Data lifecycle",
+      "Data collection"
     ]
   },
   {
-    "objectID": "lifecycle/collection.html#decision-points-governance",
-    "href": "lifecycle/collection.html#decision-points-governance",
-    "title": "Data Collection",
-    "section": "Decision points & governance",
-    "text": "Decision points & governance\n\nExplain when protocol updates need approval and how to document that decision.\nNote notification pathways back to the Central Data Team following collection events.\nDescribe how sensitive/Tribal data agreements are recorded at the point of collection.",
+    "objectID": "lifecycle/collection.html#decision-points-and-governance",
+    "href": "lifecycle/collection.html#decision-points-and-governance",
+    "title": "Data collection",
+    "section": "Decision points and governance",
+    "text": "Decision points and governance\n\nExplain when protocol updates need approval and how to document that decision.\nNote notification pathways back to the Central Data Team following collection events.\nDescribe how sensitive/Tribal data agreements are recorded at the point of collection.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
-      "Data Collection"
+      "Data lifecycle",
+      "Data collection"
     ]
   },
   {
@@ -1143,7 +1143,7 @@
     "text": "HRL structures data governance and reproducible, collaborative practices around a program-specific data lifecycle. The data lifecycle outlines key phases that data pass through from initial collection in the field to final reporting and communication of results. Each phase includes defined activities, responsible parties, and governance touchpoints to ensure integrity, transparency, and usability of data and analyses throughout the HRL program.\nThe HRL Science Committee oversees the data lifecycle and governance model but does not directly implement any phases of the HRL data lifecycle. The HRL Science Committee provides strategic direction, prioritization, and oversight to ensure that Data Producers, the Central Data Team, and Synthesis Teams are equipped to uphold HRL Science Program commitments and collaborate effectively.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
+      "Data lifecycle",
       "HRL data lifecycle overview"
     ]
   },
@@ -1155,7 +1155,7 @@
     "text": "Lifecycle phases at a glance\n\n\n\n\n\n\n\n\n\nLifecycle phase\n\n\nSummary\n\n\nResponsible entity\n\n\n\n\n\n\nCollection\n\n\nCollect data and document approved protocols, metadata, and field quality assurance and quality control practices.\n\n\nData Producers\n\n\n\n\nStatic Publication\n\n\nPublish cleaned datasets with metadata packages and DOIs through the HRL GitHub + EDI workflow.\n\n\nData Producers\n\n\n\n\nIngestion and Standardization\n\n\nHarmonize static data releases, incorporate external datasets, align schemas and vocabularies, conduct program-level quality control, and capture provenance.\n\n\nCentral Data Team\n\n\n\n\nStorage and Serving\n\n\nKeep curated datasets durable, discoverable, and accessible via catalogs, APIs, and SDKs.\n\n\nCentral Data Team\n\n\n\n\nAnalysis and Synthesis\n\n\nRun reproducible analyses, create models and indicators, and return models derived data products to the Central Data Team for curation.\n\n\nSynthesis Teams\n\n\n\n\nReporting and Communication\n\n\nTranslate findings into synthesis reports, decision support tools, visualization applications, and other science communication products that guide adaptive management and make HRL science outcomes accessible.\n\n\nCentral Data TeamSynthesis Teams",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
+      "Data lifecycle",
       "HRL data lifecycle overview"
     ]
   },
@@ -1167,7 +1167,7 @@
     "text": "Static publication at a glance\n\n\n\n\nData Producers finalize cleaned datasets into tidy, version-controlled releases with DOIs, complete metadata, and links to source code that follows the conventions described in the HRL Style and Development Guide.\nDatasets are published to the Environmental Data Initiative (EDI) in open, non-proprietary formats with complete provenance metadata and open licenses.\nReleases posted to GitHub and EDI become the trusted inputs for data ingestion, cataloging, and downstream analyses.\nDescription:\nIn the static publication step, Data Producers finalize cleaned datasets into tidy, versioned data packages; run automated quality control checks that ensure that data meet HRL and EDI publication standards; and publish data packages through HRL GitHub repositories and EDI with complete metadata and DOIs. Metadata are assembled using the tools in the hrlpub R package, which wrap EMLassemblyline and EDI APIs to ensure that metadata and data packages pass EDI’s evaluation checks.\nNote: HRL Data Producers are expected to publish most datasets to EDI. However, very large or complex datasets—such as high-resolution imagery collections, climate model outputs, or large geospatial files—may exceed EDI’s size and storage constraints. These datasets will be hosted and published by the Central Data Team using HRL program infrastructure, with EDI metadata records and landing pages cross-linking to the hosted assets when appropriate.\nOutcome:\nThe output of this data lifecycle step is a citable, reproducible data package released on EDI in open formats with complete metadata, structured data dictionaries, provenance notes, quality control logs, and source code pinned to an immutable GitHub release. Metadata are written in Ecological Metadata Language (EML) to ensure machine readability, human readability, and interoperability with other data systems and to facilitate discovery, reuse, and integration with HRL data catalogs and search tools.\nBenefit:\nPublishing static datasets creates trusted, FAIR- and CARE-aligned data assets that downstream ingestion, cataloging, and analysis workflows can rely on, while also making HRL data discoverable, transparent, and reusable by partners, collaborators, and the public.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
+      "Data lifecycle",
       "Static publication"
     ]
   },
@@ -1179,7 +1179,7 @@
     "text": "Workflow steps\nFor each dataset publication, Data Producers should complete the following steps. A step-by-step guide that illustrates this process with sample code is provided in the quickstart guide on publishing a static dataset to EDI.\n\n\nSet up a dataset publication repository by forking the HRL data publication template repository. This ensures that all data publications follow a consistent, version-controlled structure with standardized directories required by HRL and EDI tooling.\nBuild reproducible cleaning and quality control pipelines that produce tidy, analysis-ready data; validate key fields; and run continuous integration checks that must pass before tagging a release.\nCreate structured metadata using the hrlpub R package. These functions assemble EML using EMLassemblyline templates for attributes, personnel, geographic coverage, temporal coverage, provenance, and custom units. Metadata must pass the EDI evaluator before publication.\nPrepare the release package by compiling:\n\nTidy data tables in open formats\nData dictionaries\nA README file\nQuality control logs\nRelease notes that map inputs, parameters, and code to the tagged commit using HRL style conventions\n\nUpload the package to EDI using staged submission: publish first to the staging environment to review the EDI evaluation report, resolve any issues, and then publish to production to mint a DOI. The GitHub tag for the release should be included in the EML provenance. Notify the Central Data Team once publication is complete.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
+      "Data lifecycle",
       "Static publication"
     ]
   },
@@ -1191,7 +1191,7 @@
     "text": "Publication package checklist\n\nWhat goes to EDI\n\nTidy data files in open, non-proprietary formats (e.g., CSV, Parquet, GeoJSON) with a clear version identifier\nComplete EML metadata for the release, including:\n\nData dictionaries (attributes files)\nREADME describing the dataset, scope, and intended use\nPersonnel and contact information\nLicense statement\nTemporal and geographic coverage\nProvenance (source DOIs, commit hash of the tagged release, parameters, external datasets)\nQuality control report or summary\n\nDocumentation of data sharing agreements, use constraints, access notes, or sensitive-data handling instructions (including Tribal agreements when applicable)\nA check that the package passes EDI’s automated evaluation in staging before production publication\n\n\n\nWhat stays in the GitHub repository\n\nTagged GitHub release with the exact code, configuration, parameters, and dependencies used to produce the published data\nRelease notes in a NEWS entry for the tagged version that summarize changes since the prior release, if relevant\nContinuous integration workflows validating data quality and code functionality",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
+      "Data lifecycle",
       "Static publication"
     ]
   },
@@ -1203,7 +1203,7 @@
     "text": "Outputs and handoffs\nPublishing data following the HRL static publication workflow results in the following reproducible, well-documented outputs:\n\nA versioned dataset published on EDI with complete EML metadata and a DOI\nA tagged GitHub release containing the exact code, configuration, and parameters used to produce the published data, linked in the EML provenance\n\nAfter publishing data on EDI, Data Producers should notify the Central Data Team and provide a link to the EDI landing page and GitHub release. The Central Data Team will then ingest the dataset into HRL data catalogs and downstream analysis pipelines as appropriate.\nIf datasets are potentially too large or complex to publish on EDI, Data Producers should instead work directly with the Central Data Team on hosting and publication plans.",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
+      "Data lifecycle",
       "Static publication"
     ]
   },
@@ -1215,284 +1215,284 @@
     "text": "Resources\n\nHRL Style and Development Guide – repository structure, code style, naming conventions, continuous integration, dependencies management, and release practices for publication projects\nHRL data publication template repository – fork to start new dataset releases with prescribed directories, scripts, and GitHub Actions for continuous integration\nPublish a Static Dataset to EDI – step-by-step quickstart with code snippets and an example dataset\nhrlpub R package – wraps EMLassemblyline and EDI APIs to build and publish EML and validate data packages before release",
     "crumbs": [
       "Home",
-      "HRL Data Lifecycle",
+      "Data lifecycle",
       "Static publication"
     ]
   },
   {
     "objectID": "quickstart/analysis.html",
     "href": "quickstart/analysis.html",
-    "title": "Launch an HRL Analysis",
+    "title": "Launch an HRL analysis",
     "section": "",
     "text": "Guide synthesis teams through setting up a reproducible repository that consumes curated HRL datasets.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Launch an HRL Analysis"
+      "Quickstart guides",
+      "Launch an HRL analysis"
     ]
   },
   {
     "objectID": "quickstart/analysis.html#goal",
     "href": "quickstart/analysis.html#goal",
-    "title": "Launch an HRL Analysis",
+    "title": "Launch an HRL analysis",
     "section": "",
     "text": "Guide synthesis teams through setting up a reproducible repository that consumes curated HRL datasets.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Launch an HRL Analysis"
+      "Quickstart guides",
+      "Launch an HRL analysis"
     ]
   },
   {
     "objectID": "quickstart/analysis.html#before-you-start",
     "href": "quickstart/analysis.html#before-you-start",
-    "title": "Launch an HRL Analysis",
+    "title": "Launch an HRL analysis",
     "section": "Before you start",
     "text": "Before you start\n\nConfirm hypothesis scope, decision context, and approvals for using sensitive data.\nReview the Style & Development Guide, reproducibility commitments, and applicable science plans.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Launch an HRL Analysis"
+      "Quickstart guides",
+      "Launch an HRL analysis"
     ]
   },
   {
     "objectID": "quickstart/analysis.html#workflow-outline",
     "href": "quickstart/analysis.html#workflow-outline",
-    "title": "Launch an HRL Analysis",
+    "title": "Launch an HRL analysis",
     "section": "Workflow outline",
     "text": "Workflow outline\n\nCreate a GitHub repository from the HRL analysis template with Quarto scaffolding and CI.\nAcquire datasets through the HRL catalog/SDKs; log input DOIs, versions, and access constraints.\nDevelop models/analyses in R or Python with parameterized scripts, diagnostics, and metadata-rich outputs.\nGenerate synthesis products (datasets, indicators, figures) and Quarto reports for stakeholders.\nPackage outputs for reintegration (metadata, release tags) and notify the Central Data Team and reporting leads.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Launch an HRL Analysis"
+      "Quickstart guides",
+      "Launch an HRL analysis"
     ]
   },
   {
     "objectID": "quickstart/analysis.html#deliverables",
     "href": "quickstart/analysis.html#deliverables",
-    "title": "Launch an HRL Analysis",
+    "title": "Launch an HRL analysis",
     "section": "Deliverables",
     "text": "Deliverables\n\nReproducible codebase, published synthesis dataset/model, documentation for reporting and catalog updates.\nRecommendations or decision-support materials for adaptive management discussions.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Launch an HRL Analysis"
+      "Quickstart guides",
+      "Launch an HRL analysis"
     ]
   },
   {
     "objectID": "quickstart/analysis.html#support-and-review",
     "href": "quickstart/analysis.html#support-and-review",
-    "title": "Launch an HRL Analysis",
+    "title": "Launch an HRL analysis",
     "section": "Support and review",
     "text": "Support and review\n\nPeer review expectations, Central Data Team consults, and access to compute resources or specialized tooling.\nLink to Getting Help guidance for troubleshooting analytical workflows.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Launch an HRL Analysis"
+      "Quickstart guides",
+      "Launch an HRL analysis"
     ]
   },
   {
     "objectID": "quickstart/ingestion.html",
     "href": "quickstart/ingestion.html",
-    "title": "Ingest Data into the HRL Platform",
+    "title": "Ingest data into the HRL platform",
     "section": "",
     "text": "Capture workflows for harvesting published datasets (HRL and external) and standardizing them for program use.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Ingest Data into the HRL Platform"
+      "Quickstart guides",
+      "Ingest data into the HRL platform"
     ]
   },
   {
     "objectID": "quickstart/ingestion.html#goal",
     "href": "quickstart/ingestion.html#goal",
-    "title": "Ingest Data into the HRL Platform",
+    "title": "Ingest data into the HRL platform",
     "section": "",
     "text": "Capture workflows for harvesting published datasets (HRL and external) and standardizing them for program use.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Ingest Data into the HRL Platform"
+      "Quickstart guides",
+      "Ingest data into the HRL platform"
     ]
   },
   {
     "objectID": "quickstart/ingestion.html#preconditions",
     "href": "quickstart/ingestion.html#preconditions",
-    "title": "Ingest Data into the HRL Platform",
+    "title": "Ingest data into the HRL platform",
     "section": "Preconditions",
     "text": "Preconditions\n\nHRL GitHub and infrastructure access, along with credentials for source repositories/APIs.\nMetadata about source datasets (DOI, version, schema expectations, sensitivity flags).",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Ingest Data into the HRL Platform"
+      "Quickstart guides",
+      "Ingest data into the HRL platform"
     ]
   },
   {
     "objectID": "quickstart/ingestion.html#workflow-outline",
     "href": "quickstart/ingestion.html#workflow-outline",
-    "title": "Ingest Data into the HRL Platform",
+    "title": "Ingest data into the HRL platform",
     "section": "Workflow outline",
     "text": "Workflow outline\n\nRetrieve the static dataset or synthesis output using the DOI/API and stage files securely.\nRecord provenance (source release, commit hashes) in ingestion configs.\nAlign schemas to HRL standards (columns, units, vocabularies, CRS) and apply data dictionaries.\nRun automated validation suites, log issues, and resolve discrepancies with data producers.\nPublish the harmonized dataset plus machine-readable schema to the storage/serving environment.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Ingest Data into the HRL Platform"
+      "Quickstart guides",
+      "Ingest data into the HRL platform"
     ]
   },
   {
     "objectID": "quickstart/ingestion.html#deliverables",
     "href": "quickstart/ingestion.html#deliverables",
-    "title": "Ingest Data into the HRL Platform",
+    "title": "Ingest data into the HRL platform",
     "section": "Deliverables",
     "text": "Deliverables\n\nVersioned curated dataset, validation reports, ingestion notes, and catalog-ready metadata.\nFlags for sensitive data routed to storage/serving and reporting teams.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Ingest Data into the HRL Platform"
+      "Quickstart guides",
+      "Ingest data into the HRL platform"
     ]
   },
   {
     "objectID": "quickstart/ingestion.html#collaboration-and-escalation",
     "href": "quickstart/ingestion.html#collaboration-and-escalation",
-    "title": "Ingest Data into the HRL Platform",
+    "title": "Ingest data into the HRL platform",
     "section": "Collaboration and escalation",
     "text": "Collaboration and escalation\n\nGuidance for coordinating with Data Producers/Synthesis Teams when questions arise.\nCriteria for involving HRL Science Committee or governance leads when standards need updates.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Ingest Data into the HRL Platform"
+      "Quickstart guides",
+      "Ingest data into the HRL platform"
     ]
   },
   {
     "objectID": "quickstart/quickstart-catalog.html",
     "href": "quickstart/quickstart-catalog.html",
-    "title": "Quickstart Catalog",
+    "title": "Quickstart catalog",
     "section": "",
     "text": "Identify your role/task, skim prerequisite commitments, then jump to the relevant quickstart.\nEncourage new staff to read the Program Overview, Governance & Roles, and Commitments pages first.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Quickstart Catalog"
+      "Quickstart guides",
+      "Quickstart catalog"
     ]
   },
   {
     "objectID": "quickstart/quickstart-catalog.html#how-to-use-this-catalog",
     "href": "quickstart/quickstart-catalog.html#how-to-use-this-catalog",
-    "title": "Quickstart Catalog",
+    "title": "Quickstart catalog",
     "section": "",
     "text": "Identify your role/task, skim prerequisite commitments, then jump to the relevant quickstart.\nEncourage new staff to read the Program Overview, Governance & Roles, and Commitments pages first.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Quickstart Catalog"
+      "Quickstart guides",
+      "Quickstart catalog"
     ]
   },
   {
     "objectID": "quickstart/quickstart-catalog.html#available-quickstarts",
     "href": "quickstart/quickstart-catalog.html#available-quickstarts",
-    "title": "Quickstart Catalog",
+    "title": "Quickstart catalog",
     "section": "Available quickstarts",
     "text": "Available quickstarts\n\nPublish a Static Dataset to EDI – Clean, document, and release HRL datasets with DOIs.\nIngest Data into the HRL Platform – Harmonize publications for analysis-ready access.\nLaunch an HRL Analysis – Set up reproducible synthesis repositories and outputs.\nGetting Help – Navigate support channels and governance touchpoints.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Quickstart Catalog"
+      "Quickstart guides",
+      "Quickstart catalog"
     ]
   },
   {
     "objectID": "quickstart/quickstart-catalog.html#suggested-prerequisites",
     "href": "quickstart/quickstart-catalog.html#suggested-prerequisites",
-    "title": "Quickstart Catalog",
+    "title": "Quickstart catalog",
     "section": "Suggested prerequisites",
     "text": "Suggested prerequisites\n\nHRL GitHub organization access, onboarding modules, and familiarity with the Style & Development Guide.\nCopy of the HRL Data Governance and Management Plan plus relevant science plan materials.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Quickstart Catalog"
+      "Quickstart guides",
+      "Quickstart catalog"
     ]
   },
   {
     "objectID": "quickstart/quickstart-catalog.html#additional-onboarding-resources",
     "href": "quickstart/quickstart-catalog.html#additional-onboarding-resources",
-    "title": "Quickstart Catalog",
+    "title": "Quickstart catalog",
     "section": "Additional onboarding resources",
     "text": "Additional onboarding resources\n\nTraining decks, recorded demos, and office hour schedules hosted by the Central Data Team.\nLinks to metadata standards, schema registries, and template repositories referenced throughout the site.",
     "crumbs": [
       "Home",
-      "Quickstart Guides",
-      "Quickstart Catalog"
+      "Quickstart guides",
+      "Quickstart catalog"
     ]
   },
   {
     "objectID": "standards/schemas-vocabs.html",
     "href": "standards/schemas-vocabs.html",
-    "title": "Schemas & Controlled Vocabularies",
+    "title": "Schemas and vocabularies",
     "section": "",
     "text": "Define how HRL maintains consistent data structures and categorical values across ingestion, storage, and analysis.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Schemas & Controlled Vocabularies"
+      "Standards and templates",
+      "Schemas and vocabularies"
     ]
   },
   {
     "objectID": "standards/schemas-vocabs.html#purpose",
     "href": "standards/schemas-vocabs.html#purpose",
-    "title": "Schemas & Controlled Vocabularies",
+    "title": "Schemas and vocabularies",
     "section": "",
     "text": "Define how HRL maintains consistent data structures and categorical values across ingestion, storage, and analysis.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Schemas & Controlled Vocabularies"
+      "Standards and templates",
+      "Schemas and vocabularies"
     ]
   },
   {
     "objectID": "standards/schemas-vocabs.html#schema-artifacts",
     "href": "standards/schemas-vocabs.html#schema-artifacts",
-    "title": "Schemas & Controlled Vocabularies",
+    "title": "Schemas and vocabularies",
     "section": "Schema artifacts",
     "text": "Schema artifacts\n\nMachine-readable schema files (JSON/YAML) per dataset family plus associated data dictionaries.\nGuidance on tidy data orientation, units, coordinate systems, and missing-value codes.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Schemas & Controlled Vocabularies"
+      "Standards and templates",
+      "Schemas and vocabularies"
     ]
   },
   {
     "objectID": "standards/schemas-vocabs.html#vocabulary-management",
     "href": "standards/schemas-vocabs.html#vocabulary-management",
-    "title": "Schemas & Controlled Vocabularies",
+    "title": "Schemas and vocabularies",
     "section": "Vocabulary management",
     "text": "Vocabulary management\n\nStandard lists for species, locations, habitat types, gear, QA codes, and other enums.\nProcesses for requesting new terms, reviewing changes, and versioning vocabularies.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Schemas & Controlled Vocabularies"
+      "Standards and templates",
+      "Schemas and vocabularies"
     ]
   },
   {
     "objectID": "standards/schemas-vocabs.html#quality-and-validation",
     "href": "standards/schemas-vocabs.html#quality-and-validation",
-    "title": "Schemas & Controlled Vocabularies",
+    "title": "Schemas and vocabularies",
     "section": "Quality and validation",
     "text": "Quality and validation\n\nAutomated checks that enforce schema/vocabulary compliance at ingestion and analysis stages.\nError reporting workflows and remediation tracking.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Schemas & Controlled Vocabularies"
+      "Standards and templates",
+      "Schemas and vocabularies"
     ]
   },
   {
     "objectID": "standards/schemas-vocabs.html#governance",
     "href": "standards/schemas-vocabs.html#governance",
-    "title": "Schemas & Controlled Vocabularies",
+    "title": "Schemas and vocabularies",
     "section": "Governance",
     "text": "Governance\n\nOwnership by the Central Data Team with review cadence involving the HRL Science Committee.\nPublication of updates through the data catalog, templates, and quickstarts.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
-      "Schemas & Controlled Vocabularies"
+      "Standards and templates",
+      "Schemas and vocabularies"
     ]
   },
   {
@@ -1503,7 +1503,7 @@
     "text": "Provide reusable scaffolds that help teams comply with HRL standards quickly and consistently.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
+      "Standards and templates",
       "Templates"
     ]
   },
@@ -1515,7 +1515,7 @@
     "text": "Provide reusable scaffolds that help teams comply with HRL standards quickly and consistently.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
+      "Standards and templates",
       "Templates"
     ]
   },
@@ -1527,7 +1527,7 @@
     "text": "Template types\n\nQuarto templates for reports, SOPs, and governance documents.\nGitHub repository templates for data publication, ingestion, and analysis projects.\nMetadata/data dictionary templates, issue/PR templates, onboarding checklists, and communication briefs.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
+      "Standards and templates",
       "Templates"
     ]
   },
@@ -1539,7 +1539,7 @@
     "text": "How to use the templates\n\nInstructions for copying templates, updating placeholders, and linking to relevant standards pages.\nChecklist for replacing sample text, configuring CI, and documenting customizations.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
+      "Standards and templates",
       "Templates"
     ]
   },
@@ -1551,7 +1551,7 @@
     "text": "Maintenance and feedback\n\nCentral Data Team process for versioning templates, publishing release notes, and retiring deprecated assets.\nChannels for requesting new templates or suggesting improvements.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
+      "Standards and templates",
       "Templates"
     ]
   },
@@ -1563,7 +1563,7 @@
     "text": "Alignment with commitments\n\nCross-reference to Style & Development Guide, metadata standards, and FAIR/CARE principles to reinforce consistency.",
     "crumbs": [
       "Home",
-      "Standards & Templates",
+      "Standards and templates",
       "Templates"
     ]
   },

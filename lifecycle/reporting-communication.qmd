@@ -1,5 +1,5 @@
 ---
-title: "Reporting and Communication"
+title: "Reporting and communication"
 ---
 
 ## Purpose

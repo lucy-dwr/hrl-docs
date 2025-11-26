@@ -1,5 +1,5 @@
 ---
-title: "HRL Style & Development Guide"
+title: "Style and development guide"
 ---
 
 ## Purpose

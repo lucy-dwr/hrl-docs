@@ -1,5 +1,5 @@
 ---
-title: "Quickstart Catalog"
+title: "Quickstart catalog"
 ---
 
 ## How to use this catalog

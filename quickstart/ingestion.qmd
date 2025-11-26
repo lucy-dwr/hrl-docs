@@ -1,5 +1,5 @@
 ---
-title: "Ingest Data into the HRL Platform"
+title: "Ingest data into the HRL platform"
 ---
 
 ## Goal

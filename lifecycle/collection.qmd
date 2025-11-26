@@ -1,5 +1,5 @@
 ---
-title: "Data Collection"
+title: "Data collection"
 ---
 
 ## Objectives
@@ -17,7 +17,7 @@ title: "Data Collection"
 - Inputs: approved protocols, instrumentation settings, sampling designs, training materials.
 - Outputs: raw data files, field forms, preliminary QA reports ready for static publication workflows.
 
-## Decision points & governance
+## Decision points and governance
 - Explain when protocol updates need approval and how to document that decision.
 - Note notification pathways back to the Central Data Team following collection events.
 - Describe how sensitive/Tribal data agreements are recorded at the point of collection.

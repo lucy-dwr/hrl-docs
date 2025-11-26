@@ -1,5 +1,5 @@
 ---
-title: "Analysis and Synthesis"
+title: "Analysis and synthesis"
 ---
 
 ## Purpose

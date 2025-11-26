@@ -1,5 +1,5 @@
 ---
-title: "Schemas & Controlled Vocabularies"
+title: "Schemas and vocabularies"
 ---
 
 ## Purpose
