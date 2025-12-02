@@ -4,6 +4,7 @@ title: "Publish a static dataset to EDI"
 
 ## Goal
 - Provide a repeatable recipe for preparing, documenting, and releasing HRL datasets through the GitHub + EDI workflow.
+- This guide applies to standard tabular datasets. Spatial data, novel formats, or very large (< 50MB), please contact us.
 
 ## Before you start
 - Confirm approved protocols, quality-controlled data, and HRL GitHub repository scaffolding are in place.
