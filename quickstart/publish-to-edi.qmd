@@ -7,7 +7,11 @@ title: "Publish a static dataset to EDI"
 
 ## Before you start
 - Confirm approved protocols, quality-controlled data, and HRL GitHub repository scaffolding are in place.
-- Gather metadata inputs (contacts, methods, spatial/temporal coverage, keywords, Tribal agreements).
+- Gather metadata inputs (e.g. contacts, methods, spatial/temporal coverage, keywords, Tribal agreements, data dictionary).
+- Confirm you have an EDI account. If you do not have one, contact support@edirepository.org to create an account.
+- Add your EDI credentials to your .Renviron file as EDI_USER_ID and EDI_PASSWORD. Ensure that you do not push credentials to GitHub.
+- If this is a new data publication you will need to reserve an EDI number. 
+- Checkout a new branch in your GitHub repository labelled as the edi-number of the publication.
 
 ## Step-by-step outline
 - Scaffold a repository from the HRL publication template, configure dependencies, and set up CI.
@@ -16,6 +20,106 @@ title: "Publish a static dataset to EDI"
 - Run automated checks, perform peer review, and tag a release candidate.
 - Submit the package to EDI, address curator feedback, and mint a DOI.
 - Announce the release to the Central Data Team with schema highlights and contact info.
+
+## Step-by-step guide
+1. Repository scaffolding
+
+Ensure that the appropriate repository exists as part of the HRL GitHub Organization. The repository should mirror the
+structure of the hrl-edi-template repository (TODO insert link). If it does not exist, create a repository within the HRL
+GitHub Organization using the hrl-edi-template as a template.
+
+This repository will serve a few functions. There are often data wrangling and cleaning steps needed to prepare
+data for publication. This should be a transparent and reproducible (and ideally automated) workflow. 
+There may also be more general QC procedures that are applied to your dataset. These do not need to live in
+this repository but they should also be transparent and reproducible. This repository can help you document and
+share usable datasets through the development of an R package. The main goal though is provide a transparent and
+reproducible workflow for publishing data to EDI.
+
+2. Connect and process data
+
+2a. Connect data
+
+- Manual: Download your data (e.g. Access, Excel, etc.) and save this file in
+`data-raw`
+- API (ideal): Establish a direct connection to your database. 
+
+2b. Read in data
+
+`read-data.R`
+
+- Manual: Read in the data file saved in `data-raw`
+- API (ideal): Read in data by connecting to your database
+
+2c. QC and process data
+
+The goal is that any work you do to your data to make it publication ready can be
+easily reproduced by running this script. 
+
+Create a vignette or R script to do this. If this workflow is new, recommend 
+starting with an R script to ensure the steps are functional and then this can
+be moved over to a vignette as you begin to develop a streamlined workflow and 
+R data package. The development of an R package is not required though it is a
+helpful to document and share your data products.
+
+Save the cleaned, final dataset in `data-raw/data_objects` (development of 
+metadata is set up to pull final data to be published from this folder). If this
+is going to be an R data package, also save the final dataset to the `data` folder
+as an `.rda` file.
+
+4. Prepare metadata
+
+4a. Manually complete metadata templates
+
+This step may not need to happen every time data are published.
+
+`data-raw/metadata_templates` contains templates that need to be filled in. The
+following need to be manually filled in. 
+
+TODO add guidance on abstract and a methods template. Specify keywords to use. Guidance on geographic coverage.
+
+- **abstract**: Add your abstract to the `abstract.txt` file. 
+- **attributes**: Each dataset needs a data dictionary. These will ultimately be
+saved as .txt files but we recommend filling in the csv template (`data-raw/metadata_templates/attributes_csv_template`)
+- **custom units (as needed)**: Allowable units are defined
+[here](https://eml.ecoinformatics.org/schema/eml-unittypedefinitions_xsd#otherUnitType). 
+Other units need to be defined in the `custom_units.text` document.
+- **keywords**: Add keywords to `keywords.txt`.
+- **methods**: Add your methods to the `methods.docx` file
+- **personnel**: Describes the personnel and funding sources involved in the creation
+of the data. See [EMLassemblyline docs](https://ediorg.github.io/EMLassemblyline/articles/edit_tmplts.html)
+for more details on roles. "creator" and "contact" roles are required. Similar to
+attributes, these will ultimately be saved as .txt files but we recommend filling
+in the csv template (`data-raw/metadata_templates/personnel_csv_template`) and
+save as `personnel.csv`
+- **taxonomic coverage**: If data are collected on species you will need to fill in
+this metdata. You can use the `taxonomyCleanr` package to help find the `authority_id` 
+for species in your dataset. Helper code is included in `make-eml.R`
+
+4b. Make your EML document
+
+The `make-eml.R` leverages a wrapper function that calls on the `EMLassemblyline` package
+to generate the specific type of metadata document needed for data publication on EDI.
+You will need to specify the following information (`?hrlpub::make_eml_edi()`):
+
+- data_file_names
+- attributes_file_names
+- title
+- geography
+- coordinates
+- maintenance
+- edi_number
+
+5. Peer review
+
+Submit a pull request (PR) of this branch to be reviewed by personnel familiar with the dataset
+and HRL data publication guidelines. Address any feedback and merge the branch into `main`.
+
+6. Publish data on EDI
+
+Use `publish-data.R` to upload or update your data package on EDI. This script utlized a wrapper
+function that calls on `EMLaide` to make a request to the EDI API. You will need to know the EDI number
+of the data publication. When updating a package you will need to know the existing EDI package ID.
+
 
 ## Deliverables
 - DOI-linked dataset in open formats plus metadata artifacts, QA logs, and changelog entries.
