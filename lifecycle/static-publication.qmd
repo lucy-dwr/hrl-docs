@@ -24,24 +24,13 @@ Publishing static datasets creates **trusted, FAIR- and CARE-aligned data assets
 
 ## Workflow steps
 
-For each dataset publication, Data Producers should complete the following steps. A step-by-step guide that illustrates this process with sample code is provided in the quickstart guide on [publishing a static dataset to EDI](../quickstart/publish-to-edi.qmd).
+For each dataset publication, Data Producers should complete the steps provided in the quickstart guide on [publishing a static dataset to EDI](../quickstart/publish-to-edi.qmd) and previewed below. 
 
-::: {.bold-ol}
-1. **Set up a dataset publication repository** by forking the HRL data publication template repository. This ensures that all data publications follow a consistent, version-controlled structure with standardized directories required by HRL and EDI tooling.
-
-2. **Build** [**reproducible**](../principles/reproducibility.qmd) **cleaning and quality control pipelines** that produce tidy, analysis-ready data; validate key fields; and run continuous integration checks that must pass before tagging a release.
-
-3. **Create structured metadata** using the `hrlpub` R package. These functions assemble EML using `EMLassemblyline` templates for attributes, personnel, geographic coverage, temporal coverage, provenance, and custom units. Metadata must pass the EDI evaluator before publication.
-
-4. **Prepare the release package** by compiling:
-   - Tidy data tables in open formats
-   - Data dictionaries
-   - A README file
-   - Quality control logs
-   - Release notes that map inputs, parameters, and code to the tagged commit using HRL style conventions
-
-5. **Upload the package to EDI** using staged submission: publish first to the *staging* environment to review the EDI evaluation report, resolve any issues, and then publish to *production* to mint a DOI. The GitHub tag for the release should be included in the EML provenance. Notify the Central Data Team once publication is complete.
-:::
+- Create the GitHub repository scaffolding
+- Connect and process data including reproducible quality control
+- Prepare metadata templates and EML document
+- Peer review of data package
+- Publich data package on EDI
 
 ## Publication package checklist
 
@@ -50,20 +39,20 @@ For each dataset publication, Data Producers should complete the following steps
 - Tidy data files in open, non-proprietary formats (e.g., CSV, Parquet, GeoJSON) with a clear version identifier
 - Complete EML metadata for the release, including:
   - Data dictionaries (attributes files)
-  - README describing the dataset, scope, and intended use
+  - Abstract describing the dataset, scope, and intended use
+  - Methods including quality control report or summary
   - Personnel and contact information
   - License statement
   - Temporal and geographic coverage
   - Provenance (source DOIs, commit hash of the tagged release, parameters, external datasets)
-  - Quality control report or summary
 - Documentation of data sharing agreements, use constraints, access notes, or sensitive-data handling instructions (including Tribal agreements when applicable)
-- A check that the package passes EDI’s automated evaluation in staging before production publication
 
 ### What stays in the GitHub repository
 
 - Tagged GitHub release with the exact code, configuration, parameters, and dependencies used to produce the published data
 - Release notes in a `NEWS` entry for the tagged version that summarize changes since the prior release, if relevant
 - Continuous integration workflows validating data quality and code functionality
+- Relevant reports or Standard Operating Protocol documents
 
 ## Outputs and handoffs
 
