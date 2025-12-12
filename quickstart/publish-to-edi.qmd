@@ -5,7 +5,7 @@ title: "Publish a static dataset to EDI"
 ## Goal
 - Provide a step-by-step guide for preparing, documenting, and releasing HRL datasets through the GitHub + EDI workflow.
 
-_Note: HRL Data Producers are expected to publish most datasets to EDI. However, very large or complex datasets—such as high-resolution imagery collections, climate model outputs, or large geospatial files—may exceed EDI’s size and storage constraints. These datasets will be hosted and published by the Central Data Team using HRL program infrastructure, with EDI metadata records and landing pages cross-linking to the hosted assets when appropriate._
+_Note: HRL Data Producers are expected to publish most datasets to EDI. However, very large or complex datasets—such as high-resolution imagery collections, climate model outputs, or large geospatial files—may exceed EDI’s size and storage constraints. These datasets will be hosted and published by the Central Data Team using HRL program infrastructure, with EDI metadata records and landing pages cross-linking to the hosted assets when appropriate. Additionally, there are some cases where data are not for public released and therefore would not be published._
 
 ## Definitions
 
