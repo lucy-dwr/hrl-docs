@@ -13,6 +13,8 @@ TODO - In development
 
 - EDI: Environmental Data Initiative is the public repository selected for HRL.
 - Data table: This guide is for standard flat files where variable names are columns and observations are rows. You may be publishing multiple data tables within one EDI package.
+- Raw data: This can have multiple meanings but is used here to refer to data that has not been summarized.
+- QC: Quality control refers to data cleaning and checks that are performed after data has been collected and stored. The are multiple sources of data issues anywhere from equipment failures to data entry typos. QC is performed to remove known data issues to the extent possible.
 
 
 ## Before you start
@@ -39,6 +41,8 @@ Ensure that the appropriate repository exists as part of the HRL GitHub Organiza
 This repository will serve a few functions. There are often data wrangling and cleaning steps needed to prepare data for publication. This should be a transparent and reproducible (and ideally automated) workflow. There may also be more general QC procedures that are applied to your dataset. For instance, you may store enter field data in an Access database and perform manual QC regularly. These do not need to live in this repository though these procedures should also be transparent and reproducible. This repository can also help you document and share usable datasets through the development of an R package. The main goal though is provide a transparent and reproducible workflow for publishing data to EDI.
 
 2. Connect and process data
+
+The data being published to EDI should not be summarized or reported in aggregate. Clean and QC'd data that have not been summarized or aggregated are most broadly useful. EDI functions as a public repository for your data, rather than a reporting portal. By publishing this "raw" or not summarized data, all data requests can be addressed through EDI.
 
 2a. Connect data
 
