@@ -141,6 +141,30 @@ main ol li p {
   margin-bottom: 0 !important;
 }
 
+/* =========================================================
+   Tables
+   ========================================================= */
+
+.workflow-table {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.workflow-table table {
+  width: 100%;
+}
+
+.workflow-table thead th {
+  background-color: #4c4c4c;
+  color: #ffffff;
+}
+
+.workflow-table tbody tr:hover td,
+.workflow-table tbody tr:hover th,
+.workflow-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
 /* Footer draft notice */
 .footer-draft-note {
   color: #333333;
