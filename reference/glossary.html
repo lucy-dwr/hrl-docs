@@ -364,8 +364,29 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
-  <li><a href="#terms-to-define" id="toc-terms-to-define" class="nav-link" data-scroll-target="#terms-to-define">Terms to define</a></li>
-  <li><a href="#maintenance" id="toc-maintenance" class="nav-link" data-scroll-target="#maintenance">Maintenance</a></li>
+  <li><a href="#programming-and-workflow-terms" id="toc-programming-and-workflow-terms" class="nav-link" data-scroll-target="#programming-and-workflow-terms">Programming and workflow terms</a>
+  <ul class="collapse">
+  <li><a href="#argument" id="toc-argument" class="nav-link" data-scroll-target="#argument">Argument</a></li>
+  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">Documentation</a></li>
+  <li><a href="#environment" id="toc-environment" class="nav-link" data-scroll-target="#environment">Environment</a></li>
+  <li><a href="#function" id="toc-function" class="nav-link" data-scroll-target="#function">Function</a></li>
+  <li><a href="#github" id="toc-github" class="nav-link" data-scroll-target="#github">GitHub</a></li>
+  <li><a href="#object" id="toc-object" class="nav-link" data-scroll-target="#object">Object</a></li>
+  <li><a href="#output" id="toc-output" class="nav-link" data-scroll-target="#output">Output</a></li>
+  <li><a href="#package-or-library" id="toc-package-or-library" class="nav-link" data-scroll-target="#package-or-library">Package or library</a></li>
+  <li><a href="#pipeline" id="toc-pipeline" class="nav-link" data-scroll-target="#pipeline">Pipeline</a></li>
+  <li><a href="#project-structure" id="toc-project-structure" class="nav-link" data-scroll-target="#project-structure">Project structure</a></li>
+  <li><a href="#repository" id="toc-repository" class="nav-link" data-scroll-target="#repository">Repository</a></li>
+  <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility">Reproducibility</a></li>
+  <li><a href="#version-control" id="toc-version-control" class="nav-link" data-scroll-target="#version-control">Version control</a></li>
+  <li><a href="#workflow" id="toc-workflow" class="nav-link" data-scroll-target="#workflow">Workflow</a></li>
+  </ul></li>
+  <li><a href="#to-be-defiined" id="toc-to-be-defiined" class="nav-link" data-scroll-target="#to-be-defiined">To be defiined</a>
+  <ul class="collapse">
+  <li><a href="#program-roles-and-teams" id="toc-program-roles-and-teams" class="nav-link" data-scroll-target="#program-roles-and-teams">Program roles and teams</a></li>
+  <li><a href="#data-lifecycle-phases" id="toc-data-lifecycle-phases" class="nav-link" data-scroll-target="#data-lifecycle-phases">Data lifecycle phases</a></li>
+  <li><a href="#standards-identifiers-and-metadata" id="toc-standards-identifiers-and-metadata" class="nav-link" data-scroll-target="#standards-identifiers-and-metadata">Standards, identifiers, and metadata</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -393,32 +414,101 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="purpose" class="level2">
 <h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<p>This glossary provides concise definitions so HRL partners use consistent terminology across agencies and workstreams. Terms are intended to support documentation, onboarding, data publication, reproducible workflows, and collaboration across the HRL Science Program.</p>
+</section>
+<section id="programming-and-workflow-terms" class="level2">
+<h2 class="anchored" data-anchor-id="programming-and-workflow-terms">Programming and workflow terms</h2>
+<section id="argument" class="level3">
+<h3 class="anchored" data-anchor-id="argument">Argument</h3>
+<p>Information given to a function so the function knows what to do. Arguments can identify input data, choose options, set thresholds, name output files, or control other behavior. For example, in a data-cleaning function, arguments might specify the source file, the columns to standardize, or the location where cleaned data should be written.</p>
+</section>
+<section id="documentation" class="level3">
+<h3 class="anchored" data-anchor-id="documentation">Documentation</h3>
+<p>Instructions and context written for people. Documentation explains what a project does, how files are organized, how a workflow operates, and how someone can rerun, review, or update the work. Good documentation also records important decisions, assumptions, known limitations, and points of contact.</p>
+</section>
+<section id="environment" class="level3">
+<h3 class="anchored" data-anchor-id="environment">Environment</h3>
+<p>The tools and settings needed to run code. An environment can include the software language, package versions, operating system assumptions, configuration files, credentials or access settings, and other dependencies required by a workflow. Recording the environment helps reduce “it works on my computer” problems and makes projects easier to rerun and maintain over time.</p>
+</section>
+<section id="function" class="level3">
+<h3 class="anchored" data-anchor-id="function">Function</h3>
+<p>A reusable command that performs a specific task. Functions are used to make code easier to read, reuse, test, and maintain. A function might clean a dataset, validate a metadata file, create a figure, or write an output table.</p>
+</section>
+<section id="github" class="level3">
+<h3 class="anchored" data-anchor-id="github">GitHub</h3>
+<p>An online platform for repositories, version control, and collaboration. GitHub hosts project files, supports code and documentation review, tracks issues and discussions, and can automate checks, publishing steps, and website or application updates.</p>
+</section>
+<section id="object" class="level3">
+<h3 class="anchored" data-anchor-id="object">Object</h3>
+<p>A named thing stored in a computer’s memory, such as a dataset, text value, number, model result, file path, or figure. In many programming contexts, “object” is similar to, and sometimes used interchangeably with, “variable.”</p>
+</section>
+<section id="output" class="level3">
+<h3 class="anchored" data-anchor-id="output">Output</h3>
+<p>Something produced by code. Outputs can include cleaned datasets, validation logs, quality control diagnostics, figures, tables, reports, metadata files, model results, or published data packages.</p>
+</section>
+<section id="package-or-library" class="level3">
+<h3 class="anchored" data-anchor-id="package-or-library">Package or library</h3>
+<p>A collection of pre-written functions and related tools that can be reused in a project. Packages and libraries help teams avoid rewriting common operations and make it easier to use tested, documented methods. In HRL workflows, packages may support data cleaning, metadata generation, validation, plotting, modeling, or publication.</p>
+</section>
+<section id="pipeline" class="level3">
+<h3 class="anchored" data-anchor-id="pipeline">Pipeline</h3>
+<p>An automated workflow that runs a defined sequence of steps from inputs to outputs. A pipeline may fetch data, clean and standardize records, run quality control checks, generate metadata, publish data, or build reports. Pipelines make recurring work easier to repeat, inspect, and update.</p>
+</section>
+<section id="project-structure" class="level3">
+<h3 class="anchored" data-anchor-id="project-structure">Project structure</h3>
+<p>How a project is organized on disk. A clear project structure places data, code, documentation, metadata, configuration, and outputs in predictable locations while keeping them connected. Standardized project structures help collaborators find what they need, understand how work was produced, and avoid confusion as projects grow.</p>
+</section>
+<section id="repository" class="level3">
+<h3 class="anchored" data-anchor-id="repository">Repository</h3>
+<p>A shared home for a project. A repository stores project files such as code, documentation, metadata templates, configuration, and workflow outputs. When paired with version control, a repository also preserves project history so collaborators can review, reuse, and update the work.</p>
+</section>
+<section id="reproducibility" class="level3">
+<h3 class="anchored" data-anchor-id="reproducibility">Reproducibility</h3>
+<p>The ability for another person to understand, repeat, and validate scientific results. In practice, reproducibility means that data, code, and documentation are organized together; workflow steps are scripted rather than hidden in manual processes; the environment needed to run the work is recorded; and figures, tables, reports, and datasets can be rebuilt from source files.</p>
+</section>
+<section id="version-control" class="level3">
+<h3 class="anchored" data-anchor-id="version-control">Version control</h3>
+<p>A system for tracking changes over time. Version control records what changed, when it changed, and who made the change; lets people compare versions of files; supports collaboration without overwriting each other’s work; and makes it possible to return to earlier versions when needed. HRL documentation commonly refers to <code>git</code> as the version control system and GitHub as the collaboration platform that hosts repositories online.</p>
+</section>
+<section id="workflow" class="level3">
+<h3 class="anchored" data-anchor-id="workflow">Workflow</h3>
+<p>A repeatable path from inputs to outputs. A workflow starts with source data or other inputs, applies defined steps such as cleaning, analysis, quality control, metadata creation, or reporting, and produces outputs such as datasets, figures, logs, and reports. Workflows help people understand how results were created and make scientific work easier to review and reuse.</p>
+</section>
+</section>
+<section id="to-be-defiined" class="level2">
+<h2 class="anchored" data-anchor-id="to-be-defiined">To be defiined</h2>
+<p>The following terms are included as placeholders for future glossary entries. They are grouped by theme so definitions can be added without changing the overall organization of the page.</p>
+<section id="program-roles-and-teams" class="level3">
+<h3 class="anchored" data-anchor-id="program-roles-and-teams">Program roles and teams</h3>
 <ul>
-<li>Provide concise definitions so HRL partners use consistent terminology across agencies and workstreams.</li>
+<li>Data Producers</li>
+<li>Central Data Team</li>
+<li>Synthesis Teams</li>
 </ul>
 </section>
-<section id="terms-to-define" class="level2">
-<h2 class="anchored" data-anchor-id="terms-to-define">Terms to define</h2>
+<section id="data-lifecycle-phases" class="level3">
+<h3 class="anchored" data-anchor-id="data-lifecycle-phases">Data lifecycle phases</h3>
 <ul>
-<li><strong>Data Producers</strong> – Organizations responsible for collecting and publishing source data under approved protocols.</li>
-<li><strong>Central Data Team</strong> – Interagency engineers/scientists who run ingestion, storage, serving, and shared tooling.</li>
-<li><strong>Synthesis Teams</strong> – Analysts generating models, indicators, and reports from curated datasets.</li>
-<li><strong>Static Publication</strong> – GitHub + EDI workflow for releasing citable datasets with metadata and DOIs.</li>
-<li><strong>Ingestion and Standardization</strong> – Pipelines that harmonize datasets, enforce schemas, and track provenance.</li>
-<li><strong>Storage and Serving</strong> – Infrastructure and catalogs that keep curated datasets durable and accessible.</li>
-<li><strong>Analysis and Synthesis</strong> – Reproducible modeling/analysis projects that produce derived products.</li>
-<li><strong>Reporting and Communication</strong> – Annual, triennial, and final reports derived from lifecycle outputs.</li>
-<li>Additional vocabulary (FAIR, CARE, DOI, EML, data catalog, semantic versioning, etc.) with cross-links to standards pages.</li>
+<li>Static Publication</li>
+<li>Ingestion and Standardization</li>
+<li>Storage and Serving</li>
+<li>Analysis and Synthesis</li>
+<li>Reporting and Communication</li>
 </ul>
 </section>
-<section id="maintenance" class="level2">
-<h2 class="anchored" data-anchor-id="maintenance">Maintenance</h2>
+<section id="standards-identifiers-and-metadata" class="level3">
+<h3 class="anchored" data-anchor-id="standards-identifiers-and-metadata">Standards, identifiers, and metadata</h3>
 <ul>
-<li>Note owners for approving new terms or edits and the cadence for reviewing glossary updates.</li>
-<li>Describe how glossary entries will be cross-linked throughout the site and in quickstarts.</li>
+<li>FAIR</li>
+<li>CARE</li>
+<li>DOI</li>
+<li>EML</li>
+<li>Data catalog</li>
+<li>Semantic versioning</li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
