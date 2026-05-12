@@ -22,3 +22,8 @@
 
 # Logs
 *.log
+
+# Agent-local reference materials
+agent-reference/
+
+**/*.quarto_ipynb
