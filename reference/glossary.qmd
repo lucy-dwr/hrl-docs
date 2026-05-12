@@ -3,19 +3,90 @@ title: "Glossary"
 ---
 
 ## Purpose
-- Provide concise definitions so HRL partners use consistent terminology across agencies and workstreams.
 
-## Terms to define
-- **Data Producers** – Organizations responsible for collecting and publishing source data under approved protocols.
-- **Central Data Team** – Interagency engineers/scientists who run ingestion, storage, serving, and shared tooling.
-- **Synthesis Teams** – Analysts generating models, indicators, and reports from curated datasets.
-- **Static Publication** – GitHub + EDI workflow for releasing citable datasets with metadata and DOIs.
-- **Ingestion and Standardization** – Pipelines that harmonize datasets, enforce schemas, and track provenance.
-- **Storage and Serving** – Infrastructure and catalogs that keep curated datasets durable and accessible.
-- **Analysis and Synthesis** – Reproducible modeling/analysis projects that produce derived products.
-- **Reporting and Communication** – Annual, triennial, and final reports derived from lifecycle outputs.
-- Additional vocabulary (FAIR, CARE, DOI, EML, data catalog, semantic versioning, etc.) with cross-links to standards pages.
+This glossary provides concise definitions so HRL partners use consistent terminology across agencies and workstreams. Terms are intended to support documentation, onboarding, data publication, reproducible workflows, and collaboration across the HRL Science Program.
 
-## Maintenance
-- Note owners for approving new terms or edits and the cadence for reviewing glossary updates.
-- Describe how glossary entries will be cross-linked throughout the site and in quickstarts.
+## Programming and workflow terms
+
+### Argument
+
+Information given to a function so the function knows what to do. Arguments can identify input data, choose options, set thresholds, name output files, or control other behavior. For example, in a data-cleaning function, arguments might specify the source file, the columns to standardize, or the location where cleaned data should be written.
+
+### Documentation
+
+Instructions and context written for people. Documentation explains what a project does, how files are organized, how a workflow operates, and how someone can rerun, review, or update the work. Good documentation also records important decisions, assumptions, known limitations, and points of contact.
+
+### Environment
+
+The tools and settings needed to run code. An environment can include the software language, package versions, operating system assumptions, configuration files, credentials or access settings, and other dependencies required by a workflow. Recording the environment helps reduce "it works on my computer" problems and makes projects easier to rerun and maintain over time.
+
+### Function
+
+A reusable command that performs a specific task. Functions are used to make code easier to read, reuse, test, and maintain. A function might clean a dataset, validate a metadata file, create a figure, or write an output table.
+
+### GitHub
+
+An online platform for repositories, version control, and collaboration. GitHub hosts project files, supports code and documentation review, tracks issues and discussions, and can automate checks, publishing steps, and website or application updates.
+
+### Object
+
+A named thing stored in a computer's memory, such as a dataset, text value, number, model result, file path, or figure. In many programming contexts, "object" is similar to, and sometimes used interchangeably with, "variable."
+
+### Output
+
+Something produced by code. Outputs can include cleaned datasets, validation logs, quality control diagnostics, figures, tables, reports, metadata files, model results, or published data packages.
+
+### Package or library
+
+A collection of pre-written functions and related tools that can be reused in a project. Packages and libraries help teams avoid rewriting common operations and make it easier to use tested, documented methods. In HRL workflows, packages may support data cleaning, metadata generation, validation, plotting, modeling, or publication.
+
+### Pipeline
+
+An automated workflow that runs a defined sequence of steps from inputs to outputs. A pipeline may fetch data, clean and standardize records, run quality control checks, generate metadata, publish data, or build reports. Pipelines make recurring work easier to repeat, inspect, and update.
+
+### Project structure
+
+How a project is organized on disk. A clear project structure places data, code, documentation, metadata, configuration, and outputs in predictable locations while keeping them connected. Standardized project structures help collaborators find what they need, understand how work was produced, and avoid confusion as projects grow.
+
+### Repository
+
+A shared home for a project. A repository stores project files such as code, documentation, metadata templates, configuration, and workflow outputs. When paired with version control, a repository also preserves project history so collaborators can review, reuse, and update the work.
+
+### Reproducibility
+
+The ability for another person to understand, repeat, and validate scientific results. In practice, reproducibility means that data, code, and documentation are organized together; workflow steps are scripted rather than hidden in manual processes; the environment needed to run the work is recorded; and figures, tables, reports, and datasets can be rebuilt from source files.
+
+### Version control
+
+A system for tracking changes over time. Version control records what changed, when it changed, and who made the change; lets people compare versions of files; supports collaboration without overwriting each other's work; and makes it possible to return to earlier versions when needed. HRL documentation commonly refers to `git` as the version control system and GitHub as the collaboration platform that hosts repositories online.
+
+### Workflow
+
+A repeatable path from inputs to outputs. A workflow starts with source data or other inputs, applies defined steps such as cleaning, analysis, quality control, metadata creation, or reporting, and produces outputs such as datasets, figures, logs, and reports. Workflows help people understand how results were created and make scientific work easier to review and reuse.
+
+## To be defiined
+
+The following terms are included as placeholders for future glossary entries. They are grouped by theme so definitions can be added without changing the overall organization of the page.
+
+### Program roles and teams
+
+- Data Producers
+- Central Data Team
+- Synthesis Teams
+
+### Data lifecycle phases
+
+- Static Publication
+- Ingestion and Standardization
+- Storage and Serving
+- Analysis and Synthesis
+- Reporting and Communication
+
+### Standards, identifiers, and metadata
+
+- FAIR
+- CARE
+- DOI
+- EML
+- Data catalog
+- Semantic versioning
